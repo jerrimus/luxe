@@ -1,0 +1,67 @@
+# Spanish (Castilian) translation for LXPolkit package.
+# Copyright (C) 2010 The LXDE Team.
+# This file is distributed under the same license as the LXPolkit package.
+# Hugo Florentino <sysadmin@cips.cu>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LXPolkit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-07-22 21:29+0200\n"
+"PO-Revision-Date: 2010-03-29 07:00-0500\n"
+"Last-Translator: Hugo Florentino <sysadmin@cips.cu>\n"
+"Language-Team: Spanish \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../data/lxpolkit.desktop.in.in.h:1
+#, fuzzy
+msgid "LXPolKit"
+msgstr "LXPolKit"
+
+#: ../data/lxpolkit.desktop.in.in.h:2
+#, fuzzy
+msgid "Policykit Authentication Agent"
+msgstr "Agente de autenticación Policykit"
+
+#: ../data/ui/lxpolkit.glade.h:1
+#, fuzzy
+msgid "Authentication"
+msgstr "Autenticación"
+
+#: ../data/ui/lxpolkit.glade.h:2
+#, fuzzy
+msgid "Identity:"
+msgstr "Identidad:"
+
+#: ../src/lxpolkit.c:45
+#, fuzzy
+msgid "Error"
+msgstr "Error"
+
+#: ../src/lxpolkit.c:48
+#, fuzzy
+msgid "Information"
+msgstr "Información"
+
+#: ../src/lxpolkit-listener.c:91
+#, fuzzy
+msgid ""
+"Authentication failed!\n"
+"Wrong password?"
+msgstr ""
+"¡La autentificación ha fallado!\n"
+"¿Contraseña incorrecta?"
+
+#: ../src/lxpolkit-listener.c:109
+#, fuzzy
+msgid "Password: "
+msgstr "Contraseña:"
+
+#: ../src/lxpolkit-listener.c:254
+#, fuzzy, c-format
+msgid "Group: %s"
+msgstr "Grupo: %s"

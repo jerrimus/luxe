@@ -1,0 +1,198 @@
+# Translation of lxappearance to Italian
+# Copyright (C) 2009 Fabio Barone <phonky at gmx.net>
+# This file is distributed under the same license as the lxappearance package
+# Fabio Barone <phonky at gmx.net>, 2009
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lxappearance 0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-04-15 19:27+0200\n"
+"PO-Revision-Date: 2009-04-27 17:07+0200\n"
+"Last-Translator: Alessandro Pellizzari <alex@amiran.it>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 1.1.0\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+
+#: ../src/main-dlg-ui.c:70 ../lxappearance.glade.h:2
+msgid "Appearance Settings"
+msgstr "Impostazioni della presentazione"
+
+#: ../src/main-dlg-ui.c:90 ../lxappearance.glade.h:4
+msgid "Available Window Themes"
+msgstr "Temi finestre disponibili"
+
+#: ../src/main-dlg-ui.c:110 ../lxappearance.glade.h:13
+msgid "_Font:"
+msgstr "_Carattere"
+
+#: ../src/main-dlg-ui.c:122 ../lxappearance.glade.h:12
+msgid "Window"
+msgstr "Finestra"
+
+#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:3
+msgid "Available Icon Themes"
+msgstr "Temi di icone disponibili"
+
+#: ../src/main-dlg-ui.c:167 ../lxappearance.glade.h:14
+msgid "_Install"
+msgstr "_Installa"
+
+#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:5
+msgid "Icon"
+msgstr "Icona"
+
+#: ../src/main-dlg-ui.c:187 ../lxappearance.glade.h:11
+msgid "Toolbar Style: "
+msgstr "Stile della barra strumenti"
+
+#: ../src/main-dlg-ui.c:195
+msgid "Icons only"
+msgstr "Solo icone"
+
+#: ../src/main-dlg-ui.c:196
+msgid "Text only"
+msgstr "Solo testo"
+
+#: ../src/main-dlg-ui.c:197
+msgid "Text below icons"
+msgstr "Testo sotto le icone"
+
+#: ../src/main-dlg-ui.c:198
+msgid "Text beside icons"
+msgstr "Testo a fianco delle icone"
+
+#: ../src/main-dlg-ui.c:200 ../lxappearance.glade.h:10
+msgid "Other"
+msgstr "Altro"
+
+#: ../src/main-dlg-ui.c:208 ../lxappearance.glade.h:1
+msgid "<b>Preview</b>"
+msgstr "<b>Anteprima</b>"
+
+#: ../src/main-dlg.c:620
+msgid "Select an icon theme"
+msgstr "Selezionare un tema di icone"
+
+#: ../src/main-dlg.c:627
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2 (Tema di icone)"
+
+#: ../src/demo.c:56
+msgid "Column"
+msgstr "Colonna"
+
+#: ../src/demo.c:65
+msgid "Item"
+msgstr "Elemento"
+
+#: ../src/demo-ui.c:116 ../demo.glade.h:16
+msgid "_File"
+msgstr "_File"
+
+#: ../src/demo-ui.c:148 ../demo.glade.h:15
+msgid "_Edit"
+msgstr "_Modifica"
+
+#: ../src/demo-ui.c:171 ../demo.glade.h:17
+msgid "_Help"
+msgstr "_Aiuto"
+
+#: ../src/demo-ui.c:196 ../demo.glade.h:1
+msgid "Back"
+msgstr "Indietro"
+
+#: ../src/demo-ui.c:202 ../demo.glade.h:4
+msgid "Forward"
+msgstr "Avanti"
+
+#: ../src/demo-ui.c:207 ../demo.glade.h:6
+msgid "Stop"
+msgstr "Stop"
+
+#: ../src/demo-ui.c:224 ../demo.glade.h:7
+msgid "Tab1"
+msgstr "Tab1"
+
+#: ../src/demo-ui.c:246 ../src/demo-ui.c:252 ../demo.glade.h:5
+msgid "Radio Button"
+msgstr "Bottone radio"
+
+#: ../src/demo-ui.c:262 ../demo.glade.h:2
+msgid "Check Button"
+msgstr "Bottone di scelta"
+
+#: ../src/demo-ui.c:271 ../demo.glade.h:3
+msgid "Demo"
+msgstr "Dimostrazione"
+
+#: ../src/demo-ui.c:316 ../demo.glade.h:18
+msgid "button"
+msgstr "pulsante"
+
+#: ../src/demo-ui.c:323
+msgid "Test Item 1"
+msgstr "Elemento test 1"
+
+#: ../src/demo-ui.c:324
+msgid "Test Item 2"
+msgstr "Elemento test 2"
+
+#: ../src/demo-ui.c:325
+msgid "Test Item 3"
+msgstr "Elemento test 3"
+
+#: ../src/demo-ui.c:327 ../demo.glade.h:8
+msgid "Tab2"
+msgstr "Tab2"
+
+#: ../src/demo-ui.c:340 ../demo.glade.h:14
+msgid "Type some characters here to test currently selected font."
+msgstr "Digitare un testo qui per provare il carattere attualmente selezionato"
+
+#: ../src/demo-ui.c:342 ../demo.glade.h:9
+msgid "Tab3"
+msgstr "Tab3"
+
+#: ../src/demo-ui.c:357 ../demo.glade.h:10
+msgid "Tab4"
+msgstr "Tab4"
+
+#: ../demo.glade.h:11
+msgid ""
+"Test Item 1\n"
+"Test Item 2\n"
+"Test Item 3"
+msgstr ""
+"Elemento di prova 1\n"
+"Elemento di prova 2\n"
+"Elemento di prova 3"
+
+#: ../lxappearance.glade.h:6
+msgid ""
+"Icons only\n"
+"Text only\n"
+"Text below icons\n"
+"Text beside icons"
+msgstr ""
+"Solo Icone\n"
+"Solo testo\n"
+"Testo sotto le icone\n"
+"Testo a fianco delle icone"
+
+#: ../src/glade-support.c:90 ../src/glade-support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "Impossibile trovare file pixmap: %s"
+
+#: lxappearance.desktop.in:4
+msgid "Appearance"
+msgstr "Aspetto"
+
+#: lxappearance.desktop.in:5
+msgid "Customize the look of the desktop"
+msgstr "Personalizza l'aspetto dell'ambiente grafico"

@@ -1,0 +1,544 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Sveinn í Felli <sv1@fellsnet.is>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-24 12:14+0800\n"
+"PO-Revision-Date: 2014-12-06 22:22+0000\n"
+"Last-Translator: system user <>\n"
+"Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1417904562.000000\n"
+
+#. 0
+#: ../src/lxterminal.c:121
+msgid "_File"
+msgstr "_Skrá"
+
+#. 1
+#: ../src/lxterminal.c:122
+msgid "_Edit"
+msgstr "Br_eyta"
+
+#. 2
+#: ../src/lxterminal.c:123
+msgid "_Tabs"
+msgstr "F_lipar"
+
+#. 3
+#: ../src/lxterminal.c:124
+msgid "_Help"
+msgstr "_Hjálp"
+
+#. 4
+#: ../src/lxterminal.c:125
+msgid "_New Window"
+msgstr "_Nýr gluggi"
+
+#. 5
+#: ../src/lxterminal.c:126
+msgid "New T_ab"
+msgstr "Nýr _flipi"
+
+#. 6
+#. 7
+#: ../src/lxterminal.c:128 ../src/lxterminal.c:167
+msgid "_Close Tab"
+msgstr "_Loka flipa"
+
+#. 8
+#: ../src/lxterminal.c:129
+msgid "Close _Window"
+msgstr "Lo_ka glugga"
+
+#. 9
+#: ../src/lxterminal.c:130 ../src/lxterminal.c:156
+msgid "Cop_y"
+msgstr "Afr_ita"
+
+#. 10
+#: ../src/lxterminal.c:131 ../src/lxterminal.c:157
+msgid "_Paste"
+msgstr "_Líma"
+
+#. 11
+#: ../src/lxterminal.c:132
+msgid "Clear scr_ollback"
+msgstr ""
+
+#. 12
+#. 13
+#: ../src/lxterminal.c:134
+msgid "Zoom _In"
+msgstr ""
+
+#. 14
+#: ../src/lxterminal.c:135
+msgid "Zoom O_ut"
+msgstr ""
+
+#. 15
+#: ../src/lxterminal.c:136
+msgid "Zoom _Reset"
+msgstr ""
+
+#. 16
+#. 17
+#: ../src/lxterminal.c:138 ../src/lxterminal.c:160
+msgid "Preference_s"
+msgstr "Kjör_stillingar"
+
+#. 18
+#: ../src/lxterminal.c:139 ../src/lxterminal.c:162
+msgid "Na_me Tab"
+msgstr ""
+
+#. 19
+#: ../src/lxterminal.c:140 ../src/lxterminal.c:163
+msgid "Pre_vious Tab"
+msgstr ""
+
+#. 20
+#: ../src/lxterminal.c:141 ../src/lxterminal.c:164
+msgid "Ne_xt Tab"
+msgstr ""
+
+#. 21
+#: ../src/lxterminal.c:142 ../src/lxterminal.c:165
+msgid "Move Tab _Left"
+msgstr ""
+
+#. 22
+#: ../src/lxterminal.c:143 ../src/lxterminal.c:166
+msgid "Move Tab _Right"
+msgstr ""
+
+#. 23
+#: ../src/lxterminal.c:144
+msgid "_About"
+msgstr "_Um forritið"
+
+#: ../src/lxterminal.c:152
+msgid "New _Window"
+msgstr "Nýr _gluggi"
+
+#: ../src/lxterminal.c:153
+msgid "New _Tab"
+msgstr "Nýr _flipi"
+
+#: ../src/lxterminal.c:155
+msgid "Copy _URL"
+msgstr "Afrita slóð (URL)"
+
+#: ../src/lxterminal.c:158
+msgid "Cl_ear scrollback"
+msgstr ""
+
+#: ../src/lxterminal.c:567 ../data/lxterminal-preferences.glade.h:54
+msgid "Name Tab"
+msgstr "Heiti flipa"
+
+#: ../src/lxterminal.c:570
+msgid "_Cancel"
+msgstr ""
+
+#: ../src/lxterminal.c:571
+msgid "_OK"
+msgstr ""
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: ../src/lxterminal.c:740
+msgid "translator-credits"
+msgstr "Sveinn í Felli, sv1@fellsnet.is"
+
+#: ../src/lxterminal.c:746 ../src/lxterminal.c:780 ../src/preferences.c:289
+#: ../data/lxterminal.desktop.in.h:1
+msgid "LXTerminal"
+msgstr "LXTerminal"
+
+#: ../src/lxterminal.c:748
+#, fuzzy
+msgid "Copyright (C) 2008-2017"
+msgstr "Höfundarréttur (C) 2008-2017"
+
+#: ../src/lxterminal.c:749
+msgid "Terminal emulator for LXDE project"
+msgstr "Skjáhermir fyrir LXDE verkefnið"
+
+#: ../src/lxterminal.c:814
+#, c-format
+msgid "You are about to close %d tabs. Are you sure you want to continue?"
+msgstr ""
+
+#: ../src/lxterminal.c:815
+msgid "Confirm close"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:1
+msgid "Top"
+msgstr "Efst"
+
+#: ../data/lxterminal-preferences.glade.h:2
+msgid "Bottom"
+msgstr "Neðst"
+
+#: ../data/lxterminal-preferences.glade.h:3
+msgid "Left"
+msgstr "Vinstri"
+
+#: ../data/lxterminal-preferences.glade.h:4
+msgid "Right"
+msgstr "Hægri"
+
+#: ../data/lxterminal-preferences.glade.h:5
+msgid "LXTerminal Preferences"
+msgstr "Kjörstillingar LXTerminal"
+
+#: ../data/lxterminal-preferences.glade.h:6
+msgid "Terminal font"
+msgstr "Skjáhermisletur"
+
+#: ../data/lxterminal-preferences.glade.h:7
+msgid "Background"
+msgstr "Bakgrunnur"
+
+#: ../data/lxterminal-preferences.glade.h:8
+msgid "Foreground"
+msgstr "Forgrunnur"
+
+#: ../data/lxterminal-preferences.glade.h:9
+msgid "Allow bold font"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:10
+msgid "Cursor blink"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:11
+msgid "Cursor style"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:12
+msgid "Block"
+msgstr "Blokk"
+
+#: ../data/lxterminal-preferences.glade.h:13
+msgid "Underline"
+msgstr "Undirstrikað"
+
+#: ../data/lxterminal-preferences.glade.h:14
+msgid "Audible bell"
+msgstr "Hljóðbjalla"
+
+#: ../data/lxterminal-preferences.glade.h:15
+msgid "Black"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:16
+msgid "Red"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:17
+#, fuzzy
+msgid "Green"
+msgstr "Grískt"
+
+#: ../data/lxterminal-preferences.glade.h:18
+msgid "Brown"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:19
+msgid "Blue"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:20
+msgid "Magenta"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:21
+msgid "Cyan"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:22
+msgid "Gray"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:23
+msgid "Darkgray"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:24
+msgid "Bright Red"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:25
+msgid "Bright Green"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:26
+msgid "Yellow"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:27
+msgid "Bright Blue"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:28
+msgid "Bright Magenta"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:29
+msgid "Bright Cyan"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:30
+msgid "White"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:31
+msgid "Palette"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:32
+msgid "Palette Preset"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:33
+msgid "Style"
+msgstr "Stíll"
+
+#: ../data/lxterminal-preferences.glade.h:34
+msgid "Tab panel position"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:35
+msgid "Scrollback lines"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:36
+msgid "Hide scroll bar"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:37
+msgid "Hide menu bar"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:38
+msgid "Hide Close buttons"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:39
+msgid "Hide mouse pointer"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:40
+msgid "Default window size"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:41
+msgid "x"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:42
+msgid "Display"
+msgstr "Birting"
+
+#: ../data/lxterminal-preferences.glade.h:43
+msgid "Select-by-word characters"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:44
+msgid "Disable menu shortcut key (F10 by default)"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:45
+msgid "Disable using Alt-n for tabs and menu"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:46
+msgid "Disable confirmation before closing a window with multiple tabs"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:47
+msgid "Advanced"
+msgstr "Nánar"
+
+#: ../data/lxterminal-preferences.glade.h:48
+msgid "New Window"
+msgstr "Nýr gluggi"
+
+#: ../data/lxterminal-preferences.glade.h:49
+msgid "New Tab"
+msgstr "Nýr flipi"
+
+#: ../data/lxterminal-preferences.glade.h:50
+msgid "Close Tab"
+msgstr "Loka flipa"
+
+#: ../data/lxterminal-preferences.glade.h:51
+msgid "Close Window"
+msgstr "Loka glugga"
+
+#: ../data/lxterminal-preferences.glade.h:52
+msgid "Copy"
+msgstr "Afrita"
+
+#: ../data/lxterminal-preferences.glade.h:53
+msgid "Paste"
+msgstr "Líma"
+
+#: ../data/lxterminal-preferences.glade.h:55
+msgid "Previous Tab"
+msgstr "Fyrri flipi"
+
+#: ../data/lxterminal-preferences.glade.h:56
+msgid "Next Tab"
+msgstr "Næsti flipi"
+
+#: ../data/lxterminal-preferences.glade.h:57
+msgid "Move Tab Left"
+msgstr "Færa flipa til vinstri"
+
+#: ../data/lxterminal-preferences.glade.h:58
+msgid "Move Tab Right"
+msgstr "Færa flipa til hægri"
+
+#: ../data/lxterminal-preferences.glade.h:59
+msgid "Zoom In"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:60
+msgid "Zoom Out"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:61
+msgid "Zoom Reset"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:62
+msgid "Shortcuts"
+msgstr "Flýtilyklar"
+
+#: ../data/lxterminal.desktop.in.h:2
+msgid "Terminal"
+msgstr "Skjáhermir"
+
+#: ../data/lxterminal.desktop.in.h:3
+msgid "Use the command line"
+msgstr "Nota skipanalínuna"
+
+#: ../data/lxterminal.desktop.in.h:4
+msgid "console;command line;execute;"
+msgstr ""
+
+#~ msgid "West European"
+#~ msgstr "Vestur-evrópskt"
+
+#~ msgid "East European"
+#~ msgstr "Austur-evrópskt"
+
+#~ msgid "East Asian"
+#~ msgstr "Austur-asískt"
+
+#~ msgid "SE & SW Asian"
+#~ msgstr "SA- & SV-asískt"
+
+#~ msgid "Middle Eastern"
+#~ msgstr "Miðausturlenskt"
+
+#~ msgid "Unicode"
+#~ msgstr "Unicode"
+
+#~ msgid "Western"
+#~ msgstr "Vestrænt"
+
+#~ msgid "Central European"
+#~ msgstr "Mið-evrópskt"
+
+#~ msgid "South European"
+#~ msgstr "Suður-evrópskt"
+
+#~ msgid "Baltic"
+#~ msgstr "Baltneskt"
+
+#~ msgid "Cyrillic"
+#~ msgstr "Kyrilískt"
+
+#~ msgid "Arabic"
+#~ msgstr "Arabískt"
+
+#~ msgid "Greek"
+#~ msgstr "Grískt"
+
+#~ msgid "Hebrew Visual"
+#~ msgstr "Hebreskt myndrænt"
+
+#~ msgid "Hebrew"
+#~ msgstr "Hebreskt"
+
+#~ msgid "Turkish"
+#~ msgstr "Tyrknenskt"
+
+#~ msgid "Nordic"
+#~ msgstr "Norrænt"
+
+#~ msgid "Celtic"
+#~ msgstr "Keltneskt"
+
+#~ msgid "Romanian"
+#~ msgstr "Rúmenskt"
+
+#~ msgid "Armenian"
+#~ msgstr "Armenskt"
+
+#~ msgid "Chinese Traditional"
+#~ msgstr "Hefðbundið kínverskt"
+
+#~ msgid "Cyrillic/Russian"
+#~ msgstr "Kyrilískt/Rússneskt"
+
+#~ msgid "Japanese"
+#~ msgstr "Japanskt"
+
+#~ msgid "Korean"
+#~ msgstr "Kóreskt"
+
+#~ msgid "Chinese Simplified"
+#~ msgstr "Einfaldað kínverskt"
+
+#~ msgid "Georgian"
+#~ msgstr "Georgískt"
+
+#~ msgid "Cyrillic/Ukrainian"
+#~ msgstr "Kyrilískt/Úkranískt"
+
+#~ msgid "Croatian"
+#~ msgstr "Króatískt"
+
+#~ msgid "Hindi"
+#~ msgstr "Hindí"
+
+#~ msgid "Farsi"
+#~ msgstr "Farsí"
+
+#~ msgid "Gujarati"
+#~ msgstr "Gújaratí"
+
+#~ msgid "Gurmukhi"
+#~ msgstr "Gurmukískt"
+
+#~ msgid "Icelandic"
+#~ msgstr "Íslenskt"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Víetnamskt"
+
+#~ msgid "Thai"
+#~ msgstr "Tælenskt"

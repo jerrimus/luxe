@@ -1,0 +1,182 @@
+# Serbian translation for LXAppearance ObConf plugin
+# Copyright (C) 2010 Hong Jen Yee (PCMan) <pcman.tw@gmail.com>
+# This file is distributed under the same license as the LXAppearance ObConf plugin.
+# Jay A. Fleming <tito.nehru.naser@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lxappearance-obconf\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-13 23:54+0100\n"
+"PO-Revision-Date: 2015-05-01 11:50+0000\n"
+"Last-Translator: Jay A. Fleming <tito.nehru.naser@gmail.com>\n"
+"Language-Team: \n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1430481016.000000\n"
+
+#: ../src/main.c:177
+msgid ""
+"Failed to load the obconf.glade interface file. ObConf is probably not "
+"installed correctly."
+msgstr ""
+"Неуспело учитавање „obconf.glade“ датотеке. Највероватније нисте ваљано "
+"поставили Обконф."
+
+#: ../src/main.c:206
+msgid "Failed to load an rc.xml. Openbox is probably not installed correctly."
+msgstr ""
+"Неуспело учитавање „rc.xml“ датотеке. Највероватније нисте ваљано поставили "
+"Опенбокс."
+
+#: ../src/main.c:219
+#, c-format
+msgid ""
+"Error while parsing the Openbox configuration file. Your configuration file "
+"is not valid XML.\n"
+"\n"
+"Message: %s"
+msgstr ""
+"Појавила се грешка приликом обраде датоке са подешавањима Опенбокса.  Ваша "
+"датотека није ваљана ИксМЛ датотека.\n"
+"\n"
+"Порука: %s"
+
+#: ../src/theme.c:112 ../src/theme.c:144
+msgid "Choose an Openbox theme"
+msgstr "Одаберите Опенбокс-тему"
+
+#: ../src/theme.c:121
+msgid "Openbox theme archives"
+msgstr "Архиве Опенбокс-теме"
+
+#: ../src/archive.c:49
+#, c-format
+msgid "\"%s\" was installed to %s"
+msgstr "„%s“ је постављено у %s"
+
+#: ../src/archive.c:74
+#, c-format
+msgid "\"%s\" was successfully created"
+msgstr "„%s“ је успешно направљен."
+
+#: ../src/archive.c:110
+#, c-format
+msgid ""
+"Unable to create the theme archive \"%s\".\n"
+"The following errors were reported:\n"
+"%s"
+msgstr ""
+"Не могу направити архиву теме „%s“.\n"
+"Пријављене су следеће грешке:\n"
+"%s"
+
+#: ../src/archive.c:115 ../src/archive.c:196
+#, c-format
+msgid "Unable to run the \"tar\" command: %s"
+msgstr "Не могу да покренем „tar“ наредбу: %s"
+
+#: ../src/archive.c:135
+#, c-format
+msgid "Unable to create directory \"%s\": %s"
+msgstr "Не могу да направим директоријум „%s“: %s"
+
+#: ../src/archive.c:157
+#, c-format
+msgid "\"%s\" does not appear to be a valid Openbox theme directory"
+msgstr "„%s“ изгледа није ваљан директоријум Опенбокс-теме"
+
+#: ../src/archive.c:167
+#, c-format
+msgid "Unable to move to directory \"%s\": %s"
+msgstr "Не могу да се преместим у директоријум „%s“: %s"
+
+#: ../src/archive.c:203
+#, c-format
+msgid ""
+"Unable to extract the file \"%s\".\n"
+"Please ensure that \"%s\" is writable and that the file is a valid Openbox "
+"theme archive.\n"
+"The following errors were reported:\n"
+"%s"
+msgstr ""
+"Не могу да распакујем датотеку „%s“.\n"
+"Обезбедите дозволе за писање у датотеку „%s“ и уверите се да је она ваљана "
+"архива Опенбокс-теме.\n"
+"Пријављене су следеће грешке:\n"
+"%s"
+
+#: ../src/obconf.glade.h:1
+msgid "<span weight=\"bold\">Theme</span>"
+msgstr "<span weight=\"bold\">Тема</span>"
+
+#: ../src/obconf.glade.h:2
+msgid "_Install a new theme..."
+msgstr "Постав_ите нову тему..."
+
+#: ../src/obconf.glade.h:3
+msgid "Create a theme _archive (.obt)..."
+msgstr "Направи _архиву теме (.obt)..."
+
+#: ../src/obconf.glade.h:4
+msgid "Theme"
+msgstr "Тема"
+
+#: ../src/obconf.glade.h:5
+msgid "Font for active window title:"
+msgstr "Словолик за наслов активог прозора:"
+
+#: ../src/obconf.glade.h:6
+msgid "Font for inactive window title:"
+msgstr "Словолик за наслов неактивог прозора:"
+
+#: ../src/obconf.glade.h:7
+msgid "_Button order:"
+msgstr "_Редослед дугмади:"
+
+#: ../src/obconf.glade.h:8
+msgid ""
+"N: Window icon\n"
+"L: Window label (Title)\n"
+"I: Iconify (Minimize)\n"
+"M: Maximize\n"
+"C: Close\n"
+"S: Shade (Roll up)\n"
+"D: Omnipresent (On all desktops)"
+msgstr ""
+"N: Икона прозора\n"
+"L: Натпис (Наслов прозора)\n"
+"I: Дугме за умањивање\n"
+"M: Дугме за увећевање\n"
+"C: Дугме за затварање\n"
+"S: Дугме за замотавање\n"
+"D: Дугме свих радних површина (sticky)"
+
+#: ../src/obconf.glade.h:15
+msgid "Title Bar"
+msgstr "Насловна линија"
+
+#: ../src/obconf.glade.h:16
+msgid "Font for menu header:"
+msgstr "Словолик за заглавље изборника:"
+
+#: ../src/obconf.glade.h:17
+msgid "Font for menu Item:"
+msgstr "Словолик за ставке у изборнику:"
+
+#: ../src/obconf.glade.h:18
+msgid "Font for on-screen display:"
+msgstr "Словолик за ОСД екрански приказ:"
+
+#: ../src/obconf.glade.h:19
+msgid "Font for inactive on-screen display:"
+msgstr "Словолик за неактиван ОСД екрански приказ:"
+
+#: ../src/obconf.glade.h:20
+msgid "Misc."
+msgstr "Разно"

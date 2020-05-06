@@ -1,0 +1,576 @@
+# LXTerminal Chinese Traditional (Taiwan) Translation.
+# Copyright (C) 2009 LXDE Project
+# This file is distributed under the same license as the lxterminal package.
+# Fred Chien <cfsghost@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lxterminal 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-24 12:14+0800\n"
+"PO-Revision-Date: 2016-12-08 11:29+0800\n"
+"Last-Translator: Yao Wei (魏銘廷) <mwei@lxde.org>\n"
+"Language-Team: LXDE Contributors <admin@lxde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.7\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-POOTLE-MTIME: 1426979896.000000\n"
+
+#. 0
+#: ../src/lxterminal.c:121
+msgid "_File"
+msgstr "檔案(_F)"
+
+#. 1
+#: ../src/lxterminal.c:122
+msgid "_Edit"
+msgstr "編輯(_E)"
+
+#. 2
+#: ../src/lxterminal.c:123
+msgid "_Tabs"
+msgstr "分頁(_T)"
+
+#. 3
+#: ../src/lxterminal.c:124
+msgid "_Help"
+msgstr "說明(_H)"
+
+#. 4
+#: ../src/lxterminal.c:125
+msgid "_New Window"
+msgstr "開新視窗(_N)"
+
+#. 5
+#: ../src/lxterminal.c:126
+msgid "New T_ab"
+msgstr "開新分頁(_A)"
+
+#. 6
+#. 7
+#: ../src/lxterminal.c:128 ../src/lxterminal.c:167
+msgid "_Close Tab"
+msgstr "關閉分頁(_C)"
+
+#. 8
+#: ../src/lxterminal.c:129
+msgid "Close _Window"
+msgstr "關閉視窗(_W)"
+
+#. 9
+#: ../src/lxterminal.c:130 ../src/lxterminal.c:156
+msgid "Cop_y"
+msgstr "複製(_Y)"
+
+#. 10
+#: ../src/lxterminal.c:131 ../src/lxterminal.c:157
+msgid "_Paste"
+msgstr "貼上(_P)"
+
+#. 11
+#: ../src/lxterminal.c:132
+msgid "Clear scr_ollback"
+msgstr "清除捲動列(_O)"
+
+#. 12
+#. 13
+#: ../src/lxterminal.c:134
+msgid "Zoom _In"
+msgstr "放大(_I)"
+
+#. 14
+#: ../src/lxterminal.c:135
+msgid "Zoom O_ut"
+msgstr "縮小(_U)"
+
+#. 15
+#: ../src/lxterminal.c:136
+msgid "Zoom _Reset"
+msgstr "還原縮放(_R)"
+
+#. 16
+#. 17
+#: ../src/lxterminal.c:138 ../src/lxterminal.c:160
+msgid "Preference_s"
+msgstr "偏好設定(_S)"
+
+#. 18
+#: ../src/lxterminal.c:139 ../src/lxterminal.c:162
+msgid "Na_me Tab"
+msgstr "命名分頁(_M)"
+
+#. 19
+#: ../src/lxterminal.c:140 ../src/lxterminal.c:163
+msgid "Pre_vious Tab"
+msgstr "上一個分頁(_V)"
+
+#. 20
+#: ../src/lxterminal.c:141 ../src/lxterminal.c:164
+msgid "Ne_xt Tab"
+msgstr "下一個分頁(_X)"
+
+#. 21
+#: ../src/lxterminal.c:142 ../src/lxterminal.c:165
+msgid "Move Tab _Left"
+msgstr "將分頁左移(_L)"
+
+#. 22
+#: ../src/lxterminal.c:143 ../src/lxterminal.c:166
+msgid "Move Tab _Right"
+msgstr "將分頁右移(_R)"
+
+#. 23
+#: ../src/lxterminal.c:144
+msgid "_About"
+msgstr "關於(_A)"
+
+#: ../src/lxterminal.c:152
+msgid "New _Window"
+msgstr "開新視窗(_W)"
+
+#: ../src/lxterminal.c:153
+msgid "New _Tab"
+msgstr "開新分頁(_T)"
+
+#: ../src/lxterminal.c:155
+msgid "Copy _URL"
+msgstr "複製 _URL"
+
+#: ../src/lxterminal.c:158
+msgid "Cl_ear scrollback"
+msgstr "清除捲動列(_E)"
+
+#: ../src/lxterminal.c:567 ../data/lxterminal-preferences.glade.h:54
+msgid "Name Tab"
+msgstr "命名分頁"
+
+#: ../src/lxterminal.c:570
+msgid "_Cancel"
+msgstr ""
+
+#: ../src/lxterminal.c:571
+msgid "_OK"
+msgstr ""
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: ../src/lxterminal.c:740
+msgid "translator-credits"
+msgstr ""
+"Fred Chien <cfsghost@gmail.com>\n"
+"Ming-Ting Wei <mwei@lxde.org>"
+
+#: ../src/lxterminal.c:746 ../src/lxterminal.c:780 ../src/preferences.c:289
+#: ../data/lxterminal.desktop.in.h:1
+msgid "LXTerminal"
+msgstr "LX 終端機"
+
+#: ../src/lxterminal.c:748
+#, fuzzy
+msgid "Copyright (C) 2008-2017"
+msgstr "版權(C) 2008-2017"
+
+#: ../src/lxterminal.c:749
+msgid "Terminal emulator for LXDE project"
+msgstr "LXDE 專案的終端機模擬器"
+
+#: ../src/lxterminal.c:814
+#, c-format
+msgid "You are about to close %d tabs. Are you sure you want to continue?"
+msgstr "您即將關閉 %d 個分頁，確定要離開嗎？"
+
+#: ../src/lxterminal.c:815
+msgid "Confirm close"
+msgstr "關閉分頁確認"
+
+#: ../data/lxterminal-preferences.glade.h:1
+msgid "Top"
+msgstr "頂部"
+
+#: ../data/lxterminal-preferences.glade.h:2
+msgid "Bottom"
+msgstr "底部"
+
+#: ../data/lxterminal-preferences.glade.h:3
+msgid "Left"
+msgstr "左側"
+
+#: ../data/lxterminal-preferences.glade.h:4
+msgid "Right"
+msgstr "右側"
+
+#: ../data/lxterminal-preferences.glade.h:5
+msgid "LXTerminal Preferences"
+msgstr "LXTerminal 偏好設定"
+
+#: ../data/lxterminal-preferences.glade.h:6
+msgid "Terminal font"
+msgstr "終端機字型"
+
+#: ../data/lxterminal-preferences.glade.h:7
+msgid "Background"
+msgstr "背景色"
+
+#: ../data/lxterminal-preferences.glade.h:8
+msgid "Foreground"
+msgstr "前景色"
+
+#: ../data/lxterminal-preferences.glade.h:9
+msgid "Allow bold font"
+msgstr "允許粗體字"
+
+#: ../data/lxterminal-preferences.glade.h:10
+msgid "Cursor blink"
+msgstr "文字游標閃爍"
+
+#: ../data/lxterminal-preferences.glade.h:11
+msgid "Cursor style"
+msgstr "文字游標風格"
+
+#: ../data/lxterminal-preferences.glade.h:12
+msgid "Block"
+msgstr "區塊"
+
+#: ../data/lxterminal-preferences.glade.h:13
+msgid "Underline"
+msgstr "底線"
+
+#: ../data/lxterminal-preferences.glade.h:14
+msgid "Audible bell"
+msgstr "鈴聲可聞"
+
+#: ../data/lxterminal-preferences.glade.h:15
+msgid "Black"
+msgstr "黑色"
+
+#: ../data/lxterminal-preferences.glade.h:16
+msgid "Red"
+msgstr "紅色"
+
+#: ../data/lxterminal-preferences.glade.h:17
+msgid "Green"
+msgstr "綠色"
+
+#: ../data/lxterminal-preferences.glade.h:18
+msgid "Brown"
+msgstr "棕色"
+
+#: ../data/lxterminal-preferences.glade.h:19
+msgid "Blue"
+msgstr "藍色"
+
+#: ../data/lxterminal-preferences.glade.h:20
+msgid "Magenta"
+msgstr "洋紅色"
+
+#: ../data/lxterminal-preferences.glade.h:21
+msgid "Cyan"
+msgstr "青色"
+
+#: ../data/lxterminal-preferences.glade.h:22
+msgid "Gray"
+msgstr "灰色"
+
+#: ../data/lxterminal-preferences.glade.h:23
+msgid "Darkgray"
+msgstr "暗灰色"
+
+#: ../data/lxterminal-preferences.glade.h:24
+msgid "Bright Red"
+msgstr "亮紅色"
+
+#: ../data/lxterminal-preferences.glade.h:25
+msgid "Bright Green"
+msgstr "亮綠色"
+
+#: ../data/lxterminal-preferences.glade.h:26
+msgid "Yellow"
+msgstr "亮黃色"
+
+#: ../data/lxterminal-preferences.glade.h:27
+msgid "Bright Blue"
+msgstr "亮藍色"
+
+#: ../data/lxterminal-preferences.glade.h:28
+msgid "Bright Magenta"
+msgstr "亮洋紅色"
+
+#: ../data/lxterminal-preferences.glade.h:29
+msgid "Bright Cyan"
+msgstr "亮青色"
+
+#: ../data/lxterminal-preferences.glade.h:30
+msgid "White"
+msgstr "白色"
+
+#: ../data/lxterminal-preferences.glade.h:31
+msgid "Palette"
+msgstr "色盤"
+
+#: ../data/lxterminal-preferences.glade.h:32
+msgid "Palette Preset"
+msgstr "預設色盤"
+
+#: ../data/lxterminal-preferences.glade.h:33
+msgid "Style"
+msgstr "風格"
+
+#: ../data/lxterminal-preferences.glade.h:34
+msgid "Tab panel position"
+msgstr "分頁顯示位置"
+
+#: ../data/lxterminal-preferences.glade.h:35
+msgid "Scrollback lines"
+msgstr "保留行數"
+
+#: ../data/lxterminal-preferences.glade.h:36
+msgid "Hide scroll bar"
+msgstr "隱藏捲動列"
+
+#: ../data/lxterminal-preferences.glade.h:37
+msgid "Hide menu bar"
+msgstr "隱藏選單列"
+
+#: ../data/lxterminal-preferences.glade.h:38
+msgid "Hide Close buttons"
+msgstr "隱藏關閉按鈕"
+
+#: ../data/lxterminal-preferences.glade.h:39
+msgid "Hide mouse pointer"
+msgstr "隱藏滑鼠指標"
+
+#: ../data/lxterminal-preferences.glade.h:40
+msgid "Default window size"
+msgstr "預設視窗大小"
+
+#: ../data/lxterminal-preferences.glade.h:41
+msgid "x"
+msgstr "x"
+
+#: ../data/lxterminal-preferences.glade.h:42
+msgid "Display"
+msgstr "顯示"
+
+#: ../data/lxterminal-preferences.glade.h:43
+msgid "Select-by-word characters"
+msgstr "選取字詞時會選取以下的字元"
+
+#: ../data/lxterminal-preferences.glade.h:44
+msgid "Disable menu shortcut key (F10 by default)"
+msgstr "停用選單捷徑鍵 (預設為 F10)"
+
+#: ../data/lxterminal-preferences.glade.h:45
+msgid "Disable using Alt-n for tabs and menu"
+msgstr "停用以 Alt-n 切換分頁及選單"
+
+#: ../data/lxterminal-preferences.glade.h:46
+msgid "Disable confirmation before closing a window with multiple tabs"
+msgstr "停用關閉多個分頁時的確認視窗"
+
+#: ../data/lxterminal-preferences.glade.h:47
+msgid "Advanced"
+msgstr "進階"
+
+#: ../data/lxterminal-preferences.glade.h:48
+msgid "New Window"
+msgstr "開新視窗"
+
+#: ../data/lxterminal-preferences.glade.h:49
+msgid "New Tab"
+msgstr "開新分頁"
+
+#: ../data/lxterminal-preferences.glade.h:50
+msgid "Close Tab"
+msgstr "關閉分頁"
+
+#: ../data/lxterminal-preferences.glade.h:51
+msgid "Close Window"
+msgstr "關閉視窗"
+
+#: ../data/lxterminal-preferences.glade.h:52
+msgid "Copy"
+msgstr "複製"
+
+#: ../data/lxterminal-preferences.glade.h:53
+msgid "Paste"
+msgstr "貼上"
+
+#: ../data/lxterminal-preferences.glade.h:55
+msgid "Previous Tab"
+msgstr "上一個分頁"
+
+#: ../data/lxterminal-preferences.glade.h:56
+msgid "Next Tab"
+msgstr "下一個分頁"
+
+#: ../data/lxterminal-preferences.glade.h:57
+msgid "Move Tab Left"
+msgstr "將分頁左移"
+
+#: ../data/lxterminal-preferences.glade.h:58
+msgid "Move Tab Right"
+msgstr "將分頁右移"
+
+#: ../data/lxterminal-preferences.glade.h:59
+msgid "Zoom In"
+msgstr "放大"
+
+#: ../data/lxterminal-preferences.glade.h:60
+msgid "Zoom Out"
+msgstr "縮小"
+
+#: ../data/lxterminal-preferences.glade.h:61
+msgid "Zoom Reset"
+msgstr "還原縮放"
+
+#: ../data/lxterminal-preferences.glade.h:62
+msgid "Shortcuts"
+msgstr "快捷鍵"
+
+#: ../data/lxterminal.desktop.in.h:2
+msgid "Terminal"
+msgstr "終端機"
+
+#: ../data/lxterminal.desktop.in.h:3
+msgid "Use the command line"
+msgstr "使用命令列"
+
+#: ../data/lxterminal.desktop.in.h:4
+msgid "console;command line;execute;"
+msgstr "console;command line;execute;終端機;終端;文字介面;執行;小黑窗;命令列"
+
+#~ msgid "West European"
+#~ msgstr "西歐語系"
+
+#~ msgid "East European"
+#~ msgstr "東歐語系"
+
+#~ msgid "East Asian"
+#~ msgstr "東亞語系"
+
+#~ msgid "SE & SW Asian"
+#~ msgstr "東南與西南亞"
+
+#~ msgid "Middle Eastern"
+#~ msgstr "中東語系"
+
+#~ msgid "Unicode"
+#~ msgstr "Unicode 萬國碼"
+
+#~ msgid "Western"
+#~ msgstr "西方語系"
+
+#~ msgid "Central European"
+#~ msgstr "中歐語系"
+
+#~ msgid "South European"
+#~ msgstr "南歐語系"
+
+#~ msgid "Baltic"
+#~ msgstr "波羅的海語系"
+
+#~ msgid "Cyrillic"
+#~ msgstr "西里爾 (斯拉夫) 字母"
+
+# tim
+#~ msgid "Arabic"
+#~ msgstr "阿拉伯語系"
+
+#~ msgid "Greek"
+#~ msgstr "希臘文"
+
+# https://zh.wikipedia.org/wiki/ISO/IEC_8859-8 "visual order" -> "視覺順序"
+#~ msgid "Hebrew Visual"
+#~ msgstr "希伯來語系 (視覺順序)"
+
+#~ msgid "Hebrew"
+#~ msgstr "希伯來語系"
+
+#~ msgid "Turkish"
+#~ msgstr "土耳其語系"
+
+#~ msgid "Nordic"
+#~ msgstr "日耳曼北歐語系"
+
+#~ msgid "Celtic"
+#~ msgstr "塞爾特語系"
+
+#~ msgid "Romanian"
+#~ msgstr "羅馬尼亞語系"
+
+#~ msgid "Armenian"
+#~ msgstr "亞美尼亞語系"
+
+#~ msgid "Chinese Traditional"
+#~ msgstr "正 (繁) 體中文"
+
+#~ msgid "Cyrillic/Russian"
+#~ msgstr "西里爾/俄語系"
+
+#~ msgid "Japanese"
+#~ msgstr "日文"
+
+#~ msgid "Korean"
+#~ msgstr "韓文"
+
+#~ msgid "Chinese Simplified"
+#~ msgstr "簡體中文"
+
+#~ msgid "Georgian"
+#~ msgstr "喬治亞語系"
+
+#~ msgid "Cyrillic/Ukrainian"
+#~ msgstr "西里爾/烏克蘭語系"
+
+#~ msgid "Croatian"
+#~ msgstr "克勞埃西亞語系"
+
+#~ msgid "Hindi"
+#~ msgstr "印度文"
+
+# yahoo字典
+#~ msgid "Farsi"
+#~ msgstr "波斯語系"
+
+#~ msgid "Gujarati"
+#~ msgstr "亞利安語系(印度語系)"
+
+# http://forum.moztw.org/viewtopic.php?t=11472
+#~ msgid "Gurmukhi"
+#~ msgstr "古爾穆希語"
+
+#~ msgid "Icelandic"
+#~ msgstr "冰島語系"
+
+#~ msgid "Vietnamese"
+#~ msgstr "越南文"
+
+#~ msgid "Thai"
+#~ msgstr "泰文"
+
+#~ msgid "_Quit"
+#~ msgstr "離開(_Q)"
+
+#~ msgid "Misc"
+#~ msgstr "其他"
+
+#~ msgid "Disable F10 shortcut for menu:"
+#~ msgstr "取消 F10 目錄快捷鍵："
+
+#~ msgid "General"
+#~ msgstr "一般"
+
+#~ msgid "_Preferences"
+#~ msgstr "偏好設定(_P)"
+
+#~ msgid "Transparent Background:"
+#~ msgstr "背景半透明："
+
+#~ msgid "_View"
+#~ msgstr "檢視(_V)"
+
+#~ msgid "_Character Encoding"
+#~ msgstr "文字編碼(_C)"

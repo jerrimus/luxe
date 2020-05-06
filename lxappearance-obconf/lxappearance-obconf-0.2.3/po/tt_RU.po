@@ -1,0 +1,178 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ainur Shakirov <ainur.shakirov.tt@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-13 23:54+0100\n"
+"PO-Revision-Date: 2015-08-17 01:28+0000\n"
+"Last-Translator: Anonymous Pootle User\n"
+"Language-Team: Tatar <>\n"
+"Language: tt_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1439774922.679623\n"
+
+#: ../src/main.c:177
+msgid ""
+"Failed to load the obconf.glade interface file. ObConf is probably not "
+"installed correctly."
+msgstr ""
+"obconf.glade интерфейс файлын йөкләп булмады. Бәлки ObConf төгәл итеп "
+"куелмагандыр."
+
+#: ../src/main.c:206
+msgid "Failed to load an rc.xml. Openbox is probably not installed correctly."
+msgstr "rc.xml файлын йөкләп булмады. Бәлки OpenBox төгәл итеп куелмагандыр."
+
+#: ../src/main.c:219
+#, c-format
+msgid ""
+"Error while parsing the Openbox configuration file. Your configuration file "
+"is not valid XML.\n"
+"\n"
+"Message: %s"
+msgstr ""
+"Openbox көйләү файлын эшкәрткән вакытта хата килеп чыкты. Сезнең көйләү "
+"файлы дөрес итеп төзелмәгән\n"
+"\n"
+"Хәбәр: %s"
+
+#: ../src/theme.c:112 ../src/theme.c:144
+msgid "Choose an Openbox theme"
+msgstr "Openbox тышын сайлау"
+
+#: ../src/theme.c:121
+msgid "Openbox theme archives"
+msgstr "Openbox тыш архивы"
+
+#: ../src/archive.c:49
+#, c-format
+msgid "\"%s\" was installed to %s"
+msgstr "«%s» %s'ка урнаштырылды"
+
+#: ../src/archive.c:74
+#, c-format
+msgid "\"%s\" was successfully created"
+msgstr "«%s» уңышлы төзелде"
+
+#: ../src/archive.c:110
+#, c-format
+msgid ""
+"Unable to create the theme archive \"%s\".\n"
+"The following errors were reported:\n"
+"%s"
+msgstr ""
+"«%s» тыш архивын төзеп булмады.\n"
+"Мондый хата барлыкка килде:\n"
+"%s"
+
+#: ../src/archive.c:115 ../src/archive.c:196
+#, c-format
+msgid "Unable to run the \"tar\" command: %s"
+msgstr "«tar» командасын жибәрү мөмкин түгел: %s"
+
+#: ../src/archive.c:135
+#, c-format
+msgid "Unable to create directory \"%s\": %s"
+msgstr "«%s» каталогын төзеп булмады: %s"
+
+#: ../src/archive.c:157
+#, c-format
+msgid "\"%s\" does not appear to be a valid Openbox theme directory"
+msgstr "«%s» Openbox тышларының дөрес каталогы була алмый"
+
+#: ../src/archive.c:167
+#, c-format
+msgid "Unable to move to directory \"%s\": %s"
+msgstr "«%s» каталогын күчереп булмады: %s"
+
+#: ../src/archive.c:203
+#, c-format
+msgid ""
+"Unable to extract the file \"%s\".\n"
+"Please ensure that \"%s\" is writable and that the file is a valid Openbox "
+"theme archive.\n"
+"The following errors were reported:\n"
+"%s"
+msgstr ""
+"«%s» файлын тартып чыгарып булмады.\n"
+"«%s» файлын укып булуын һәм Openbox дөрес тыш архивы икәнен тикшерегез.\n"
+"Мондый хата барлыкка килде:\n"
+"%s"
+
+#: ../src/obconf.glade.h:1
+msgid "<span weight=\"bold\">Theme</span>"
+msgstr "<span weight=\"bold\">Тыш</span>"
+
+#: ../src/obconf.glade.h:2
+msgid "_Install a new theme..."
+msgstr "_Яңа тыш урнаштыру..."
+
+#: ../src/obconf.glade.h:3
+msgid "Create a theme _archive (.obt)..."
+msgstr "Тыш архивын төзү (.obt)..."
+
+#: ../src/obconf.glade.h:4
+msgid "Theme"
+msgstr "Тыш"
+
+#: ../src/obconf.glade.h:5
+msgid "Font for active window title:"
+msgstr "Эшлекле тәрәзәнең баш исем хәрефе:"
+
+#: ../src/obconf.glade.h:6
+msgid "Font for inactive window title:"
+msgstr "Эшлексез тәрәзәнең баш исем хәрефе:"
+
+#: ../src/obconf.glade.h:7
+msgid "_Button order:"
+msgstr "_Төймәләр тәртибе:"
+
+#: ../src/obconf.glade.h:8
+msgid ""
+"N: Window icon\n"
+"L: Window label (Title)\n"
+"I: Iconify (Minimize)\n"
+"M: Maximize\n"
+"C: Close\n"
+"S: Shade (Roll up)\n"
+"D: Omnipresent (On all desktops)"
+msgstr ""
+"N: Тәрәзә билгечеге\n"
+"L: Тәрәзәнең баш исеме\n"
+"I: Билгечекле (төреп куйганда)\n"
+"M: Чишеп җибәрү\n"
+"C: Ябу\n"
+"S: Яшерү (ишү)\n"
+"D: Бөтен җирдә (барлык эш өстәлләрендә)"
+
+#: ../src/obconf.glade.h:15
+msgid "Title Bar"
+msgstr "Баш исем юлы"
+
+#: ../src/obconf.glade.h:16
+msgid "Font for menu header:"
+msgstr "Менюның баш исем хәрефе:"
+
+#: ../src/obconf.glade.h:17
+msgid "Font for menu Item:"
+msgstr "Меню юллары өчен хәреф:"
+
+#: ../src/obconf.glade.h:18
+msgid "Font for on-screen display:"
+msgstr "Чагылдыру өчен хәреф:"
+
+#: ../src/obconf.glade.h:19
+#, fuzzy
+msgid "Font for inactive on-screen display:"
+msgstr "Чагылдыру өчен хәреф:"
+
+#: ../src/obconf.glade.h:20
+msgid "Misc."
+msgstr "Башкалар"

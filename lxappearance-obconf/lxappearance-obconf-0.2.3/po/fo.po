@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Gunleif Joensen <gunleif@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-13 23:54+0100\n"
+"PO-Revision-Date: 2015-08-17 01:28+0000\n"
+"Last-Translator: Anonymous Pootle User\n"
+"Language-Team: Føroyabólkurin\n"
+"Language: fo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1439774918.965678\n"
+
+#: ../src/main.c:177
+msgid ""
+"Failed to load the obconf.glade interface file. ObConf is probably not "
+"installed correctly."
+msgstr ""
+"Miseydnaðist at løða obconf.glade markamótsfíluna. ObConf er helst ikki lagt "
+"inn rætt."
+
+#: ../src/main.c:206
+msgid "Failed to load an rc.xml. Openbox is probably not installed correctly."
+msgstr "Miseydnaðist at løða eina rc.xml. Openbox er helst ikki rætt lagt inn."
+
+#: ../src/main.c:219
+#, c-format
+msgid ""
+"Error while parsing the Openbox configuration file. Your configuration file "
+"is not valid XML.\n"
+"\n"
+"Message: %s"
+msgstr ""
+"Villa meðan Openbox samansetingarfílan varð greinað. Tín samansetingarfíla "
+"er ikki gild XML.\n"
+"\n"
+"Boð: %s"
+
+#: ../src/theme.c:112 ../src/theme.c:144
+msgid "Choose an Openbox theme"
+msgstr "Vel eitt Openbox tema"
+
+#: ../src/theme.c:121
+msgid "Openbox theme archives"
+msgstr "Savn við Openbox-temum"
+
+#: ../src/archive.c:49
+#, c-format
+msgid "\"%s\" was installed to %s"
+msgstr "\"%s\" varð lagt inn á %s"
+
+#: ../src/archive.c:74
+#, c-format
+msgid "\"%s\" was successfully created"
+msgstr "\"%s\" er stovnað"
+
+#: ../src/archive.c:110
+#, c-format
+msgid ""
+"Unable to create the theme archive \"%s\".\n"
+"The following errors were reported:\n"
+"%s"
+msgstr ""
+"Ikki før fyri at stovna temusavnið \"%s\".\n"
+"Hesar villurnar vórðu fráboðaðar:\n"
+"%s"
+
+#: ../src/archive.c:115 ../src/archive.c:196
+#, c-format
+msgid "Unable to run the \"tar\" command: %s"
+msgstr "Ikki før fyri at koyra \"tar\" stýriboðið: %s"
+
+#: ../src/archive.c:135
+#, c-format
+msgid "Unable to create directory \"%s\": %s"
+msgstr "Ikki før fyri at stovna fíluskránna \"%s\": %s"
+
+#: ../src/archive.c:157
+#, c-format
+msgid "\"%s\" does not appear to be a valid Openbox theme directory"
+msgstr "\"%s\" letur ikki til at vera ein gildug Openbox temafíluskrá"
+
+#: ../src/archive.c:167
+#, c-format
+msgid "Unable to move to directory \"%s\": %s"
+msgstr "Ikki før fyri at flyta fíluskránna \"%s\": %s"
+
+#: ../src/archive.c:203
+#, c-format
+msgid ""
+"Unable to extract the file \"%s\".\n"
+"Please ensure that \"%s\" is writable and that the file is a valid Openbox "
+"theme archive.\n"
+"The following errors were reported:\n"
+"%s"
+msgstr ""
+"Ikki før fyri at úrdraga fíluna \"%s\".\n"
+"Vinarliga tryggja tær at \"%s\" er skrivifør, og at fílan er gildigt Openbox "
+"tema.\n"
+"Hesar villur vórðu fráboðaðar:\n"
+"%s"
+
+#: ../src/obconf.glade.h:1
+msgid "<span weight=\"bold\">Theme</span>"
+msgstr "<span weight=\"bold\">Tema</span>"
+
+#: ../src/obconf.glade.h:2
+msgid "_Install a new theme..."
+msgstr "Legg _inn nýtt tema..."
+
+#: ../src/obconf.glade.h:3
+msgid "Create a theme _archive (.obt)..."
+msgstr "Stovna eitt temas_avn (.obt)..."
+
+#: ../src/obconf.glade.h:4
+msgid "Theme"
+msgstr "Tema"
+
+#: ../src/obconf.glade.h:5
+msgid "Font for active window title:"
+msgstr "Stavasnið á virknari gluggayvirskrift:"
+
+#: ../src/obconf.glade.h:6
+msgid "Font for inactive window title:"
+msgstr "Stavasnið á óvirknari gluggayvirskrift:"
+
+#: ../src/obconf.glade.h:7
+msgid "_Button order:"
+msgstr "_Knapparað:"
+
+#: ../src/obconf.glade.h:8
+msgid ""
+"N: Window icon\n"
+"L: Window label (Title)\n"
+"I: Iconify (Minimize)\n"
+"M: Maximize\n"
+"C: Close\n"
+"S: Shade (Roll up)\n"
+"D: Omnipresent (On all desktops)"
+msgstr ""
+
+#: ../src/obconf.glade.h:15
+msgid "Title Bar"
+msgstr "Heitisstong"
+
+#: ../src/obconf.glade.h:16
+msgid "Font for menu header:"
+msgstr "Stavasnið á valmyndayvirskrift:"
+
+#: ../src/obconf.glade.h:17
+msgid "Font for menu Item:"
+msgstr "Stavasnið á valmyndaliði:"
+
+#: ../src/obconf.glade.h:18
+msgid "Font for on-screen display:"
+msgstr "Stavasnið til áskíggjasýning:"
+
+#: ../src/obconf.glade.h:19
+#, fuzzy
+msgid "Font for inactive on-screen display:"
+msgstr "Stavasnið til áskíggjasýning:"
+
+#: ../src/obconf.glade.h:20
+msgid "Misc."
+msgstr "Ymiskt"

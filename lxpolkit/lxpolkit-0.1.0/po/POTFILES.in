@@ -1,0 +1,6 @@
+# List of source files containing translatable strings.
+
+data/lxpolkit.desktop.in.in
+data/ui/lxpolkit.glade
+src/lxpolkit.c
+src/lxpolkit-listener.c

@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-07-22 21:29+0200\n"
+"PO-Revision-Date: 2010-07-06 18:02+0200\n"
+"Last-Translator: Hamidreza <n3gb0y@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.1\n"
+
+#: ../data/lxpolkit.desktop.in.in.h:1
+msgid "LXPolKit"
+msgstr "ال‌اکس‌پول‌کیت"
+
+# :D !
+#: ../data/lxpolkit.desktop.in.in.h:2
+msgid "Policykit Authentication Agent"
+msgstr "بسته‌ي سیاست اعتباردهی"
+
+#: ../data/ui/lxpolkit.glade.h:1
+msgid "Authentication"
+msgstr "اعتبار"
+
+#: ../data/ui/lxpolkit.glade.h:2
+msgid "Identity:"
+msgstr "شناسه:"
+
+#: ../src/lxpolkit.c:45
+msgid "Error"
+msgstr "خطا"
+
+#: ../src/lxpolkit.c:48
+msgid "Information"
+msgstr "اطلاعات"
+
+#: ../src/lxpolkit-listener.c:91
+msgid ""
+"Authentication failed!\n"
+"Wrong password?"
+msgstr ""
+"اعتباردهی ناموفق!\n"
+"گذرواژه‌ی اشتباه؟"
+
+#: ../src/lxpolkit-listener.c:109
+msgid "Password: "
+msgstr "گذرواژه"
+
+#: ../src/lxpolkit-listener.c:254
+#, c-format
+msgid "Group: %s"
+msgstr "گروه: %s"

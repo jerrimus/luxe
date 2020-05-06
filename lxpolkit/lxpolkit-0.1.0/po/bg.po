@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lxpolkitnReport-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-07-22 21:29+0200\n"
+"PO-Revision-Date: 2010-04-08 11:56+0200\n"
+"Last-Translator: Радослав Иванов <rec_ku@hotmail.com>\n"
+"Language-Team: MIME-Version: 1.0\n"
+"Language: \n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 1.1.0\n"
+"X-Poedit-Language: Bulgarian\n"
+"X-Poedit-Country: BULGARIA\n"
+
+#: ../data/lxpolkit.desktop.in.in.h:1
+msgid "LXPolKit"
+msgstr "LXPolKit"
+
+#: ../data/lxpolkit.desktop.in.in.h:2
+msgid "Policykit Authentication Agent"
+msgstr "Агент за удостоверяване"
+
+#: ../data/ui/lxpolkit.glade.h:1
+msgid "Authentication"
+msgstr "Удостоверяване"
+
+#: ../data/ui/lxpolkit.glade.h:2
+msgid "Identity:"
+msgstr "Идентичност:"
+
+#: ../src/lxpolkit.c:45
+msgid "Error"
+msgstr "Грешка"
+
+#: ../src/lxpolkit.c:48
+msgid "Information"
+msgstr "Информация"
+
+#: ../src/lxpolkit-listener.c:91
+msgid ""
+"Authentication failed!\n"
+"Wrong password?"
+msgstr ""
+"Оторизирането пропадна!\n"
+"Грешна парола?"
+
+#: ../src/lxpolkit-listener.c:109
+msgid "Password: "
+msgstr "Парола:"
+
+#: ../src/lxpolkit-listener.c:254
+#, c-format
+msgid "Group: %s"
+msgstr "Група: %s"

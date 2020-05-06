@@ -1,0 +1,576 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-24 12:14+0800\n"
+"PO-Revision-Date: 2017-05-24 06:08+0000\n"
+"Last-Translator: Miguel Anxo Bouzada <mbouzada@gmail.com>\n"
+"Language-Team: Proxecto Trasno <proxecto@trasno.net>\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1495606099.867634\n"
+
+#. 0
+#: ../src/lxterminal.c:121
+msgid "_File"
+msgstr "_Ficheiro"
+
+#. 1
+#: ../src/lxterminal.c:122
+msgid "_Edit"
+msgstr "_Editar"
+
+#. 2
+#: ../src/lxterminal.c:123
+msgid "_Tabs"
+msgstr "_Lapelas"
+
+#. 3
+#: ../src/lxterminal.c:124
+msgid "_Help"
+msgstr "_Axuda"
+
+#. 4
+#: ../src/lxterminal.c:125
+msgid "_New Window"
+msgstr "Nova _xanela"
+
+#. 5
+#: ../src/lxterminal.c:126
+msgid "New T_ab"
+msgstr "_Nova lapela"
+
+#. 6
+#. 7
+#: ../src/lxterminal.c:128 ../src/lxterminal.c:167
+msgid "_Close Tab"
+msgstr "Pechar a _lapela"
+
+#. 8
+#: ../src/lxterminal.c:129
+msgid "Close _Window"
+msgstr "_Pechar a xanela"
+
+#. 9
+#: ../src/lxterminal.c:130 ../src/lxterminal.c:156
+msgid "Cop_y"
+msgstr "_Copiar"
+
+#. 10
+#: ../src/lxterminal.c:131 ../src/lxterminal.c:157
+msgid "_Paste"
+msgstr "_Pegar"
+
+#. 11
+#: ../src/lxterminal.c:132
+msgid "Clear scr_ollback"
+msgstr "Limpar _historial de desprazamento"
+
+#. 12
+#. 13
+#: ../src/lxterminal.c:134
+msgid "Zoom _In"
+msgstr "Ampl_iar"
+
+#. 14
+#: ../src/lxterminal.c:135
+msgid "Zoom O_ut"
+msgstr "Red_ucir"
+
+#. 15
+#: ../src/lxterminal.c:136
+msgid "Zoom _Reset"
+msgstr "_Restaurar o zoom"
+
+#. 16
+#. 17
+#: ../src/lxterminal.c:138 ../src/lxterminal.c:160
+msgid "Preference_s"
+msgstr "Pre_ferencias"
+
+#. 18
+#: ../src/lxterminal.c:139 ../src/lxterminal.c:162
+msgid "Na_me Tab"
+msgstr "No_me da lapela"
+
+#. 19
+#: ../src/lxterminal.c:140 ../src/lxterminal.c:163
+msgid "Pre_vious Tab"
+msgstr "Lapela _anterior"
+
+#. 20
+#: ../src/lxterminal.c:141 ../src/lxterminal.c:164
+msgid "Ne_xt Tab"
+msgstr "Lapela _seguinte"
+
+#. 21
+#: ../src/lxterminal.c:142 ../src/lxterminal.c:165
+msgid "Move Tab _Left"
+msgstr "Mover á lapela da _esquerda"
+
+#. 22
+#: ../src/lxterminal.c:143 ../src/lxterminal.c:166
+msgid "Move Tab _Right"
+msgstr "Mover á lapela da _dereita"
+
+#. 23
+#: ../src/lxterminal.c:144
+msgid "_About"
+msgstr "_Sobre."
+
+#: ../src/lxterminal.c:152
+msgid "New _Window"
+msgstr "Nova _xanela"
+
+#: ../src/lxterminal.c:153
+msgid "New _Tab"
+msgstr "_Nova lapela"
+
+#: ../src/lxterminal.c:155
+msgid "Copy _URL"
+msgstr "Copiar o _URL"
+
+#: ../src/lxterminal.c:158
+msgid "Cl_ear scrollback"
+msgstr "Limpar _historial de desprazamento:"
+
+#: ../src/lxterminal.c:567 ../data/lxterminal-preferences.glade.h:54
+msgid "Name Tab"
+msgstr "Nome da lapela"
+
+#: ../src/lxterminal.c:570
+msgid "_Cancel"
+msgstr "_Cancelar"
+
+#: ../src/lxterminal.c:571
+msgid "_OK"
+msgstr "_Aceptar"
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: ../src/lxterminal.c:740
+msgid "translator-credits"
+msgstr ""
+"Miguel Anxo Bouzada <mbouzada@gmail.com>, 2009, 2010, 2011,2012,2013,2014, "
+"2015, 2016, 2017.\n"
+"Indalecio Freiría <ifreiria@gmail.com>, 2009 \n"
+"Proxecto Trasno <proxecto@trasno.net>"
+
+#: ../src/lxterminal.c:746 ../src/lxterminal.c:780 ../src/preferences.c:289
+#: ../data/lxterminal.desktop.in.h:1
+msgid "LXTerminal"
+msgstr "LXTerminal"
+
+#: ../src/lxterminal.c:748
+msgid "Copyright (C) 2008-2017"
+msgstr "Dereitos de autoría (C) 2008-2017"
+
+#: ../src/lxterminal.c:749
+msgid "Terminal emulator for LXDE project"
+msgstr "Emulador de terminal para o proxecto LXDE"
+
+#: ../src/lxterminal.c:814
+#, c-format
+msgid "You are about to close %d tabs. Are you sure you want to continue?"
+msgstr "Estás a piques de pechar %d lapelas. Confirmas que queres continuar?"
+
+#: ../src/lxterminal.c:815
+msgid "Confirm close"
+msgstr "Confirmar o peche"
+
+#: ../data/lxterminal-preferences.glade.h:1
+msgid "Top"
+msgstr "Superior"
+
+#: ../data/lxterminal-preferences.glade.h:2
+msgid "Bottom"
+msgstr "Inferior"
+
+#: ../data/lxterminal-preferences.glade.h:3
+msgid "Left"
+msgstr "Esquerda"
+
+#: ../data/lxterminal-preferences.glade.h:4
+msgid "Right"
+msgstr "Dereita"
+
+#: ../data/lxterminal-preferences.glade.h:5
+msgid "LXTerminal Preferences"
+msgstr "Preferencias de LXTerminal"
+
+#: ../data/lxterminal-preferences.glade.h:6
+msgid "Terminal font"
+msgstr "Tipo de letra do terminal"
+
+#: ../data/lxterminal-preferences.glade.h:7
+msgid "Background"
+msgstr "Fondo"
+
+#: ../data/lxterminal-preferences.glade.h:8
+msgid "Foreground"
+msgstr "Primeiro plano"
+
+#: ../data/lxterminal-preferences.glade.h:9
+msgid "Allow bold font"
+msgstr "Permitir letras en negriña"
+
+#: ../data/lxterminal-preferences.glade.h:10
+msgid "Cursor blink"
+msgstr "Intermitencia do cursor"
+
+#: ../data/lxterminal-preferences.glade.h:11
+msgid "Cursor style"
+msgstr "Estilo do cursor"
+
+#: ../data/lxterminal-preferences.glade.h:12
+msgid "Block"
+msgstr "Bloque"
+
+#: ../data/lxterminal-preferences.glade.h:13
+msgid "Underline"
+msgstr "Subliñado"
+
+#: ../data/lxterminal-preferences.glade.h:14
+msgid "Audible bell"
+msgstr "Sinal audíbel"
+
+#: ../data/lxterminal-preferences.glade.h:15
+msgid "Black"
+msgstr "Negro"
+
+#: ../data/lxterminal-preferences.glade.h:16
+msgid "Red"
+msgstr "Vermello"
+
+#: ../data/lxterminal-preferences.glade.h:17
+msgid "Green"
+msgstr "Verde"
+
+#: ../data/lxterminal-preferences.glade.h:18
+msgid "Brown"
+msgstr "Marrón"
+
+#: ../data/lxterminal-preferences.glade.h:19
+msgid "Blue"
+msgstr "Azul"
+
+#: ../data/lxterminal-preferences.glade.h:20
+msgid "Magenta"
+msgstr "Maxenta"
+
+#: ../data/lxterminal-preferences.glade.h:21
+msgid "Cyan"
+msgstr "Ciano"
+
+#: ../data/lxterminal-preferences.glade.h:22
+msgid "Gray"
+msgstr "Gris"
+
+#: ../data/lxterminal-preferences.glade.h:23
+msgid "Darkgray"
+msgstr "Gris escuro"
+
+#: ../data/lxterminal-preferences.glade.h:24
+msgid "Bright Red"
+msgstr "Vermello brillante"
+
+#: ../data/lxterminal-preferences.glade.h:25
+msgid "Bright Green"
+msgstr "Verde brillante"
+
+#: ../data/lxterminal-preferences.glade.h:26
+msgid "Yellow"
+msgstr "Marelo"
+
+#: ../data/lxterminal-preferences.glade.h:27
+msgid "Bright Blue"
+msgstr "Azul brillante"
+
+#: ../data/lxterminal-preferences.glade.h:28
+msgid "Bright Magenta"
+msgstr "Maxenta brillante"
+
+#: ../data/lxterminal-preferences.glade.h:29
+msgid "Bright Cyan"
+msgstr "Ciano brillante"
+
+#: ../data/lxterminal-preferences.glade.h:30
+msgid "White"
+msgstr "Branco"
+
+#: ../data/lxterminal-preferences.glade.h:31
+msgid "Palette"
+msgstr "Paleta"
+
+#: ../data/lxterminal-preferences.glade.h:32
+msgid "Palette Preset"
+msgstr "Predefinición da paleta"
+
+#: ../data/lxterminal-preferences.glade.h:33
+msgid "Style"
+msgstr "Estilo"
+
+#: ../data/lxterminal-preferences.glade.h:34
+msgid "Tab panel position"
+msgstr "Posición do panel de lapelas"
+
+#: ../data/lxterminal-preferences.glade.h:35
+msgid "Scrollback lines"
+msgstr "Liñas de desprazamento"
+
+#: ../data/lxterminal-preferences.glade.h:36
+msgid "Hide scroll bar"
+msgstr "Agochar a barra de desprazamento:"
+
+#: ../data/lxterminal-preferences.glade.h:37
+msgid "Hide menu bar"
+msgstr "Agochar a barra de menú"
+
+#: ../data/lxterminal-preferences.glade.h:38
+msgid "Hide Close buttons"
+msgstr "Agochar o botón de peche"
+
+#: ../data/lxterminal-preferences.glade.h:39
+msgid "Hide mouse pointer"
+msgstr "Agochar o punteiro do rato"
+
+#: ../data/lxterminal-preferences.glade.h:40
+msgid "Default window size"
+msgstr "Tamaño predeterminado da xanela"
+
+#: ../data/lxterminal-preferences.glade.h:41
+msgid "x"
+msgstr "x"
+
+#: ../data/lxterminal-preferences.glade.h:42
+msgid "Display"
+msgstr "Amosar"
+
+#: ../data/lxterminal-preferences.glade.h:43
+msgid "Select-by-word characters"
+msgstr "Selección por palabra"
+
+#: ../data/lxterminal-preferences.glade.h:44
+msgid "Disable menu shortcut key (F10 by default)"
+msgstr "Desactivar a tecla de atallo (F10 predeterminada)"
+
+#: ../data/lxterminal-preferences.glade.h:45
+msgid "Disable using Alt-n for tabs and menu"
+msgstr "Desactivar o uso de Alt-N para lapelas e menú"
+
+#: ../data/lxterminal-preferences.glade.h:46
+msgid "Disable confirmation before closing a window with multiple tabs"
+msgstr ""
+"Desactivar a petición de confirmación cando se peche unha xanela con varias "
+"lapelas."
+
+#: ../data/lxterminal-preferences.glade.h:47
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: ../data/lxterminal-preferences.glade.h:48
+msgid "New Window"
+msgstr "Nova xanela"
+
+#: ../data/lxterminal-preferences.glade.h:49
+msgid "New Tab"
+msgstr "Nova lapela"
+
+#: ../data/lxterminal-preferences.glade.h:50
+msgid "Close Tab"
+msgstr "Pechar a lapela"
+
+#: ../data/lxterminal-preferences.glade.h:51
+msgid "Close Window"
+msgstr "Pechar a xanela"
+
+#: ../data/lxterminal-preferences.glade.h:52
+msgid "Copy"
+msgstr "Copiar"
+
+#: ../data/lxterminal-preferences.glade.h:53
+msgid "Paste"
+msgstr "Pegar"
+
+#: ../data/lxterminal-preferences.glade.h:55
+msgid "Previous Tab"
+msgstr "Lapela anterior"
+
+#: ../data/lxterminal-preferences.glade.h:56
+msgid "Next Tab"
+msgstr "Lapela seguinte"
+
+#: ../data/lxterminal-preferences.glade.h:57
+msgid "Move Tab Left"
+msgstr "Mover á lapela da esquerda"
+
+#: ../data/lxterminal-preferences.glade.h:58
+msgid "Move Tab Right"
+msgstr "Mover á lapela da dereita"
+
+#: ../data/lxterminal-preferences.glade.h:59
+msgid "Zoom In"
+msgstr "Ampliar"
+
+#: ../data/lxterminal-preferences.glade.h:60
+msgid "Zoom Out"
+msgstr "Reducir"
+
+#: ../data/lxterminal-preferences.glade.h:61
+msgid "Zoom Reset"
+msgstr "Restablecer o zoom"
+
+#: ../data/lxterminal-preferences.glade.h:62
+msgid "Shortcuts"
+msgstr "Atallos de teclado"
+
+#: ../data/lxterminal.desktop.in.h:2
+msgid "Terminal"
+msgstr "Terminal"
+
+#: ../data/lxterminal.desktop.in.h:3
+msgid "Use the command line"
+msgstr "Usar a liña de ordes"
+
+#: ../data/lxterminal.desktop.in.h:4
+msgid "console;command line;execute;"
+msgstr "consola;liña de ordes;executar;"
+
+#~ msgid "West European"
+#~ msgstr "Europeo occidental"
+
+#~ msgid "East European"
+#~ msgstr "Europeo oriental"
+
+#~ msgid "East Asian"
+#~ msgstr "Asiático oriental"
+
+#~ msgid "SE & SW Asian"
+#~ msgstr "Asiático suroriental e suroccidental"
+
+#~ msgid "Middle Eastern"
+#~ msgstr "Medioriental"
+
+#~ msgid "Unicode"
+#~ msgstr "Unicode"
+
+#~ msgid "Western"
+#~ msgstr "Occidental"
+
+#~ msgid "Central European"
+#~ msgstr "Centroeuropeo"
+
+#~ msgid "South European"
+#~ msgstr "Sur europeo"
+
+#~ msgid "Baltic"
+#~ msgstr "Báltico"
+
+#~ msgid "Cyrillic"
+#~ msgstr "Cirílico"
+
+#~ msgid "Arabic"
+#~ msgstr "Árabe"
+
+#~ msgid "Greek"
+#~ msgstr "Grego"
+
+#~ msgid "Hebrew Visual"
+#~ msgstr "Hebreo visual"
+
+#~ msgid "Hebrew"
+#~ msgstr "Hebreo"
+
+#~ msgid "Turkish"
+#~ msgstr "Turco"
+
+#~ msgid "Nordic"
+#~ msgstr "Nórdico"
+
+#~ msgid "Celtic"
+#~ msgstr "Celta"
+
+#~ msgid "Romanian"
+#~ msgstr "Romanés"
+
+#~ msgid "Armenian"
+#~ msgstr "Armenio"
+
+#~ msgid "Chinese Traditional"
+#~ msgstr "Chinés tradicional"
+
+#~ msgid "Cyrillic/Russian"
+#~ msgstr "Cirílico/Ruso"
+
+#~ msgid "Japanese"
+#~ msgstr "Xaponés"
+
+#~ msgid "Korean"
+#~ msgstr "Coreano"
+
+#~ msgid "Chinese Simplified"
+#~ msgstr "Chinés simplificado"
+
+#~ msgid "Georgian"
+#~ msgstr "Xeorxiano"
+
+#~ msgid "Cyrillic/Ukrainian"
+#~ msgstr "Cirílico/Ucraíno"
+
+#~ msgid "Croatian"
+#~ msgstr "Croata"
+
+#~ msgid "Hindi"
+#~ msgstr "Hindú"
+
+#~ msgid "Farsi"
+#~ msgstr "Persa"
+
+#~ msgid "Gujarati"
+#~ msgstr "Gujarati"
+
+#~ msgid "Gurmukhi"
+#~ msgstr "Gurmukhi"
+
+#~ msgid "Icelandic"
+#~ msgstr "Islandés"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Vietnamita"
+
+#~ msgid "Thai"
+#~ msgstr "Tailandés"
+
+#~ msgid "_Quit"
+#~ msgstr "_Saír"
+
+#~ msgid "gtk-cancel"
+#~ msgstr "gtk-cancel"
+
+#~ msgid "gtk-ok"
+#~ msgstr "gtk-ok"
+
+#~ msgid "Failed to launch the web browser. The command was `%s'\n"
+#~ msgstr "Non se puido iniciar o navegador web. A orde foi `%s'\n"
+
+#~ msgid "Misc"
+#~ msgstr "Miscelánea"
+
+#~ msgid "Disable F10 shortcut for menu:"
+#~ msgstr "Desactivar o atallo de teclado F10 para o menú:"
+
+#~ msgid "General"
+#~ msgstr "Xeral"
+
+#~ msgid "_Preferences"
+#~ msgstr "_Preferencias"
+
+#~ msgid "Transparent Background:"
+#~ msgstr "Fondo transparente:"

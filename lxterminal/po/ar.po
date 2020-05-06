@@ -1,0 +1,596 @@
+# Arabic translations for PACKAGE package.
+# Copyright (C) 2009 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# أحمد فرغل <ahmad.farghal@gmail.com>, 2009.
+# Tareq Al Jurf <taljurf@fedoraproject.org>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LXTerminal\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-24 12:14+0800\n"
+"PO-Revision-Date: 2015-03-23 23:53+0000\n"
+"Last-Translator: Jerome Leclanche <jerome@leclan.ch>\n"
+"Language-Team: Arabic <trans-ar@lists.fedoraproject.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1427154790.000000\n"
+
+#. 0
+#: ../src/lxterminal.c:121
+msgid "_File"
+msgstr "_ملف"
+
+#. 1
+#: ../src/lxterminal.c:122
+msgid "_Edit"
+msgstr "ت_حرير"
+
+#. 2
+#: ../src/lxterminal.c:123
+msgid "_Tabs"
+msgstr "أ_لسنة"
+
+#. 3
+#: ../src/lxterminal.c:124
+msgid "_Help"
+msgstr "م_ساعدة"
+
+#. 4
+#: ../src/lxterminal.c:125
+#, fuzzy
+msgid "_New Window"
+msgstr "_نافذة جديدة"
+
+#. 5
+#: ../src/lxterminal.c:126
+#, fuzzy
+msgid "New T_ab"
+msgstr "_لسان جديد"
+
+#. 6
+#. 7
+#: ../src/lxterminal.c:128 ../src/lxterminal.c:167
+msgid "_Close Tab"
+msgstr "أ_غلق اللسان"
+
+#. 8
+#: ../src/lxterminal.c:129
+#, fuzzy
+msgid "Close _Window"
+msgstr "_نافذة جديدة"
+
+#. 9
+#: ../src/lxterminal.c:130 ../src/lxterminal.c:156
+msgid "Cop_y"
+msgstr "ان_سخ"
+
+#. 10
+#: ../src/lxterminal.c:131 ../src/lxterminal.c:157
+msgid "_Paste"
+msgstr "ا_لصق"
+
+#. 11
+#: ../src/lxterminal.c:132
+#, fuzzy
+msgid "Clear scr_ollback"
+msgstr "اخفِ شريط التمرير"
+
+#. 12
+#. 13
+#: ../src/lxterminal.c:134
+msgid "Zoom _In"
+msgstr "تكبير"
+
+#. 14
+#: ../src/lxterminal.c:135
+msgid "Zoom O_ut"
+msgstr "تصغير"
+
+#. 15
+#: ../src/lxterminal.c:136
+msgid "Zoom _Reset"
+msgstr "إعادة تعيين الحجم"
+
+#. 16
+#. 17
+#: ../src/lxterminal.c:138 ../src/lxterminal.c:160
+msgid "Preference_s"
+msgstr "تف_ضيلات"
+
+#. 18
+#: ../src/lxterminal.c:139 ../src/lxterminal.c:162
+msgid "Na_me Tab"
+msgstr "_لسان الاسم"
+
+#. 19
+#: ../src/lxterminal.c:140 ../src/lxterminal.c:163
+msgid "Pre_vious Tab"
+msgstr "اللسان ال_سابق"
+
+#. 20
+#: ../src/lxterminal.c:141 ../src/lxterminal.c:164
+msgid "Ne_xt Tab"
+msgstr "اللسان ال_تالي"
+
+#. 21
+#: ../src/lxterminal.c:142 ../src/lxterminal.c:165
+msgid "Move Tab _Left"
+msgstr "انقل اللسان إلى ال_يسار"
+
+#. 22
+#: ../src/lxterminal.c:143 ../src/lxterminal.c:166
+msgid "Move Tab _Right"
+msgstr "انقل اللسان إلى اليمي_ن"
+
+#. 23
+#: ../src/lxterminal.c:144
+msgid "_About"
+msgstr "_عن"
+
+#: ../src/lxterminal.c:152
+msgid "New _Window"
+msgstr "_نافذة جديدة"
+
+#: ../src/lxterminal.c:153
+msgid "New _Tab"
+msgstr "_لسان جديد"
+
+#: ../src/lxterminal.c:155
+msgid "Copy _URL"
+msgstr "تسخ الرابط"
+
+#: ../src/lxterminal.c:158
+#, fuzzy
+msgid "Cl_ear scrollback"
+msgstr "اخفِ شريط التمرير"
+
+#: ../src/lxterminal.c:567 ../data/lxterminal-preferences.glade.h:54
+msgid "Name Tab"
+msgstr "لسان الاسم"
+
+#: ../src/lxterminal.c:570
+msgid "_Cancel"
+msgstr "خروج"
+
+#: ../src/lxterminal.c:571
+msgid "_OK"
+msgstr "موافق"
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: ../src/lxterminal.c:740
+msgid "translator-credits"
+msgstr ""
+"أحمد فرغل <ahmad.farghal@gmail.com>"
+"أحمد نوراللّه <ahmadnurallah@gmail.com>"
+""
+
+#: ../src/lxterminal.c:746 ../src/lxterminal.c:780 ../src/preferences.c:289
+#: ../data/lxterminal.desktop.in.h:1
+msgid "LXTerminal"
+msgstr "LXTerminal"
+
+#: ../src/lxterminal.c:748
+#, fuzzy
+msgid "Copyright (C) 2008-2017"
+msgstr "حقوق النشر محفوظة (C) 2008-2017"
+
+#: ../src/lxterminal.c:749
+msgid "Terminal emulator for LXDE project"
+msgstr "محاكي طرفية لمشروع LXDE"
+
+#: ../src/lxterminal.c:814
+#, c-format
+msgid "You are about to close %d tabs. Are you sure you want to continue?"
+msgstr "أنت على وشك إغلاق النافذة %d. هل أنتَ متاكد من أنك تريد المتابعة ؟"
+
+#: ../src/lxterminal.c:815
+msgid "Confirm close"
+msgstr "تأكيد الخروج"
+
+#: ../data/lxterminal-preferences.glade.h:1
+msgid "Top"
+msgstr "الأعلى"
+
+#: ../data/lxterminal-preferences.glade.h:2
+msgid "Bottom"
+msgstr "الأسفل"
+
+#: ../data/lxterminal-preferences.glade.h:3
+msgid "Left"
+msgstr "اليسار"
+
+#: ../data/lxterminal-preferences.glade.h:4
+msgid "Right"
+msgstr "اليمين"
+
+#: ../data/lxterminal-preferences.glade.h:5
+msgid "LXTerminal Preferences"
+msgstr "تفضيلات LXTerminal"
+
+#: ../data/lxterminal-preferences.glade.h:6
+msgid "Terminal font"
+msgstr "خط الطرفية"
+
+#: ../data/lxterminal-preferences.glade.h:7
+msgid "Background"
+msgstr "الخلفية"
+
+#: ../data/lxterminal-preferences.glade.h:8
+msgid "Foreground"
+msgstr "النص"
+
+#: ../data/lxterminal-preferences.glade.h:9
+msgid "Allow bold font"
+msgstr "اسمَح بالخط العريض"
+
+#: ../data/lxterminal-preferences.glade.h:10
+msgid "Cursor blink"
+msgstr "ومضات المؤشر"
+
+#: ../data/lxterminal-preferences.glade.h:11
+msgid "Cursor style"
+msgstr "شكل المؤشر"
+
+#: ../data/lxterminal-preferences.glade.h:12
+msgid "Block"
+msgstr "كتلة"
+
+#: ../data/lxterminal-preferences.glade.h:13
+msgid "Underline"
+msgstr "تسطير"
+
+#: ../data/lxterminal-preferences.glade.h:14
+msgid "Audible bell"
+msgstr "جرس مسموع"
+
+#: ../data/lxterminal-preferences.glade.h:15
+msgid "Black"
+msgstr "أسود"
+
+#: ../data/lxterminal-preferences.glade.h:16
+msgid "Red"
+msgstr "أحمر"
+
+#: ../data/lxterminal-preferences.glade.h:17
+#, fuzzy
+msgid "Green"
+msgstr "أخضر"
+
+#: ../data/lxterminal-preferences.glade.h:18
+msgid "Brown"
+msgstr "بني"
+
+#: ../data/lxterminal-preferences.glade.h:19
+msgid "Blue"
+msgstr "أزرق"
+
+#: ../data/lxterminal-preferences.glade.h:20
+msgid "Magenta"
+msgstr "أرجواني"
+
+#: ../data/lxterminal-preferences.glade.h:21
+msgid "Cyan"
+msgstr "ازرق سماوي"
+
+#: ../data/lxterminal-preferences.glade.h:22
+msgid "Gray"
+msgstr "رمادي"
+
+#: ../data/lxterminal-preferences.glade.h:23
+msgid "Darkgray"
+msgstr "الرمادي الداكن"
+
+#: ../data/lxterminal-preferences.glade.h:24
+msgid "Bright Red"
+msgstr "أحمر فاتح"
+
+#: ../data/lxterminal-preferences.glade.h:25
+msgid "Bright Green"
+msgstr "اخضر فاتح"
+
+#: ../data/lxterminal-preferences.glade.h:26
+msgid "Yellow"
+msgstr "أصفر"
+
+#: ../data/lxterminal-preferences.glade.h:27
+msgid "Bright Blue"
+msgstr "أزرق فاتح"
+
+#: ../data/lxterminal-preferences.glade.h:28
+msgid "Bright Magenta"
+msgstr "أرجواني فاتح"
+
+#: ../data/lxterminal-preferences.glade.h:29
+msgid "Bright Cyan"
+msgstr "السماوي الساطع"
+
+#: ../data/lxterminal-preferences.glade.h:30
+msgid "White"
+msgstr "أبيض"
+
+#: ../data/lxterminal-preferences.glade.h:31
+msgid "Palette"
+msgstr "لوحة"
+
+#: ../data/lxterminal-preferences.glade.h:32
+msgid "Palette Preset"
+msgstr "لوحة مسبقا"
+
+#: ../data/lxterminal-preferences.glade.h:33
+msgid "Style"
+msgstr "المظهر"
+
+#: ../data/lxterminal-preferences.glade.h:34
+msgid "Tab panel position"
+msgstr "موقع شريط الألسنة"
+
+#: ../data/lxterminal-preferences.glade.h:35
+msgid "Scrollback lines"
+msgstr "سطور التمرير الخلفي"
+
+#: ../data/lxterminal-preferences.glade.h:36
+msgid "Hide scroll bar"
+msgstr "اخفِ شريط التمرير"
+
+#: ../data/lxterminal-preferences.glade.h:37
+msgid "Hide menu bar"
+msgstr "اخفِ شريط القوائم"
+
+#: ../data/lxterminal-preferences.glade.h:38
+msgid "Hide Close buttons"
+msgstr "إخفاء زر الإغلاق"
+
+#: ../data/lxterminal-preferences.glade.h:39
+msgid "Hide mouse pointer"
+msgstr "إخفاء مؤشر الفأرة"
+
+#: ../data/lxterminal-preferences.glade.h:40
+msgid "Default window size"
+msgstr "حجم النافذة الإفتراضي"
+
+#: ../data/lxterminal-preferences.glade.h:41
+msgid "x"
+msgstr "x"
+
+#: ../data/lxterminal-preferences.glade.h:42
+msgid "Display"
+msgstr "العرض"
+
+#: ../data/lxterminal-preferences.glade.h:43
+msgid "Select-by-word characters"
+msgstr "اختر باعتبار محارف الكلمات"
+
+#: ../data/lxterminal-preferences.glade.h:44
+msgid "Disable menu shortcut key (F10 by default)"
+msgstr "عطِّل مفتاح اختصار القائمة (F10 في الوضع الافتراضي)"
+
+#: ../data/lxterminal-preferences.glade.h:45
+#, fuzzy
+msgid "Disable using Alt-n for tabs and menu"
+msgstr "تعطيل إستعمال Alt-n للألسنة و القائمة"
+
+#: ../data/lxterminal-preferences.glade.h:46
+msgid "Disable confirmation before closing a window with multiple tabs"
+msgstr "تعطيل التأكيد قبل إغلاق النافذة مع نوافذ متعددة"
+
+#: ../data/lxterminal-preferences.glade.h:47
+msgid "Advanced"
+msgstr "الوضع المتقدم"
+
+#: ../data/lxterminal-preferences.glade.h:48
+#, fuzzy
+msgid "New Window"
+msgstr "_نافذة جديدة"
+
+#: ../data/lxterminal-preferences.glade.h:49
+#, fuzzy
+msgid "New Tab"
+msgstr "_لسان جديد"
+
+#: ../data/lxterminal-preferences.glade.h:50
+#, fuzzy
+msgid "Close Tab"
+msgstr "أ_غلق اللسان"
+
+#: ../data/lxterminal-preferences.glade.h:51
+#, fuzzy
+msgid "Close Window"
+msgstr "_نافذة جديدة"
+
+#: ../data/lxterminal-preferences.glade.h:52
+msgid "Copy"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:53
+#, fuzzy
+msgid "Paste"
+msgstr "ا_لصق"
+
+#: ../data/lxterminal-preferences.glade.h:55
+#, fuzzy
+msgid "Previous Tab"
+msgstr "اللسان ال_سابق"
+
+#: ../data/lxterminal-preferences.glade.h:56
+#, fuzzy
+msgid "Next Tab"
+msgstr "اللسان ال_تالي"
+
+#: ../data/lxterminal-preferences.glade.h:57
+#, fuzzy
+msgid "Move Tab Left"
+msgstr "انقل اللسان إلى ال_يسار"
+
+#: ../data/lxterminal-preferences.glade.h:58
+#, fuzzy
+msgid "Move Tab Right"
+msgstr "انقل اللسان إلى اليمي_ن"
+
+#: ../data/lxterminal-preferences.glade.h:59
+msgid "Zoom In"
+msgstr "تكبير"
+
+#: ../data/lxterminal-preferences.glade.h:60
+msgid "Zoom Out"
+msgstr "تصغير"
+
+#: ../data/lxterminal-preferences.glade.h:61
+msgid "Zoom Reset"
+msgstr "إعادة تعيين الحجم"
+
+#: ../data/lxterminal-preferences.glade.h:62
+msgid "Shortcuts"
+msgstr "الإختصارات"
+
+#: ../data/lxterminal.desktop.in.h:2
+msgid "Terminal"
+msgstr "شاشة طرفية"
+
+#: ../data/lxterminal.desktop.in.h:3
+msgid "Use the command line"
+msgstr "استخدِم سطر الأوامر"
+
+#: ../data/lxterminal.desktop.in.h:4
+msgid "console;command line;execute;"
+msgstr "console;command line;execute;"
+
+#~ msgid "West European"
+#~ msgstr "غرب أوروبي"
+
+#~ msgid "East European"
+#~ msgstr "شرق أوروبي"
+
+#~ msgid "East Asian"
+#~ msgstr "شرق أسيوي"
+
+#~ msgid "SE & SW Asian"
+#~ msgstr "جنوب شرق وجنوب غرب أسيوي"
+
+#~ msgid "Middle Eastern"
+#~ msgstr "شرق أوسطي"
+
+#~ msgid "Unicode"
+#~ msgstr "يونيكود"
+
+#~ msgid "Western"
+#~ msgstr "غربي"
+
+#~ msgid "Central European"
+#~ msgstr "وسط أوروبي"
+
+#~ msgid "South European"
+#~ msgstr "جنوب أوروبي"
+
+#~ msgid "Baltic"
+#~ msgstr "بلطيقي"
+
+#~ msgid "Cyrillic"
+#~ msgstr "سريلي"
+
+#~ msgid "Arabic"
+#~ msgstr "عربي"
+
+#~ msgid "Greek"
+#~ msgstr "يوناني"
+
+#~ msgid "Hebrew Visual"
+#~ msgstr "عبري مرئي"
+
+#~ msgid "Hebrew"
+#~ msgstr "عبري"
+
+#~ msgid "Turkish"
+#~ msgstr "تركي"
+
+#~ msgid "Nordic"
+#~ msgstr "نُردي"
+
+#~ msgid "Celtic"
+#~ msgstr "سلتي"
+
+#~ msgid "Romanian"
+#~ msgstr "روماني"
+
+#~ msgid "Armenian"
+#~ msgstr "أرميني"
+
+#~ msgid "Chinese Traditional"
+#~ msgstr "صيني تقليدي"
+
+#~ msgid "Cyrillic/Russian"
+#~ msgstr "سريلي/روسي"
+
+#~ msgid "Japanese"
+#~ msgstr "ياباني"
+
+#~ msgid "Korean"
+#~ msgstr "كوري"
+
+#~ msgid "Chinese Simplified"
+#~ msgstr "صيني مبسط"
+
+#~ msgid "Georgian"
+#~ msgstr "جورجي"
+
+#~ msgid "Cyrillic/Ukrainian"
+#~ msgstr "سريلي/أوكراني"
+
+#~ msgid "Croatian"
+#~ msgstr "كرواتي"
+
+#~ msgid "Hindi"
+#~ msgstr "هندي"
+
+#~ msgid "Farsi"
+#~ msgstr "فارسي"
+
+#~ msgid "Gujarati"
+#~ msgstr "جوجاراتي"
+
+#~ msgid "Gurmukhi"
+#~ msgstr "جرموخي"
+
+#~ msgid "Icelandic"
+#~ msgstr "أيسلندي"
+
+#~ msgid "Vietnamese"
+#~ msgstr "فيتنامي"
+
+#~ msgid "Thai"
+#~ msgstr "تايلندي"
+
+#~ msgid "_Quit"
+#~ msgstr "أ_نه"
+
+#~ msgid "gtk-cancel"
+#~ msgstr "gtk-إلغاء"
+
+#~ msgid "gtk-ok"
+#~ msgstr "gtk-موافق"
+
+#~ msgid "Misc"
+#~ msgstr "خيارات متنوعة"
+
+#~ msgid "Disable F10 shortcut for menu:"
+#~ msgstr "عطّل الاختصار F10 للقائمة:"
+
+#~ msgid "General"
+#~ msgstr "عام"
+
+#~ msgid "_Preferences"
+#~ msgstr "_تفضيلات"
+
+#~ msgid "Transparent Background:"
+#~ msgstr "خلفية شفافة:"
+
+#~ msgid "_View"
+#~ msgstr "_عرض"
+
+#~ msgid "_Character Encoding"
+#~ msgstr "_ترميز المحارف"
