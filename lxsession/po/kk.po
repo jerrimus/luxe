@@ -1,0 +1,808 @@
+# Kazakh translation for lxsession.
+# Copyright (C) 2012 The LXDE team
+# This file is distributed under the same license as the LXDE package.
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-11 15:47+0300\n"
+"PO-Revision-Date: 2017-05-28 17:23+0000\n"
+"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
+"Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
+"Language: templates\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1439775037.646574\n"
+
+#: ../lxsession-logout/lxsession-logout.c:48
+msgid "Custom message to show on the dialog"
+msgstr "Сұхбатта көрсетілетін таңдауыңызша хабарлама"
+
+#: ../lxsession-logout/lxsession-logout.c:48
+msgid "message"
+msgstr "хабарлама"
+
+#: ../lxsession-logout/lxsession-logout.c:49
+msgid "Banner to show on the dialog"
+msgstr "Сұхбатта көрсетілетін баннер"
+
+#: ../lxsession-logout/lxsession-logout.c:49
+msgid "image file"
+msgstr "сурет файлы"
+
+#: ../lxsession-logout/lxsession-logout.c:50
+msgid "Position of the banner"
+msgstr "Баннер орналасуы"
+
+#: ../lxsession-logout/lxsession-logout.c:460
+#, c-format
+msgid "Error: %s\n"
+msgstr "Қате: %s\n"
+
+#: ../lxsession-logout/lxsession-logout.c:694
+#, c-format
+msgid "<b><big>Logout %s %s session ?</big></b>"
+msgstr "<b><big>%s %s сеансын аяқтау керек пе?</big></b>"
+
+#: ../lxsession-logout/lxsession-logout.c:702
+msgid "Sh_utdown"
+msgstr "Сө_ндіру"
+
+#: ../lxsession-logout/lxsession-logout.c:713
+msgid "_Reboot"
+msgstr "Қай_та қосу"
+
+#: ../lxsession-logout/lxsession-logout.c:724
+msgid "_Suspend"
+msgstr "Ұ_йықтату"
+
+#: ../lxsession-logout/lxsession-logout.c:735
+msgid "_Hibernate"
+msgstr "Г_ибернация"
+
+#: ../lxsession-logout/lxsession-logout.c:746
+msgid "S_witch User"
+msgstr "Па_йдаланушыны ауыстыру"
+
+#: ../lxsession-logout/lxsession-logout.c:757
+msgid "L_ock Screen"
+msgstr "Экранды бл_октау"
+
+#. Create the Logout button.
+#: ../lxsession-logout/lxsession-logout.c:766
+msgid "_Logout"
+msgstr "Ш_ығу"
+
+#: ../lxsession-edit/lxsession-edit-common.c:385
+msgid "Enabled"
+msgstr "Іске қосулы"
+
+#: ../lxsession-edit/lxsession-edit-common.c:390
+msgid "Application"
+msgstr "Қолданба"
+
+#: ../lxpolkit/lxpolkit.c:43
+msgid "Error"
+msgstr "Қате"
+
+#: ../lxpolkit/lxpolkit.c:46
+msgid "Information"
+msgstr "Ақпарат"
+
+#: ../lxpolkit/lxpolkit-listener.c:88
+msgid ""
+"Authentication failed!\n"
+"Wrong password?"
+msgstr ""
+"Аутентификация сәтсіз!\n"
+"Пароль қате ма?"
+
+#: ../lxpolkit/lxpolkit-listener.c:106
+msgid "Password: "
+msgstr "Пароль: "
+
+#: ../lxpolkit/lxpolkit-listener.c:251
+#, c-format
+msgid "Group: %s"
+msgstr "Топ: %s"
+
+#: ../data/ui/lxsession-edit.ui.h:1 ../data/lxsession-edit.desktop.in.h:1
+msgid "Desktop Session Settings"
+msgstr "Жұмыс үстелі сессиясының баптаулары"
+
+#: ../data/ui/lxsession-edit.ui.h:2
+msgid "Applications automatically started after entering desktop:"
+msgstr "Жүйеге кіргеннен кейін автоматты түрде іске қосылатын қолданбалар:"
+
+#: ../data/ui/lxsession-edit.ui.h:3
+msgid "Automatically Started Applications"
+msgstr "Автоматты түрде іске қосылатын қолданбалар"
+
+#: ../data/ui/lxsession-edit.ui.h:4
+msgid "Window Manager:"
+msgstr "Терезелер басқарушысы:"
+
+#: ../data/ui/lxsession-edit.ui.h:5
+msgid ""
+"Command line used to launch window manager\n"
+"(The default window manager command for LXDE should be openbox-lxde)"
+msgstr ""
+"Терезелер басқарушысын іске қосу командасы\n"
+"(LXDE үшін үнсіз келісім бойынша openbox-lxde болуы тиіс)"
+
+#: ../data/ui/lxsession-edit.ui.h:7
+msgid ""
+"<b>Warning:</b> Do <b>NOT</b> touch this unless you know exactly what you "
+"are doing.\n"
+"\n"
+"<b>NOTE:</b> This setting will take effect on next login."
+msgstr ""
+"<b>Ескерту:</b> Неге үшін білмесеңіз, осыны <b>ӨЗГЕРТПЕҢІЗ</b>.\n"
+"\n"
+"<b>ЕСТЕЛІК:</b> Бұл баптаулар жүйеге келесі рет кірген кезде іске асырылады."
+
+#: ../data/ui/lxsession-edit.ui.h:10
+msgid "Advanced Options"
+msgstr "Кеңейтілген баптаулар"
+
+#: ../data/ui/lxpolkit.ui.h:1
+msgid "Authentication"
+msgstr "Аутенфикация"
+
+#: ../data/ui/lxpolkit.ui.h:2
+msgid "Identity:"
+msgstr "Идентификация:"
+
+#: ../data/ui/lxsession-default-apps.ui.h:1
+msgid "File Manager"
+msgstr "Файлдар басқарушысы"
+
+#: ../data/ui/lxsession-default-apps.ui.h:2
+msgid "Reload"
+msgstr "Жаңарту"
+
+#: ../data/ui/lxsession-default-apps.ui.h:3
+msgid "More"
+msgstr "Көбірек"
+
+#: ../data/ui/lxsession-default-apps.ui.h:4
+msgid "Terminal manager"
+msgstr "Терминал басқарушысы"
+
+#: ../data/ui/lxsession-default-apps.ui.h:5
+msgid "Webbrowser"
+msgstr "Веб браузері"
+
+#: ../data/ui/lxsession-default-apps.ui.h:6
+msgid "Email"
+msgstr "Эл. пошта"
+
+#: ../data/ui/lxsession-default-apps.ui.h:7
+msgid "Communication 1"
+msgstr "Байланысу 1"
+
+#: ../data/ui/lxsession-default-apps.ui.h:8
+msgid "Communication 2"
+msgstr "Байланысу 2"
+
+#: ../data/ui/lxsession-default-apps.ui.h:9
+msgid "Widget 1"
+msgstr "Виджет 1"
+
+#: ../data/ui/lxsession-default-apps.ui.h:10
+msgid "Launcher manager"
+msgstr "Жөнелту басқарушысы"
+
+#: ../data/ui/lxsession-default-apps.ui.h:11
+msgid "Screenshot manager"
+msgstr "Скриншоттар басқарушысы"
+
+#: ../data/ui/lxsession-default-apps.ui.h:12
+msgid "PDF Reader"
+msgstr "PDF оқу сайманы"
+
+#: ../data/ui/lxsession-default-apps.ui.h:13
+msgid "Video player"
+msgstr "Видео плеері"
+
+#: ../data/ui/lxsession-default-apps.ui.h:14
+msgid "Audio player"
+msgstr "Аудио плеері"
+
+#: ../data/ui/lxsession-default-apps.ui.h:15
+msgid "Image viewer"
+msgstr "Суреттерді көрсету бағдарламасы"
+
+#: ../data/ui/lxsession-default-apps.ui.h:16
+msgid "Text editor"
+msgstr "Мәтін түзеткіші"
+
+#: ../data/ui/lxsession-default-apps.ui.h:17
+msgid "Archive"
+msgstr "Архив"
+
+#: ../data/ui/lxsession-default-apps.ui.h:18
+msgid "Charmap"
+msgstr "Таңбалар кестесі"
+
+#: ../data/ui/lxsession-default-apps.ui.h:19
+msgid "Calculator"
+msgstr "Калькулятор"
+
+#: ../data/ui/lxsession-default-apps.ui.h:20
+msgid "Spreadsheet"
+msgstr "Электрондық кесте"
+
+#: ../data/ui/lxsession-default-apps.ui.h:21
+msgid "Bittorent"
+msgstr "Битторент"
+
+#: ../data/ui/lxsession-default-apps.ui.h:22
+msgid "Document"
+msgstr "Құжат"
+
+#: ../data/ui/lxsession-default-apps.ui.h:23
+msgid "Webcam"
+msgstr "Вебкамера"
+
+#: ../data/ui/lxsession-default-apps.ui.h:24
+msgid "Burning utility"
+msgstr "Дисктерді жазу утилитасы"
+
+#: ../data/ui/lxsession-default-apps.ui.h:25
+msgid "Notes utility"
+msgstr "Естеліктер утилитасы"
+
+#: ../data/ui/lxsession-default-apps.ui.h:26
+msgid "Disks utility"
+msgstr "Дисктер утилитасы"
+
+#: ../data/ui/lxsession-default-apps.ui.h:27
+msgid "Tasks monitor"
+msgstr "Тапсырмалар бақылаушысы"
+
+#: ../data/ui/lxsession-default-apps.ui.h:28
+msgid "Launching applications"
+msgstr "Қолданбаларды жөнелту"
+
+#: ../data/ui/lxsession-default-apps.ui.h:29
+msgid "Windows Manager"
+msgstr "Терезелер басқарушысы"
+
+#: ../data/ui/lxsession-default-apps.ui.h:30
+msgid "Panel"
+msgstr "Панель"
+
+#: ../data/ui/lxsession-default-apps.ui.h:31
+msgid "Dock"
+msgstr "Қалқымалы панель"
+
+#: ../data/ui/lxsession-default-apps.ui.h:32
+msgid "Composite Manager"
+msgstr "Композиттік менеджер"
+
+#: ../data/ui/lxsession-default-apps.ui.h:33
+msgid "Desktop Manager"
+msgstr "Жұмыс үстел басқарушысы"
+
+#: ../data/ui/lxsession-default-apps.ui.h:34
+msgid "Screensaver"
+msgstr "Экран қорғаушысы"
+
+#: ../data/ui/lxsession-default-apps.ui.h:35
+msgid "Power Manager"
+msgstr "Эл. қоректі басқарушысы"
+
+#: ../data/ui/lxsession-default-apps.ui.h:36
+msgid "Polkit agent"
+msgstr "Polkit агенті"
+
+#: ../data/ui/lxsession-default-apps.ui.h:37
+msgid "Network GUI"
+msgstr "Желіні басқару"
+
+#: ../data/ui/lxsession-default-apps.ui.h:38
+msgid "Lock screen manager"
+msgstr "Экранды блоктау басқарушысы"
+
+#: ../data/ui/lxsession-default-apps.ui.h:39
+msgid "Audio manager"
+msgstr "Аудио басқарушысы"
+
+#: ../data/ui/lxsession-default-apps.ui.h:40
+msgid "Workspace manager"
+msgstr "Жұмыс орындар басқарушысы"
+
+#: ../data/ui/lxsession-default-apps.ui.h:41
+msgid "Quit manager"
+msgstr "Шығу менеджері"
+
+#: ../data/ui/lxsession-default-apps.ui.h:42
+msgid "Upgrade manager"
+msgstr "Жаңартулар басқарушысы"
+
+#: ../data/ui/lxsession-default-apps.ui.h:43
+msgid "Clipboard manager"
+msgstr "Алмасу буферін басқарушысы"
+
+#: ../data/ui/lxsession-default-apps.ui.h:44
+msgid "Security (keyring)"
+msgstr "Қауіпсіздік (кілттер)"
+
+#: ../data/ui/lxsession-default-apps.ui.h:45
+msgid "A11y"
+msgstr "A11y"
+
+#: ../data/ui/lxsession-default-apps.ui.h:46
+msgid "Proxy"
+msgstr "Прокси"
+
+#: ../data/ui/lxsession-default-apps.ui.h:47
+msgid "Xrandr"
+msgstr "Xrandr"
+
+#: ../data/ui/lxsession-default-apps.ui.h:48
+msgid "Core applications"
+msgstr "Базалық қолданбалар"
+
+#: ../data/ui/lxsession-default-apps.ui.h:49
+msgid "Disable autostarted applications ?"
+msgstr "Қолданбалардың іске автоқосылуын сөндіру керек пе?"
+
+#: ../data/ui/lxsession-default-apps.ui.h:50
+msgid "<b>Settings</b>"
+msgstr "<b>Баптаулар</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:51
+msgid "<b>Manual autostarted applications</b>"
+msgstr "<b>Қолдан автоқосылатын қолданбалар</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:52
+msgid "<b>Known Applications </b>"
+msgstr "<b>Белгілі қолданбалар</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:53
+msgid "Autostart"
+msgstr "Автоқосылу"
+
+#: ../data/ui/lxsession-default-apps.ui.h:54
+msgid "Laptop mode"
+msgstr "Ноутбук режимі"
+
+#: ../data/ui/lxsession-default-apps.ui.h:55
+msgid "<b>General settings</b>"
+msgstr "<b>Жалпы баптаулар</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:56
+msgid "<b>Dbus</b>"
+msgstr "<b>Dbus</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:57
+msgid "Type"
+msgstr "Түрі"
+
+#: ../data/ui/lxsession-default-apps.ui.h:58
+msgid "Menu prefix"
+msgstr "Мәзір префиксі"
+
+#: ../data/ui/lxsession-default-apps.ui.h:59
+#: ../lxsession-default-apps/combobox.vala:168
+#: ../lxsession-default-apps/combobox.vala:284
+msgid "Apply"
+msgstr "Іске асыру"
+
+#: ../data/ui/lxsession-default-apps.ui.h:60
+msgid "<b>Environment</b>"
+msgstr "<b>Қоршам ортасы</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:61
+msgid "Mode"
+msgstr "Режимі"
+
+#: ../data/ui/lxsession-default-apps.ui.h:62
+msgid "Model"
+msgstr "Модель"
+
+#: ../data/ui/lxsession-default-apps.ui.h:63
+msgid "Layout"
+msgstr "Жайма"
+
+#: ../data/ui/lxsession-default-apps.ui.h:64
+msgid "Variant"
+msgstr "Нұсқасы"
+
+#: ../data/ui/lxsession-default-apps.ui.h:65
+msgid "Options"
+msgstr "Опциялар"
+
+#: ../data/ui/lxsession-default-apps.ui.h:66
+msgid "<b>Keymap</b>"
+msgstr "<b>Жайма</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:67
+msgid "Settings"
+msgstr "Баптаулар"
+
+#: ../data/lxsession-edit.desktop.in.h:2
+msgid "Manage applications loaded in desktop session"
+msgstr "Жұмыс үстелі сессиясында жүктелетін қолданбаларды басқару"
+
+#: ../data/lxsession-default-apps.desktop.in.h:1
+msgid "Default applications for LXSession"
+msgstr "LXSession үшін үнсіз келісім қолданбалары"
+
+#: ../data/lxsession-default-apps.desktop.in.h:2
+msgid "Change the default applications on LXDE"
+msgstr "LXDE үшін үнсіз келісім қолданбаларын таңдау"
+
+#: ../data/lxpolkit.desktop.in.h:1
+msgid "LXPolKit"
+msgstr "LXPolKit"
+
+#: ../data/lxpolkit.desktop.in.h:2
+msgid "Policykit Authentication Agent"
+msgstr "PolicyKit аутентификация агенті"
+
+#: ../lxsession-default-apps/main.vala:29
+msgid "Update lxsession database"
+msgstr "lxsession дерекқорын жаңарту"
+
+#. Widget content:
+#: ../lxsession-default-apps/main.vala:42
+msgid "The database is updating, please wait"
+msgstr "Дерекқор жаңартылуда, күте тұрыңыз"
+
+#: ../lxsession-default-apps/main.vala:91
+msgid "LXSession configuration"
+msgstr "LXSession баптаулары"
+
+#. Common string
+#: ../lxsession-default-apps/main.vala:143
+msgid ""
+"Manual Settings: Manually sets the command (you need to restart lxsession-"
+"default-apps to see the change)\n"
+msgstr ""
+"Қолдан баптаулар: Қолмен көрсетілген команда (өзгерісті көру үшін, сізге "
+"lxsession-default-apps қайта қосу керек)\n"
+
+#: ../lxsession-default-apps/main.vala:144
+msgid "Session : specify the session\n"
+msgstr "Сессия: сессияны көрсетіңіз\n"
+
+#: ../lxsession-default-apps/main.vala:145
+msgid "Extra: Add an extra parameter to the launch option\n"
+msgstr "Экстра: жөнелту опциясына экстра параметрді қосыңыз\n"
+
+#: ../lxsession-default-apps/main.vala:146
+msgid ""
+"Mime association: Automatically associates mime types to this application ?\n"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:147
+msgid ""
+"Available applications : Applications of this type available on your "
+"repositories\n"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:148
+msgid "Handle Desktop: Draw the desktop using the file manager ?\n"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:149
+msgid "Autostart the application ?\n"
+msgstr "Қолданбаны автожөнелту керек пе ?\n"
+
+#: ../lxsession-default-apps/main.vala:150
+msgid ""
+"Set default program for Debian system (using update-alternatives, need root "
+"password)\n"
+msgstr ""
+
+#. New inits
+#: ../lxsession-default-apps/main.vala:153
+msgid ""
+"Windows manager draws and manage the windows. \n"
+"You can choose openbox, openbox-custom (for a custom openbox configuration, "
+"see \"More\"), kwin, compiz ..."
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:158
+msgid ""
+"Panel is the component usually at the bottom of the screen which manages a "
+"list of opened windows, shortcuts, notification area ..."
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:163
+msgid ""
+"Dock is a second panel. It's used to launch a different program to handle a "
+"second type of panel."
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:168
+msgid ""
+"File manager is the component which open the files.\n"
+"See \"More\" to add options to handle the desktop, or opening files "
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:173
+msgid ""
+"Composite manager enables graphics effects, like transpacency and shadows, "
+"if the windows manager doesn't handle it. \n"
+"Example: compton"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:178
+msgid ""
+"Desktop manager draws the desktop and manages the icons inside it.\n"
+"You can manage it with the file manager by setting \"filemanager\""
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:180
+msgid "Wallpaper: Set an image path to draw the wallpaper"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:183
+msgid ""
+"Screensaver is a program which displays animations when your computer is idle"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:188
+msgid ""
+"Power Manager helps you to reduce the usage of batteries. You probably don't "
+"need one if you have a desktop computer.\n"
+"Auto option will set it automatically, depending of the laptop mode option."
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:193
+msgid ""
+"Polkit agent provides authorisations to use some actions, like suspend, "
+"hibernate, using Consolekit ... It's not advised to make it blank."
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:198
+msgid "Set an utility to manager connections, such as nm-applet"
+msgstr "Байланыстар басқарушысы утилитасын көрсетіңіз, nm-applet сияқты"
+
+#: ../lxsession-default-apps/main.vala:203
+msgid "Use a communication software (an IRC client, an IM client ...)"
+msgstr "Хабарласу БҚ қолдану (IRC не IM клиенті сияқты ...)"
+
+#: ../lxsession-default-apps/main.vala:208
+#, fuzzy
+msgid "Use another communication software (an IRC client, an IM client ...)"
+msgstr "Хабарласу БҚ қолдану (IRC не IM клиенті сияқты ...)"
+
+#: ../lxsession-default-apps/main.vala:213
+msgid "Terminal by default to launch command line."
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:218
+msgid "Application to go to Internet, Google, Facebook, debian.org ..."
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:223
+#, fuzzy
+msgid "Application to send mails"
+msgstr "Қолданба"
+
+#: ../lxsession-default-apps/main.vala:228
+msgid "Utility to launch gadgets, like conky, screenlets ..."
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:233
+msgid ""
+"Utility to launch application, like synapse, kupfer ... \n"
+"For using lxpanel or lxde default utility, use \"lxpanelctl\" "
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:238
+msgid "Application for taking screeshot of your desktop, like scrot ..."
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:248
+msgid "Video application"
+msgstr "Видео қолданбасы"
+
+#: ../lxsession-default-apps/main.vala:253
+msgid "Audio application"
+msgstr "Аудио қолданбасы"
+
+#: ../lxsession-default-apps/main.vala:258
+msgid "Application to display images"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:263
+#, fuzzy
+msgid "Application to edit text"
+msgstr "Қолданба"
+
+#: ../lxsession-default-apps/main.vala:268
+msgid "Application to create archives, like file-roller"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:273
+msgid "Charmap application"
+msgstr "Таңбалар кестесі қолданбасы"
+
+#: ../lxsession-default-apps/main.vala:278
+msgid "Calculator application"
+msgstr "Калькулятор қолданбасы"
+
+#: ../lxsession-default-apps/main.vala:283
+msgid "Application to create spreedsheet, like gnumeric"
+msgstr "Электрондық кестелерді жасау қолданбасы, gnumeric сияқты"
+
+#: ../lxsession-default-apps/main.vala:288
+msgid "Application to manage bittorent, like transmission"
+msgstr "Битторренттерді басқару қолданбасы, transmission сияқты"
+
+#: ../lxsession-default-apps/main.vala:293
+msgid "Application to manage office text, like abiword"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:298
+msgid "Application to manage webcam"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:303
+msgid "Application to manage burning CD/DVD utilty "
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:308
+msgid "Application to manage notes utility"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:313
+msgid "Application to manage disks"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:318
+msgid "Application to monitor tasks running on your system"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:323
+msgid "Application to lock your screen"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:328
+msgid "Managing your audio configuration"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:333
+msgid "Managing your workspace configuration"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:338
+#, fuzzy
+msgid "Managing the application to quit your session"
+msgstr "Жұмыс үстелі сессиясында жүктелетін қолданбаларды басқару"
+
+#: ../lxsession-default-apps/main.vala:343
+#, fuzzy
+msgid "Managing the application to update and upgrade your system"
+msgstr "Жұмыс үстелі сессиясында жүктелетін қолданбаларды басқару"
+
+#: ../lxsession-default-apps/main.vala:348
+msgid "Managing clipboard support"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:353
+msgid ""
+"Managing keyring support.\n"
+"Standard options available \"gnome\" for gnome-keyring support  or \"ssh-"
+"agent\" for ssh-agent support"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:358
+msgid ""
+"Managing support for accessibility.\n"
+"Stardart option are gnome, for stardart gnome support."
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:363
+msgid "Managing proxy support"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:368
+msgid "Managing XRandr parameters. Use a command like xrandr --something"
+msgstr ""
+
+#: ../lxsession-default-apps/combobox.vala:145
+msgid "Manual setting"
+msgstr ""
+
+#: ../lxsession-default-apps/combobox.vala:165
+msgid "Mime Association"
+msgstr ""
+
+#: ../lxsession-default-apps/combobox.vala:194
+msgid "Available applications"
+msgstr "Қолжетерлік қолданбалар"
+
+#: ../lxsession-default-apps/combobox.vala:240
+msgid "Autostart the application ?"
+msgstr "Қолданба іске автоқосылуы керек пе?"
+
+#: ../lxsession-default-apps/combobox.vala:261
+msgid "Handle the desktop with it ?"
+msgstr ""
+
+#: ../lxsession-default-apps/combobox.vala:281
+msgid "Set debian default programs"
+msgstr ""
+
+#: ../lxsession-default-apps/combobox.vala:425
+msgid "Disable"
+msgstr "Сөндіру"
+
+#: ../lxsession-default-apps/combobox.vala:564
+msgid "Do you want to associate the following Mimetype ?\n"
+msgstr ""
+
+#: ../lxsession-default-apps/combobox.vala:612
+msgid "Cancel"
+msgstr "Бас тарту"
+
+#~ msgid "Command"
+#~ msgstr "Команда"
+
+#~ msgid "Session"
+#~ msgstr "Сеанс"
+
+#~ msgid "<b>Panel</b>"
+#~ msgstr "<b>Панель</b>"
+
+#~ msgid "Extras"
+#~ msgstr "Қосымша"
+
+#~ msgid "<b>Window Manager</b>"
+#~ msgstr "<b>Терезелер басқарушысы</b>"
+
+#~ msgid "<b>Dock</b>"
+#~ msgstr "<b>Док</b>"
+
+#~ msgid "Wallpaper"
+#~ msgstr "Тұсқағаз"
+
+#~ msgid "<b>Desktop</b>"
+#~ msgstr "<b>Жұмыс үстелі</b>"
+
+#~ msgid "Running applications"
+#~ msgstr "Қолданбаларды жөнелту"
+
+#~ msgid "Image"
+#~ msgstr "Сурет"
+
+#~ msgid "<b>XRandr</b>"
+#~ msgstr "<b>XRandr</b>"
+
+#~ msgid "Keyring"
+#~ msgstr "Кілттер сақинасы"
+
+#~ msgid "<b>Security</b>"
+#~ msgstr "<b>Қаупсіздік</b>"
+
+#~ msgid "<b>a11y</b>"
+#~ msgstr "<b>a11y</b>"
+
+#~ msgid "Activate updates"
+#~ msgstr "Жаңартуларды белсендіру"
+
+#~ msgid "<b>Updates</b>"
+#~ msgstr "<b>Жаңартулар</b>"
+
+#~ msgid "Http"
+#~ msgstr "Http"
+
+#~ msgid "<b>Proxy</b>"
+#~ msgstr "<b>Прокси</b>"
+
+#~ msgid "LXSession is not running."
+#~ msgstr "LXSession орындалып тұрған жоқ."
+
+#~ msgid "<b><big>Logout %s session?</big></b>"
+#~ msgstr "<b><big>%s сессиясынан шығу керек пе?</big></b>"

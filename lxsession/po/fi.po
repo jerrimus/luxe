@@ -1,0 +1,816 @@
+# Finnish translation for LXSession Lite
+# Copyright (C) 2008
+# This file is distributed under the same license as the PACKAGE package.
+# Elias Julkunen <elias.julkunen@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-11 15:47+0300\n"
+"PO-Revision-Date: 2017-07-19 16:44+0000\n"
+"Last-Translator: Juhani Numminen <juhaninumminen0@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: templates\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1439775037.646574\n"
+
+#: ../lxsession-logout/lxsession-logout.c:48
+msgid "Custom message to show on the dialog"
+msgstr "Valintaikkunassa näytettävä oma viesti"
+
+#: ../lxsession-logout/lxsession-logout.c:48
+msgid "message"
+msgstr "viesti"
+
+#: ../lxsession-logout/lxsession-logout.c:49
+msgid "Banner to show on the dialog"
+msgstr "Valintaikkunassa näytettävä banneri"
+
+#: ../lxsession-logout/lxsession-logout.c:49
+msgid "image file"
+msgstr "kuvatiedosto"
+
+#: ../lxsession-logout/lxsession-logout.c:50
+msgid "Position of the banner"
+msgstr "Bannerin sijainti"
+
+#: ../lxsession-logout/lxsession-logout.c:460
+#, c-format
+msgid "Error: %s\n"
+msgstr "Virhe: %s\n"
+
+#: ../lxsession-logout/lxsession-logout.c:694
+#, c-format
+msgid "<b><big>Logout %s %s session ?</big></b>"
+msgstr "<b><big>Kirjaudutaanko ulos istunnosta %s %s?</big></b>"
+
+#: ../lxsession-logout/lxsession-logout.c:702
+msgid "Sh_utdown"
+msgstr "_Sammuta"
+
+#: ../lxsession-logout/lxsession-logout.c:713
+msgid "_Reboot"
+msgstr "Käynnistä _uudelleen"
+
+#: ../lxsession-logout/lxsession-logout.c:724
+msgid "_Suspend"
+msgstr "_Keskeytystila"
+
+#: ../lxsession-logout/lxsession-logout.c:735
+msgid "_Hibernate"
+msgstr "_Lepotila"
+
+#: ../lxsession-logout/lxsession-logout.c:746
+msgid "S_witch User"
+msgstr "_Vaihda käyttäjää"
+
+#: ../lxsession-logout/lxsession-logout.c:757
+msgid "L_ock Screen"
+msgstr "_Lukitse näyttö"
+
+#. Create the Logout button.
+#: ../lxsession-logout/lxsession-logout.c:766
+msgid "_Logout"
+msgstr "K_irjaudu ulos"
+
+#: ../lxsession-edit/lxsession-edit-common.c:385
+msgid "Enabled"
+msgstr "Käytössä"
+
+#: ../lxsession-edit/lxsession-edit-common.c:390
+msgid "Application"
+msgstr "Sovellus"
+
+#: ../lxpolkit/lxpolkit.c:43
+msgid "Error"
+msgstr "Virhe"
+
+#: ../lxpolkit/lxpolkit.c:46
+msgid "Information"
+msgstr "Tietoja"
+
+#: ../lxpolkit/lxpolkit-listener.c:88
+msgid ""
+"Authentication failed!\n"
+"Wrong password?"
+msgstr ""
+"Tunnistautuminen epäonnistui!\n"
+"Väärä salasana?"
+
+#: ../lxpolkit/lxpolkit-listener.c:106
+msgid "Password: "
+msgstr "Salasana: "
+
+#: ../lxpolkit/lxpolkit-listener.c:251
+#, c-format
+msgid "Group: %s"
+msgstr "Ryhmä: %s"
+
+#: ../data/ui/lxsession-edit.ui.h:1 ../data/lxsession-edit.desktop.in.h:1
+msgid "Desktop Session Settings"
+msgstr "Työpöytäistunnon asetukset"
+
+#: ../data/ui/lxsession-edit.ui.h:2
+msgid "Applications automatically started after entering desktop:"
+msgstr "Automaattisestikäynnistettävät ohjelmat työpöydälle pääsyn jälkeen:"
+
+#: ../data/ui/lxsession-edit.ui.h:3
+msgid "Automatically Started Applications"
+msgstr "Automaattisesti avattavat sovellukset"
+
+#: ../data/ui/lxsession-edit.ui.h:4
+msgid "Window Manager:"
+msgstr "Ikkunointiohjelma:"
+
+#: ../data/ui/lxsession-edit.ui.h:5
+msgid ""
+"Command line used to launch window manager\n"
+"(The default window manager command for LXDE should be openbox-lxde)"
+msgstr ""
+"Ikkunaohjelman käynnistämiseen käytettävä komento\n"
+"(Oletuskomennon LXDE:lle pitäisi olla openbox-lxde)"
+
+#: ../data/ui/lxsession-edit.ui.h:7
+msgid ""
+"<b>Warning:</b> Do <b>NOT</b> touch this unless you know exactly what you "
+"are doing.\n"
+"\n"
+"<b>NOTE:</b> This setting will take effect on next login."
+msgstr ""
+"<b>Varoitus:</b> <b>ÄLÄ</b> koske tähän ellet tiedä tarkalleen mitä olet "
+"tekemässä.\n"
+"\n"
+"<b>Huom:</b> Tämä asetusta käytetään seuraavan kirjautumisen jälkeen."
+
+#: ../data/ui/lxsession-edit.ui.h:10
+msgid "Advanced Options"
+msgstr "Lisäasetukset"
+
+#: ../data/ui/lxpolkit.ui.h:1
+msgid "Authentication"
+msgstr "Todennus"
+
+#: ../data/ui/lxpolkit.ui.h:2
+msgid "Identity:"
+msgstr "Henkilöllisyys:"
+
+#: ../data/ui/lxsession-default-apps.ui.h:1
+msgid "File Manager"
+msgstr "Tiedostonhallinta"
+
+#: ../data/ui/lxsession-default-apps.ui.h:2
+msgid "Reload"
+msgstr "Lataa uudelleen"
+
+#: ../data/ui/lxsession-default-apps.ui.h:3
+msgid "More"
+msgstr "Lisää"
+
+#: ../data/ui/lxsession-default-apps.ui.h:4
+msgid "Terminal manager"
+msgstr "Päätteenhallinta"
+
+#: ../data/ui/lxsession-default-apps.ui.h:5
+msgid "Webbrowser"
+msgstr "Selain"
+
+#: ../data/ui/lxsession-default-apps.ui.h:6
+msgid "Email"
+msgstr "Sähköposti"
+
+#: ../data/ui/lxsession-default-apps.ui.h:7
+msgid "Communication 1"
+msgstr "Viestintä 1"
+
+#: ../data/ui/lxsession-default-apps.ui.h:8
+msgid "Communication 2"
+msgstr "Viestintä 2"
+
+#: ../data/ui/lxsession-default-apps.ui.h:9
+msgid "Widget 1"
+msgstr "Sovelma 1"
+
+#: ../data/ui/lxsession-default-apps.ui.h:10
+msgid "Launcher manager"
+msgstr "Käynnistimien hallinta"
+
+#: ../data/ui/lxsession-default-apps.ui.h:11
+msgid "Screenshot manager"
+msgstr "Kuvankaappausten hallinta"
+
+#: ../data/ui/lxsession-default-apps.ui.h:12
+msgid "PDF Reader"
+msgstr "PDF-katselin"
+
+#: ../data/ui/lxsession-default-apps.ui.h:13
+msgid "Video player"
+msgstr "Videosoitin"
+
+#: ../data/ui/lxsession-default-apps.ui.h:14
+msgid "Audio player"
+msgstr "Äänisoitin"
+
+#: ../data/ui/lxsession-default-apps.ui.h:15
+msgid "Image viewer"
+msgstr "Kuvankatselin"
+
+#: ../data/ui/lxsession-default-apps.ui.h:16
+msgid "Text editor"
+msgstr "Tekstimuokkain"
+
+#: ../data/ui/lxsession-default-apps.ui.h:17
+msgid "Archive"
+msgstr "Arkisto"
+
+#: ../data/ui/lxsession-default-apps.ui.h:18
+msgid "Charmap"
+msgstr "Merkistö"
+
+#: ../data/ui/lxsession-default-apps.ui.h:19
+msgid "Calculator"
+msgstr "Laskin"
+
+#: ../data/ui/lxsession-default-apps.ui.h:20
+msgid "Spreadsheet"
+msgstr "Taulukkolaskenta"
+
+#: ../data/ui/lxsession-default-apps.ui.h:21
+msgid "Bittorent"
+msgstr "BitTorrent"
+
+#: ../data/ui/lxsession-default-apps.ui.h:22
+msgid "Document"
+msgstr "Asiakirja"
+
+#: ../data/ui/lxsession-default-apps.ui.h:23
+msgid "Webcam"
+msgstr "Webbikamera"
+
+#: ../data/ui/lxsession-default-apps.ui.h:24
+msgid "Burning utility"
+msgstr "Poltto-ohjelma"
+
+#: ../data/ui/lxsession-default-apps.ui.h:25
+msgid "Notes utility"
+msgstr "Muistiinpanot"
+
+#: ../data/ui/lxsession-default-apps.ui.h:26
+msgid "Disks utility"
+msgstr "Levytyökalu"
+
+#: ../data/ui/lxsession-default-apps.ui.h:27
+msgid "Tasks monitor"
+msgstr "Tehtävienhallinta"
+
+#: ../data/ui/lxsession-default-apps.ui.h:28
+msgid "Launching applications"
+msgstr "Sovellusten käynnistäminen"
+
+#: ../data/ui/lxsession-default-apps.ui.h:29
+msgid "Windows Manager"
+msgstr "Ikkunointiohjelma"
+
+#: ../data/ui/lxsession-default-apps.ui.h:30
+msgid "Panel"
+msgstr "Paneeli"
+
+#: ../data/ui/lxsession-default-apps.ui.h:31
+msgid "Dock"
+msgstr "Telakka"
+
+#: ../data/ui/lxsession-default-apps.ui.h:32
+msgid "Composite Manager"
+msgstr "Komposiittihallinta"
+
+#: ../data/ui/lxsession-default-apps.ui.h:33
+msgid "Desktop Manager"
+msgstr "Työpöydän hallinta"
+
+#: ../data/ui/lxsession-default-apps.ui.h:34
+msgid "Screensaver"
+msgstr "Näytönsäästäjä"
+
+#: ../data/ui/lxsession-default-apps.ui.h:35
+msgid "Power Manager"
+msgstr "Virranhallinta"
+
+#: ../data/ui/lxsession-default-apps.ui.h:36
+msgid "Polkit agent"
+msgstr "Polkit-agentti"
+
+#: ../data/ui/lxsession-default-apps.ui.h:37
+msgid "Network GUI"
+msgstr "Verkkoasetukset"
+
+#: ../data/ui/lxsession-default-apps.ui.h:38
+msgid "Lock screen manager"
+msgstr "Näytön lukitus"
+
+#: ../data/ui/lxsession-default-apps.ui.h:39
+msgid "Audio manager"
+msgstr "Äänenhallinta"
+
+#: ../data/ui/lxsession-default-apps.ui.h:40
+msgid "Workspace manager"
+msgstr "Työtilojenhallinta"
+
+#: ../data/ui/lxsession-default-apps.ui.h:41
+msgid "Quit manager"
+msgstr "Lopeta hallintaohjelma"
+
+#: ../data/ui/lxsession-default-apps.ui.h:42
+msgid "Upgrade manager"
+msgstr "Päivitykset"
+
+#: ../data/ui/lxsession-default-apps.ui.h:43
+msgid "Clipboard manager"
+msgstr "Leikepöytä"
+
+#: ../data/ui/lxsession-default-apps.ui.h:44
+msgid "Security (keyring)"
+msgstr "Turvallisuus (avainnippu)"
+
+#: ../data/ui/lxsession-default-apps.ui.h:45
+msgid "A11y"
+msgstr "Esteettömyys"
+
+#: ../data/ui/lxsession-default-apps.ui.h:46
+msgid "Proxy"
+msgstr "Välipalvelin"
+
+#: ../data/ui/lxsession-default-apps.ui.h:47
+msgid "Xrandr"
+msgstr "Xrandr"
+
+#: ../data/ui/lxsession-default-apps.ui.h:48
+msgid "Core applications"
+msgstr "Perussovellukset"
+
+#: ../data/ui/lxsession-default-apps.ui.h:49
+msgid "Disable autostarted applications ?"
+msgstr "Otetaanko automaattisesti käynnistetyt sovellukset pois käytöstä?"
+
+#: ../data/ui/lxsession-default-apps.ui.h:50
+msgid "<b>Settings</b>"
+msgstr "<b>Asetukset</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:51
+msgid "<b>Manual autostarted applications</b>"
+msgstr "<b>Käsin asetetut automaattisesti käynnistyvät sovellukset</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:52
+msgid "<b>Known Applications </b>"
+msgstr "<b>Tunnetut sovellukset</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:53
+msgid "Autostart"
+msgstr "Automaattinen käynnistys"
+
+#: ../data/ui/lxsession-default-apps.ui.h:54
+msgid "Laptop mode"
+msgstr "Kannettava tietokone -tila"
+
+#: ../data/ui/lxsession-default-apps.ui.h:55
+msgid "<b>General settings</b>"
+msgstr "<b>Yleiset asetukset</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:56
+msgid "<b>Dbus</b>"
+msgstr "<b>Dbus</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:57
+msgid "Type"
+msgstr "Tyyppi"
+
+#: ../data/ui/lxsession-default-apps.ui.h:58
+msgid "Menu prefix"
+msgstr "Valikon etuliite"
+
+#: ../data/ui/lxsession-default-apps.ui.h:59
+#: ../lxsession-default-apps/combobox.vala:168
+#: ../lxsession-default-apps/combobox.vala:284
+msgid "Apply"
+msgstr "Toteuta"
+
+#: ../data/ui/lxsession-default-apps.ui.h:60
+msgid "<b>Environment</b>"
+msgstr "<b>Ympäristö</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:61
+msgid "Mode"
+msgstr "Tila"
+
+#: ../data/ui/lxsession-default-apps.ui.h:62
+msgid "Model"
+msgstr "Malli"
+
+#: ../data/ui/lxsession-default-apps.ui.h:63
+msgid "Layout"
+msgstr "Asettelu"
+
+#: ../data/ui/lxsession-default-apps.ui.h:64
+msgid "Variant"
+msgstr "Muunnos"
+
+#: ../data/ui/lxsession-default-apps.ui.h:65
+msgid "Options"
+msgstr "Asetukset"
+
+#: ../data/ui/lxsession-default-apps.ui.h:66
+msgid "<b>Keymap</b>"
+msgstr "<b>Näppäinasettelu</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:67
+msgid "Settings"
+msgstr "Asetukset"
+
+#: ../data/lxsession-edit.desktop.in.h:2
+msgid "Manage applications loaded in desktop session"
+msgstr "Hallitse automaattisesti käynnistettäviä sovelluksia"
+
+#: ../data/lxsession-default-apps.desktop.in.h:1
+msgid "Default applications for LXSession"
+msgstr "LXSessionin oletussovellukset"
+
+#: ../data/lxsession-default-apps.desktop.in.h:2
+msgid "Change the default applications on LXDE"
+msgstr "Muuta LXDE:n oletussovelluksia"
+
+#: ../data/lxpolkit.desktop.in.h:1
+msgid "LXPolKit"
+msgstr "LXPolKit"
+
+#: ../data/lxpolkit.desktop.in.h:2
+msgid "Policykit Authentication Agent"
+msgstr "PolicyKit-tunnistautumisohjelma"
+
+#: ../lxsession-default-apps/main.vala:29
+msgid "Update lxsession database"
+msgstr "Päivitä lxsession-tietokanta"
+
+#. Widget content:
+#: ../lxsession-default-apps/main.vala:42
+msgid "The database is updating, please wait"
+msgstr "Tietokanta päivittyy, odota hetki"
+
+#: ../lxsession-default-apps/main.vala:91
+msgid "LXSession configuration"
+msgstr "LXSessionin asetukset"
+
+#. Common string
+#: ../lxsession-default-apps/main.vala:143
+msgid ""
+"Manual Settings: Manually sets the command (you need to restart lxsession-"
+"default-apps to see the change)\n"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:144
+msgid "Session : specify the session\n"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:145
+msgid "Extra: Add an extra parameter to the launch option\n"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:146
+msgid ""
+"Mime association: Automatically associates mime types to this application ?\n"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:147
+msgid ""
+"Available applications : Applications of this type available on your "
+"repositories\n"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:148
+msgid "Handle Desktop: Draw the desktop using the file manager ?\n"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:149
+#, fuzzy
+msgid "Autostart the application ?\n"
+msgstr "Otetaanko automaattisesti käynnistetyt sovellukset pois käytöstä?"
+
+#: ../lxsession-default-apps/main.vala:150
+msgid ""
+"Set default program for Debian system (using update-alternatives, need root "
+"password)\n"
+msgstr ""
+
+#. New inits
+#: ../lxsession-default-apps/main.vala:153
+msgid ""
+"Windows manager draws and manage the windows. \n"
+"You can choose openbox, openbox-custom (for a custom openbox configuration, "
+"see \"More\"), kwin, compiz ..."
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:158
+msgid ""
+"Panel is the component usually at the bottom of the screen which manages a "
+"list of opened windows, shortcuts, notification area ..."
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:163
+msgid ""
+"Dock is a second panel. It's used to launch a different program to handle a "
+"second type of panel."
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:168
+msgid ""
+"File manager is the component which open the files.\n"
+"See \"More\" to add options to handle the desktop, or opening files "
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:173
+msgid ""
+"Composite manager enables graphics effects, like transpacency and shadows, "
+"if the windows manager doesn't handle it. \n"
+"Example: compton"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:178
+msgid ""
+"Desktop manager draws the desktop and manages the icons inside it.\n"
+"You can manage it with the file manager by setting \"filemanager\""
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:180
+msgid "Wallpaper: Set an image path to draw the wallpaper"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:183
+msgid ""
+"Screensaver is a program which displays animations when your computer is idle"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:188
+msgid ""
+"Power Manager helps you to reduce the usage of batteries. You probably don't "
+"need one if you have a desktop computer.\n"
+"Auto option will set it automatically, depending of the laptop mode option."
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:193
+msgid ""
+"Polkit agent provides authorisations to use some actions, like suspend, "
+"hibernate, using Consolekit ... It's not advised to make it blank."
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:198
+msgid "Set an utility to manager connections, such as nm-applet"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:203
+msgid "Use a communication software (an IRC client, an IM client ...)"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:208
+msgid "Use another communication software (an IRC client, an IM client ...)"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:213
+msgid "Terminal by default to launch command line."
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:218
+msgid "Application to go to Internet, Google, Facebook, debian.org ..."
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:223
+#, fuzzy
+msgid "Application to send mails"
+msgstr "Sovellus"
+
+#: ../lxsession-default-apps/main.vala:228
+msgid "Utility to launch gadgets, like conky, screenlets ..."
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:233
+msgid ""
+"Utility to launch application, like synapse, kupfer ... \n"
+"For using lxpanel or lxde default utility, use \"lxpanelctl\" "
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:238
+msgid "Application for taking screeshot of your desktop, like scrot ..."
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:248
+#, fuzzy
+msgid "Video application"
+msgstr "Sovellus"
+
+#: ../lxsession-default-apps/main.vala:253
+#, fuzzy
+msgid "Audio application"
+msgstr "Sovellus"
+
+#: ../lxsession-default-apps/main.vala:258
+msgid "Application to display images"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:263
+#, fuzzy
+msgid "Application to edit text"
+msgstr "Sovellus"
+
+#: ../lxsession-default-apps/main.vala:268
+msgid "Application to create archives, like file-roller"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:273
+#, fuzzy
+msgid "Charmap application"
+msgstr "Sovellus"
+
+#: ../lxsession-default-apps/main.vala:278
+#, fuzzy
+msgid "Calculator application"
+msgstr "Otetaanko automaattisesti käynnistetyt sovellukset pois käytöstä?"
+
+#: ../lxsession-default-apps/main.vala:283
+msgid "Application to create spreedsheet, like gnumeric"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:288
+msgid "Application to manage bittorent, like transmission"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:293
+msgid "Application to manage office text, like abiword"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:298
+msgid "Application to manage webcam"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:303
+msgid "Application to manage burning CD/DVD utilty "
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:308
+msgid "Application to manage notes utility"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:313
+msgid "Application to manage disks"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:318
+msgid "Application to monitor tasks running on your system"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:323
+msgid "Application to lock your screen"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:328
+msgid "Managing your audio configuration"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:333
+msgid "Managing your workspace configuration"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:338
+#, fuzzy
+msgid "Managing the application to quit your session"
+msgstr "Hallitse automaattisesti käynnistettäviä sovelluksia"
+
+#: ../lxsession-default-apps/main.vala:343
+#, fuzzy
+msgid "Managing the application to update and upgrade your system"
+msgstr "Hallitse automaattisesti käynnistettäviä sovelluksia"
+
+#: ../lxsession-default-apps/main.vala:348
+msgid "Managing clipboard support"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:353
+msgid ""
+"Managing keyring support.\n"
+"Standard options available \"gnome\" for gnome-keyring support  or \"ssh-"
+"agent\" for ssh-agent support"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:358
+msgid ""
+"Managing support for accessibility.\n"
+"Stardart option are gnome, for stardart gnome support."
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:363
+msgid "Managing proxy support"
+msgstr ""
+
+#: ../lxsession-default-apps/main.vala:368
+msgid "Managing XRandr parameters. Use a command like xrandr --something"
+msgstr ""
+
+#: ../lxsession-default-apps/combobox.vala:145
+msgid "Manual setting"
+msgstr ""
+
+#: ../lxsession-default-apps/combobox.vala:165
+msgid "Mime Association"
+msgstr ""
+
+#: ../lxsession-default-apps/combobox.vala:194
+#, fuzzy
+msgid "Available applications"
+msgstr "Sovellusten käynnistäminen"
+
+#: ../lxsession-default-apps/combobox.vala:240
+#, fuzzy
+msgid "Autostart the application ?"
+msgstr "Otetaanko automaattisesti käynnistetyt sovellukset pois käytöstä?"
+
+#: ../lxsession-default-apps/combobox.vala:261
+msgid "Handle the desktop with it ?"
+msgstr ""
+
+#: ../lxsession-default-apps/combobox.vala:281
+msgid "Set debian default programs"
+msgstr ""
+
+#: ../lxsession-default-apps/combobox.vala:425
+msgid "Disable"
+msgstr ""
+
+#: ../lxsession-default-apps/combobox.vala:564
+msgid "Do you want to associate the following Mimetype ?\n"
+msgstr ""
+
+#: ../lxsession-default-apps/combobox.vala:612
+msgid "Cancel"
+msgstr ""
+
+#~ msgid "Command"
+#~ msgstr "Komento"
+
+#~ msgid "Session"
+#~ msgstr "Istunto"
+
+#~ msgid "<b>Panel</b>"
+#~ msgstr "<b>Paneeli</b>"
+
+#~ msgid "Extras"
+#~ msgstr "Lisätyökalut"
+
+#~ msgid "<b>Window Manager</b>"
+#~ msgstr "<b>Ikkunanhallinta</b>"
+
+#~ msgid "<b>Dock</b>"
+#~ msgstr "<b>Telakka</b>"
+
+#~ msgid "Wallpaper"
+#~ msgstr "Taustakuva"
+
+#~ msgid "<b>Desktop</b>"
+#~ msgstr "<b>Työpöytä</b>"
+
+#~ msgid "Running applications"
+#~ msgstr "Käynnissä olevat sovellukset"
+
+#~ msgid "Image"
+#~ msgstr "Kuva"
+
+#~ msgid "<b>XRandr</b>"
+#~ msgstr "<b>XRandr</b>"
+
+#~ msgid "Keyring"
+#~ msgstr "Avainnippu"
+
+#~ msgid "<b>Security</b>"
+#~ msgstr "<b>Turvallisuus</b>"
+
+#~ msgid "<b>a11y</b>"
+#~ msgstr "<b>Esteettömyys</b>"
+
+#~ msgid "Activate updates"
+#~ msgstr "Aktivoi päivitykset"
+
+#~ msgid "<b>Updates</b>"
+#~ msgstr "<b>Päivitykset</b>"
+
+#~ msgid "Http"
+#~ msgstr "Http"
+
+#~ msgid "<b>Proxy</b>"
+#~ msgstr "<b>Välityspalvelin</b>"
+
+#~ msgid "LXSession is not running."
+#~ msgstr "LXSession ei ole käynnissä."
+
+#~ msgid "<b><big>Logout %s session?</big></b>"
+#~ msgstr "<b><big>Kirjaudutaanko ulos istunnosta %s?</big></b>"
+
+#~ msgid "Logout"
+#~ msgstr "Kirjaudu ulos"

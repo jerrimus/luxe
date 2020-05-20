@@ -1,0 +1,804 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: lxsession-lite\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-11 15:47+0300\n"
+"PO-Revision-Date: 2017-10-11 19:42+0000\n"
+"Last-Translator: Asier Iturralde Sarasola <asier.iturralde@gmail.com>\n"
+"Language-Team: Basque <alainmendi@gmail.com>\n"
+"Language: templates\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1439775037.646574\n"
+
+#: ../lxsession-logout/lxsession-logout.c:48
+msgid "Custom message to show on the dialog"
+msgstr "Elkarrizketa-koadroan erakutsiko den mezu pertsonalizatua"
+
+#: ../lxsession-logout/lxsession-logout.c:48
+msgid "message"
+msgstr "mezua"
+
+#: ../lxsession-logout/lxsession-logout.c:49
+msgid "Banner to show on the dialog"
+msgstr "Elkarrizketa-koadroan erakutsiko den titularra"
+
+#: ../lxsession-logout/lxsession-logout.c:49
+msgid "image file"
+msgstr "irudi-fitxategia"
+
+#: ../lxsession-logout/lxsession-logout.c:50
+msgid "Position of the banner"
+msgstr "Titularraren posizioa"
+
+#: ../lxsession-logout/lxsession-logout.c:460
+#, c-format
+msgid "Error: %s\n"
+msgstr "Errorea: %s\n"
+
+#: ../lxsession-logout/lxsession-logout.c:694
+#, c-format
+#, c-format, c-format
+msgid "<b><big>Logout %s %s session ?</big></b>"
+msgstr "<b><big>%s %s saioa amaitu?</big></b>"
+
+#: ../lxsession-logout/lxsession-logout.c:702
+msgid "Sh_utdown"
+msgstr "_Itzali"
+
+#: ../lxsession-logout/lxsession-logout.c:713
+msgid "_Reboot"
+msgstr "_Berrabiarazi"
+
+#: ../lxsession-logout/lxsession-logout.c:724
+msgid "_Suspend"
+msgstr "_Eseki"
+
+#: ../lxsession-logout/lxsession-logout.c:735
+msgid "_Hibernate"
+msgstr "_Hibernatu"
+
+#: ../lxsession-logout/lxsession-logout.c:746
+msgid "S_witch User"
+msgstr "_Aldatu erabiltzailea"
+
+#: ../lxsession-logout/lxsession-logout.c:757
+msgid "L_ock Screen"
+msgstr "Bl_okeatu pantaila"
+
+#. Create the Logout button.
+#: ../lxsession-logout/lxsession-logout.c:766
+msgid "_Logout"
+msgstr "Amaitu _saioa"
+
+#: ../lxsession-edit/lxsession-edit-common.c:385
+msgid "Enabled"
+msgstr "Gaituta"
+
+#: ../lxsession-edit/lxsession-edit-common.c:390
+msgid "Application"
+msgstr "Aplikazioa"
+
+#: ../lxpolkit/lxpolkit.c:43
+msgid "Error"
+msgstr "Errorea"
+
+#: ../lxpolkit/lxpolkit.c:46
+msgid "Information"
+msgstr "Informazioa"
+
+#: ../lxpolkit/lxpolkit-listener.c:88
+msgid ""
+"Authentication failed!\n"
+"Wrong password?"
+msgstr ""
+"Autentifikazioak huts egin du!\n"
+"Pasahitz okerra?"
+
+#: ../lxpolkit/lxpolkit-listener.c:106
+msgid "Password: "
+msgstr "Pasahitza: "
+
+#: ../lxpolkit/lxpolkit-listener.c:251
+#, c-format
+msgid "Group: %s"
+msgstr "Taldea: %s"
+
+#: ../data/ui/lxsession-edit.ui.h:1 ../data/lxsession-edit.desktop.in.h:1
+msgid "Desktop Session Settings"
+msgstr "Mahaigaineko saioaren ezarpenak"
+
+#: ../data/ui/lxsession-edit.ui.h:2
+msgid "Applications automatically started after entering desktop:"
+msgstr "Mahaigainera sartzean automatikoki abiaraziriko aplikazioak:"
+
+#: ../data/ui/lxsession-edit.ui.h:3
+msgid "Automatically Started Applications"
+msgstr "Automatikoki abiaraziriko aplikazioak"
+
+#: ../data/ui/lxsession-edit.ui.h:4
+msgid "Window Manager:"
+msgstr "Leiho-kudeatzailea:"
+
+#: ../data/ui/lxsession-edit.ui.h:5
+msgid ""
+"Command line used to launch window manager\n"
+"(The default window manager command for LXDE should be openbox-lxde)"
+msgstr ""
+"Leiho-kudeatzailea abiarazteko erabilitako komando lerroa\n"
+"(LXDEren leiho-kudeatzailearen komando lehenetsiak openbox-lxde izan behar "
+"luke)"
+
+#: ../data/ui/lxsession-edit.ui.h:7
+msgid ""
+"<b>Warning:</b> Do <b>NOT</b> touch this unless you know exactly what you "
+"are doing.\n"
+"\n"
+"<b>NOTE:</b> This setting will take effect on next login."
+msgstr ""
+"<b>Kontuz:</b><b>EZ</b>ukitu hau ez badakizu zertan ari zaren.\n"
+"\n"
+"<b>OHARRA:</b> Ezarpen honek hurrengo saio hasieran izango du eragina."
+
+#: ../data/ui/lxsession-edit.ui.h:10
+msgid "Advanced Options"
+msgstr "Aukera aurreratuak"
+
+#: ../data/ui/lxpolkit.ui.h:1
+msgid "Authentication"
+msgstr "Autentifikazioa"
+
+#: ../data/ui/lxpolkit.ui.h:2
+msgid "Identity:"
+msgstr "Identitatea:"
+
+#: ../data/ui/lxsession-default-apps.ui.h:1
+msgid "File Manager"
+msgstr "Fitxategi-kudeatzailea"
+
+#: ../data/ui/lxsession-default-apps.ui.h:2
+msgid "Reload"
+msgstr "Kargatu berriro"
+
+#: ../data/ui/lxsession-default-apps.ui.h:3
+msgid "More"
+msgstr "Gehiago"
+
+#: ../data/ui/lxsession-default-apps.ui.h:4
+msgid "Terminal manager"
+msgstr "Terminal-kudeatzailea"
+
+#: ../data/ui/lxsession-default-apps.ui.h:5
+msgid "Webbrowser"
+msgstr "Web-arakatzailea"
+
+#: ../data/ui/lxsession-default-apps.ui.h:6
+msgid "Email"
+msgstr "E-posta"
+
+#: ../data/ui/lxsession-default-apps.ui.h:7
+msgid "Communication 1"
+msgstr "Komunikazioa 1"
+
+#: ../data/ui/lxsession-default-apps.ui.h:8
+msgid "Communication 2"
+msgstr "Komunikazioa 2"
+
+#: ../data/ui/lxsession-default-apps.ui.h:9
+msgid "Widget 1"
+msgstr "Trepeta 1"
+
+#: ../data/ui/lxsession-default-apps.ui.h:10
+msgid "Launcher manager"
+msgstr "Abiarazle-kudeatzailea"
+
+#: ../data/ui/lxsession-default-apps.ui.h:11
+msgid "Screenshot manager"
+msgstr "Pantaila-argazki kudeatzailea"
+
+#: ../data/ui/lxsession-default-apps.ui.h:12
+msgid "PDF Reader"
+msgstr "PDF irakurgailua"
+
+#: ../data/ui/lxsession-default-apps.ui.h:13
+msgid "Video player"
+msgstr "Bideo-erreproduzigailua"
+
+#: ../data/ui/lxsession-default-apps.ui.h:14
+msgid "Audio player"
+msgstr "Audio-erreproduzigailua"
+
+#: ../data/ui/lxsession-default-apps.ui.h:15
+msgid "Image viewer"
+msgstr "Irudi-ikustailea"
+
+#: ../data/ui/lxsession-default-apps.ui.h:16
+msgid "Text editor"
+msgstr "Testu-editorea"
+
+#: ../data/ui/lxsession-default-apps.ui.h:17
+msgid "Archive"
+msgstr "Artxiboa"
+
+#: ../data/ui/lxsession-default-apps.ui.h:18
+msgid "Charmap"
+msgstr "Karaktere-mapa"
+
+#: ../data/ui/lxsession-default-apps.ui.h:19
+msgid "Calculator"
+msgstr "Kalkulagailua"
+
+#: ../data/ui/lxsession-default-apps.ui.h:20
+msgid "Spreadsheet"
+msgstr "Kalkulu-orria"
+
+#: ../data/ui/lxsession-default-apps.ui.h:21
+msgid "Bittorent"
+msgstr "BitTorrent"
+
+#: ../data/ui/lxsession-default-apps.ui.h:22
+msgid "Document"
+msgstr "Dokumentua"
+
+#: ../data/ui/lxsession-default-apps.ui.h:23
+msgid "Webcam"
+msgstr "Web-kamera"
+
+#: ../data/ui/lxsession-default-apps.ui.h:24
+msgid "Burning utility"
+msgstr "Disko-grabaziorako tresna"
+
+#: ../data/ui/lxsession-default-apps.ui.h:25
+msgid "Notes utility"
+msgstr "Oharren tresna"
+
+#: ../data/ui/lxsession-default-apps.ui.h:26
+msgid "Disks utility"
+msgstr "Diskoen tresna"
+
+#: ../data/ui/lxsession-default-apps.ui.h:27
+msgid "Tasks monitor"
+msgstr "Ataza-monitorea"
+
+#: ../data/ui/lxsession-default-apps.ui.h:28
+msgid "Launching applications"
+msgstr "Aplikazioak abiaraztea"
+
+#: ../data/ui/lxsession-default-apps.ui.h:29
+msgid "Windows Manager"
+msgstr "Leiho-kudeatzailea"
+
+#: ../data/ui/lxsession-default-apps.ui.h:30
+msgid "Panel"
+msgstr "Panela"
+
+#: ../data/ui/lxsession-default-apps.ui.h:31
+msgid "Dock"
+msgstr "Atrakatu"
+
+#: ../data/ui/lxsession-default-apps.ui.h:32
+msgid "Composite Manager"
+msgstr "Konposatze-kudeatzailea"
+
+#: ../data/ui/lxsession-default-apps.ui.h:33
+msgid "Desktop Manager"
+msgstr "Mahaigain-kudeatzailea:"
+
+#: ../data/ui/lxsession-default-apps.ui.h:34
+msgid "Screensaver"
+msgstr "Pantaila-babeslea"
+
+#: ../data/ui/lxsession-default-apps.ui.h:35
+msgid "Power Manager"
+msgstr "Energia-kudeatzailea:"
+
+#: ../data/ui/lxsession-default-apps.ui.h:36
+msgid "Polkit agent"
+msgstr "Polkit agentea"
+
+#: ../data/ui/lxsession-default-apps.ui.h:37
+msgid "Network GUI"
+msgstr "Sarearen GUIa"
+
+#: ../data/ui/lxsession-default-apps.ui.h:38
+msgid "Lock screen manager"
+msgstr "Blokeo-pantailaren kudeatzailea"
+
+#: ../data/ui/lxsession-default-apps.ui.h:39
+msgid "Audio manager"
+msgstr "Audio-kudeatzailea:"
+
+#: ../data/ui/lxsession-default-apps.ui.h:40
+msgid "Workspace manager"
+msgstr "Laneko areen kudeatzailea"
+
+#: ../data/ui/lxsession-default-apps.ui.h:41
+msgid "Quit manager"
+msgstr "Irten kudeatzailetik"
+
+#: ../data/ui/lxsession-default-apps.ui.h:42
+msgid "Upgrade manager"
+msgstr "Bertsio-berritze kudeatzailea"
+
+#: ../data/ui/lxsession-default-apps.ui.h:43
+msgid "Clipboard manager"
+msgstr "Arbel-kudeatzailea"
+
+#: ../data/ui/lxsession-default-apps.ui.h:44
+msgid "Security (keyring)"
+msgstr "Segurtasuna (gako sorta)"
+
+#: ../data/ui/lxsession-default-apps.ui.h:45
+msgid "A11y"
+msgstr "A11y"
+
+#: ../data/ui/lxsession-default-apps.ui.h:46
+msgid "Proxy"
+msgstr "Proxy-a"
+
+#: ../data/ui/lxsession-default-apps.ui.h:47
+msgid "Xrandr"
+msgstr "Xrandr"
+
+#: ../data/ui/lxsession-default-apps.ui.h:48
+msgid "Core applications"
+msgstr "Oinarrizko aplikazioak"
+
+#: ../data/ui/lxsession-default-apps.ui.h:49
+msgid "Disable autostarted applications ?"
+msgstr "Automatikoki abiaraziriko aplikazioak desgaitu?"
+
+#: ../data/ui/lxsession-default-apps.ui.h:50
+msgid "<b>Settings</b>"
+msgstr "<b>Ezarpenak</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:51
+msgid "<b>Manual autostarted applications</b>"
+msgstr "<b>Eskuz automatikoki abiaraziriko aplikazioak</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:52
+msgid "<b>Known Applications </b>"
+msgstr "<b>Aplikazio ezagunak</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:53
+msgid "Autostart"
+msgstr "Abio automatikoa"
+
+#: ../data/ui/lxsession-default-apps.ui.h:54
+msgid "Laptop mode"
+msgstr "Eramangarri modua"
+
+#: ../data/ui/lxsession-default-apps.ui.h:55
+msgid "<b>General settings</b>"
+msgstr "<b>Ezarpen orokorrak</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:56
+msgid "<b>Dbus</b>"
+msgstr "<b>Dbus</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:57
+msgid "Type"
+msgstr "Mota"
+
+#: ../data/ui/lxsession-default-apps.ui.h:58
+msgid "Menu prefix"
+msgstr "Menu aurrizkia"
+
+#: ../data/ui/lxsession-default-apps.ui.h:59
+#: ../lxsession-default-apps/combobox.vala:168
+#: ../lxsession-default-apps/combobox.vala:284
+msgid "Apply"
+msgstr "Aplikatu"
+
+#: ../data/ui/lxsession-default-apps.ui.h:60
+msgid "<b>Environment</b>"
+msgstr "<b>Ingurunea</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:61
+msgid "Mode"
+msgstr "Modua"
+
+#: ../data/ui/lxsession-default-apps.ui.h:62
+msgid "Model"
+msgstr "Eredua"
+
+#: ../data/ui/lxsession-default-apps.ui.h:63
+msgid "Layout"
+msgstr "Diseinua"
+
+#: ../data/ui/lxsession-default-apps.ui.h:64
+msgid "Variant"
+msgstr "Aldaera"
+
+#: ../data/ui/lxsession-default-apps.ui.h:65
+msgid "Options"
+msgstr "Aukerak"
+
+#: ../data/ui/lxsession-default-apps.ui.h:66
+msgid "<b>Keymap</b>"
+msgstr "<b>Teklatu-mapa</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:67
+msgid "Settings"
+msgstr "Ezarpenak"
+
+#: ../data/lxsession-edit.desktop.in.h:2
+msgid "Manage applications loaded in desktop session"
+msgstr "Kudeatu mahaigaineko saioan kargaturiko aplikazioak"
+
+#: ../data/lxsession-default-apps.desktop.in.h:1
+msgid "Default applications for LXSession"
+msgstr "LXSession-en aplikazio lehenetsiak"
+
+#: ../data/lxsession-default-apps.desktop.in.h:2
+msgid "Change the default applications on LXDE"
+msgstr "Aldatu LXDEren aplikazio lehenetsiak"
+
+#: ../data/lxpolkit.desktop.in.h:1
+msgid "LXPolKit"
+msgstr "LXPolKit"
+
+#: ../data/lxpolkit.desktop.in.h:2
+msgid "Policykit Authentication Agent"
+msgstr "Policykit autentifikazio-agentea"
+
+#: ../lxsession-default-apps/main.vala:29
+msgid "Update lxsession database"
+msgstr "Eguneratu lxsession datu-basea"
+
+#. Widget content:
+#: ../lxsession-default-apps/main.vala:42
+msgid "The database is updating, please wait"
+msgstr "Datu-basea eguneratzen ari da, itxaron mesedez"
+
+#: ../lxsession-default-apps/main.vala:91
+msgid "LXSession configuration"
+msgstr "LXSession konfigurazioa"
+
+#. Common string
+#: ../lxsession-default-apps/main.vala:143
+msgid ""
+"Manual Settings: Manually sets the command (you need to restart lxsession-"
+"default-apps to see the change)\n"
+msgstr ""
+"Eskuzko ezarpenak: Eskuz ezartzen du komandoa (lxsession-default-apps "
+"berrabiarazi behar duzu aldaketa ikusteko)\n"
+
+#: ../lxsession-default-apps/main.vala:144
+msgid "Session : specify the session\n"
+msgstr "Saioa: zehaztu saioa\n"
+
+#: ../lxsession-default-apps/main.vala:145
+msgid "Extra: Add an extra parameter to the launch option\n"
+msgstr "Gehigarria: Gehitu parametro gehigarri bat abioko aukerari\n"
+
+#: ../lxsession-default-apps/main.vala:146
+msgid ""
+"Mime association: Automatically associates mime types to this application ?\n"
+msgstr "Mime asoziazioa: Mime motak aplikazio honi automatikoki lotu?\n"
+
+#: ../lxsession-default-apps/main.vala:147
+msgid ""
+"Available applications : Applications of this type available on your "
+"repositories\n"
+msgstr ""
+"Aplikazio eskuragarriak: Errepositorioan eskuragarri dauden mota honetako "
+"aplikazioak\n"
+
+#: ../lxsession-default-apps/main.vala:148
+msgid "Handle Desktop: Draw the desktop using the file manager ?\n"
+msgstr ""
+"Maneiatu mahaigaina: Mahaigaina fitxategi-kudeatzailea erabiliz marraztu?\n"
+
+#: ../lxsession-default-apps/main.vala:149
+msgid "Autostart the application ?\n"
+msgstr "Automatikoki abiarazi aplikazioa?\n"
+
+#: ../lxsession-default-apps/main.vala:150
+msgid ""
+"Set default program for Debian system (using update-alternatives, need root "
+"password)\n"
+msgstr ""
+"Ezarri Debian sistemaren programa lehenetsia (update-alternatives erabiliz, "
+"root pasahitza behar du)\n"
+
+#. New inits
+#: ../lxsession-default-apps/main.vala:153
+msgid ""
+"Windows manager draws and manage the windows. \n"
+"You can choose openbox, openbox-custom (for a custom openbox configuration, "
+"see \"More\"), kwin, compiz ..."
+msgstr ""
+"Leiho-kudeatzaileak leihoak marraztu eta kudeatzen ditu.\n"
+"Hauetako bat aukera dezakezu: openbox, openbox-custom (openbox konfigurazio "
+"pertsonalizaturako, ikusi \"Gehiago\"), kwin, compiz..."
+
+#: ../lxsession-default-apps/main.vala:158
+msgid ""
+"Panel is the component usually at the bottom of the screen which manages a "
+"list of opened windows, shortcuts, notification area ..."
+msgstr ""
+"Panela normalean pantailaren beheko aldean egoten den osagaia da, "
+"ondorengoak kudeatzen dituena: irekitako leihoen zerrenda, lasterbideak, "
+"jakinarazpen-area..."
+
+#: ../lxsession-default-apps/main.vala:163
+msgid ""
+"Dock is a second panel. It's used to launch a different program to handle a "
+"second type of panel."
+msgstr ""
+"Dock bigarren panela da. Bigarren panel mota bat maneiatzeko erabiltzen den "
+"programa bat abiarazteko erabiltzen da."
+
+#: ../lxsession-default-apps/main.vala:168
+#, fuzzy
+msgid ""
+"File manager is the component which open the files.\n"
+"See \"More\" to add options to handle the desktop, or opening files "
+msgstr ""
+"Fitxategi-kudeatzailea fitxategiak irekitzen dituen osagaia da.\n"
+"Ikusi \"Gehiago\" mahaigaina kudeatu edo fitxategiak irekitzeko aukerak "
+"gehitzeko."
+
+#: ../lxsession-default-apps/main.vala:173
+msgid ""
+"Composite manager enables graphics effects, like transpacency and shadows, "
+"if the windows manager doesn't handle it. \n"
+"Example: compton"
+msgstr ""
+"Konposizio-kudeatzaileak gardentasuna eta itzalak bezala efektuak gaitzen "
+"ditu, leiho-kudeatzaileak ez baditu maneiatzen.\n"
+"Adibidea: compton"
+
+#: ../lxsession-default-apps/main.vala:178
+msgid ""
+"Desktop manager draws the desktop and manages the icons inside it.\n"
+"You can manage it with the file manager by setting \"filemanager\""
+msgstr ""
+"Mahaigain kudeatzaileak mahaigaina marrazten du eta bertako ikonoak "
+"kudeatzen ditu.\n"
+"Fitxategi-kudeatzailearekin kudeatu dezakezu \"fitxategi-kudeatzailea\" "
+"ezarriz"
+
+#: ../lxsession-default-apps/main.vala:180
+msgid "Wallpaper: Set an image path to draw the wallpaper"
+msgstr "Horma-papera: Ezarri horma-papera marrazteko irudiaren bidea"
+
+#: ../lxsession-default-apps/main.vala:183
+msgid ""
+"Screensaver is a program which displays animations when your computer is idle"
+msgstr ""
+"Pantaila-babeslea ordenagailua inaktibo dagoenean animazioak bistaratzen "
+"dituen programa da"
+
+#: ../lxsession-default-apps/main.vala:188
+msgid ""
+"Power Manager helps you to reduce the usage of batteries. You probably don't "
+"need one if you have a desktop computer.\n"
+"Auto option will set it automatically, depending of the laptop mode option."
+msgstr ""
+"Energia-kudeatzaileak bateria aurrezten laguntzen dizu. Mahaigaineko "
+"ordenagailu bat erabiltzen ari bazara ez duzu behar.\n"
+"Auto aukerak eramangarri moduaren aukeraren arabera automatikoki ezarriko du."
+
+#: ../lxsession-default-apps/main.vala:193
+msgid ""
+"Polkit agent provides authorisations to use some actions, like suspend, "
+"hibernate, using Consolekit ... It's not advised to make it blank."
+msgstr ""
+"Polkit agenteak zenbait ekintzetarako baimenak ematen ditu, hala nola, "
+"esekitzea, hibernatzea, Consolekit erabiltzea... Ez da gomendagarria hutsik "
+"uztea."
+
+#: ../lxsession-default-apps/main.vala:198
+msgid "Set an utility to manager connections, such as nm-applet"
+msgstr "Ezarri konexioak kudeatzeko tresna bat, adibidez, nm-applet"
+
+#: ../lxsession-default-apps/main.vala:203
+msgid "Use a communication software (an IRC client, an IM client ...)"
+msgstr "Erabili komunikaziorako softwarea (IRC bezeroa, IM bezeroa...)"
+
+#: ../lxsession-default-apps/main.vala:208
+msgid "Use another communication software (an IRC client, an IM client ...)"
+msgstr "Erabili komunikaziorako beste software bat (IRC bezeroa, IM bezeroa...)"
+
+#: ../lxsession-default-apps/main.vala:213
+msgid "Terminal by default to launch command line."
+msgstr "Komando lerroa abiarazteko terminal lehenetsia."
+
+#: ../lxsession-default-apps/main.vala:218
+msgid "Application to go to Internet, Google, Facebook, debian.org ..."
+msgstr ""
+"Internet, Google, Facebook, debian.org eta abarretara joateko aplikazioa"
+
+#: ../lxsession-default-apps/main.vala:223
+msgid "Application to send mails"
+msgstr "E-postak bidaltzeko aplikazioa"
+
+#: ../lxsession-default-apps/main.vala:228
+msgid "Utility to launch gadgets, like conky, screenlets ..."
+msgstr "Trepetak abiarazteko tresna. Adibidez, conky, screenlets..."
+
+#: ../lxsession-default-apps/main.vala:233
+msgid ""
+"Utility to launch application, like synapse, kupfer ... \n"
+"For using lxpanel or lxde default utility, use \"lxpanelctl\" "
+msgstr ""
+"Aplikazioak abiarazteko tresna. Adibidez, synapse, kupfer...\n"
+"lxpanel eta lxde-ren tresna lehenetsia erabiltzeko hautatu \"lxpanelctl\""
+
+#: ../lxsession-default-apps/main.vala:238
+msgid "Application for taking screeshot of your desktop, like scrot ..."
+msgstr "Zure mahaigainaren argazkiak ateratzeko aplikazioa, adibidez, scrot"
+
+#: ../lxsession-default-apps/main.vala:248
+msgid "Video application"
+msgstr "Bideo-aplikazioa"
+
+#: ../lxsession-default-apps/main.vala:253
+msgid "Audio application"
+msgstr "Audio-aplikazioa"
+
+#: ../lxsession-default-apps/main.vala:258
+msgid "Application to display images"
+msgstr "Irudiak bistaratzeko aplikazioa"
+
+#: ../lxsession-default-apps/main.vala:263
+msgid "Application to edit text"
+msgstr "Testua editatzeko aplikazioa"
+
+#: ../lxsession-default-apps/main.vala:268
+msgid "Application to create archives, like file-roller"
+msgstr "Artxiboak sortzeko aplikazioa, adibidez, file-roller"
+
+#: ../lxsession-default-apps/main.vala:273
+msgid "Charmap application"
+msgstr "Karaktere-mapa aplikazioa"
+
+#: ../lxsession-default-apps/main.vala:278
+msgid "Calculator application"
+msgstr "Kalkulagailu aplikazioa"
+
+#: ../lxsession-default-apps/main.vala:283
+msgid "Application to create spreedsheet, like gnumeric"
+msgstr "Kalkulu orriak sortzeko aplikazioa, adibidez, gnumeric"
+
+#: ../lxsession-default-apps/main.vala:288
+msgid "Application to manage bittorent, like transmission"
+msgstr "BitTorrent kudeaketzeko aplikazioa, adibidez, transmission"
+
+#: ../lxsession-default-apps/main.vala:293
+msgid "Application to manage office text, like abiword"
+msgstr "Testu-prozesatzaile aplikazioa, adibidez, AbiWord"
+
+#: ../lxsession-default-apps/main.vala:298
+msgid "Application to manage webcam"
+msgstr "Web-kamera kudeatzeko aplikazioa"
+
+#: ../lxsession-default-apps/main.vala:303
+msgid "Application to manage burning CD/DVD utilty "
+msgstr "CD/DVDak grabatzeko aplikazioa"
+
+#: ../lxsession-default-apps/main.vala:308
+msgid "Application to manage notes utility"
+msgstr "Oharrak kudeatzeko aplikazioa"
+
+#: ../lxsession-default-apps/main.vala:313
+msgid "Application to manage disks"
+msgstr "Diskoak kudeatzeko aplikazioa"
+
+#: ../lxsession-default-apps/main.vala:318
+msgid "Application to monitor tasks running on your system"
+msgstr "Sisteman exekutatzen ari diren atazak kontrolatzeko aplikazioa"
+
+#: ../lxsession-default-apps/main.vala:323
+msgid "Application to lock your screen"
+msgstr "Pantaila blokeatzeko aplikazioa"
+
+#: ../lxsession-default-apps/main.vala:328
+msgid "Managing your audio configuration"
+msgstr "Zure audio konfigurazioa kudeatzea"
+
+#: ../lxsession-default-apps/main.vala:333
+msgid "Managing your workspace configuration"
+msgstr "Zure laneko areen konfigurazioa kudeatzea"
+
+#: ../lxsession-default-apps/main.vala:338
+msgid "Managing the application to quit your session"
+msgstr "Zure saioa amaitzeko aplikazioa kudeatzea"
+
+#: ../lxsession-default-apps/main.vala:343
+msgid "Managing the application to update and upgrade your system"
+msgstr "Zure sistema eguneratu eta bertsio-berritzeko aplikazioa kudeatzea"
+
+#: ../lxsession-default-apps/main.vala:348
+msgid "Managing clipboard support"
+msgstr "Arbelaren euskarria kudeatzea"
+
+#: ../lxsession-default-apps/main.vala:353
+msgid ""
+"Managing keyring support.\n"
+"Standard options available \"gnome\" for gnome-keyring support  or \"ssh-"
+"agent\" for ssh-agent support"
+msgstr ""
+"Gako-sorta kudeatzeko euskarria.\n"
+"Erabilgarri dauden aukera estandarrak: \"gnome\" gnome-keyring euskarrirako "
+"eta \"ssh-agent\" ssh-agent euskarrirako"
+
+#: ../lxsession-default-apps/main.vala:358
+msgid ""
+"Managing support for accessibility.\n"
+"Stardart option are gnome, for stardart gnome support."
+msgstr ""
+"Erabilerraztasun euskarria kudeatzea.\n"
+"Aukera estandarra gnome da, gnome euskarri estandarrerako."
+
+#: ../lxsession-default-apps/main.vala:363
+msgid "Managing proxy support"
+msgstr "Proxy euskarria kudeatzea"
+
+#: ../lxsession-default-apps/main.vala:368
+msgid "Managing XRandr parameters. Use a command like xrandr --something"
+msgstr ""
+"XRandr parametroak kudeatzea. Erabili xrandr --zerbait moduko komando bat"
+
+#: ../lxsession-default-apps/combobox.vala:145
+msgid "Manual setting"
+msgstr "Eskuzko ezarpena"
+
+#: ../lxsession-default-apps/combobox.vala:165
+msgid "Mime Association"
+msgstr "MIME elkarketak"
+
+#: ../lxsession-default-apps/combobox.vala:194
+msgid "Available applications"
+msgstr "Aplikazio erabilgarriak"
+
+#: ../lxsession-default-apps/combobox.vala:240
+msgid "Autostart the application ?"
+msgstr "Automatikoki abiarazi aplikazioa?"
+
+#: ../lxsession-default-apps/combobox.vala:261
+msgid "Handle the desktop with it ?"
+msgstr "Mahaigaina maneiatu honekin?"
+
+#: ../lxsession-default-apps/combobox.vala:281
+msgid "Set debian default programs"
+msgstr "Ezarri debian-en programa lehenetsiak"
+
+#: ../lxsession-default-apps/combobox.vala:425
+msgid "Disable"
+msgstr "Desgaitu"
+
+#: ../lxsession-default-apps/combobox.vala:564
+msgid "Do you want to associate the following Mimetype ?\n"
+msgstr "Ondorengo MIME motarekin lotu nahi duzu?\n"
+
+#: ../lxsession-default-apps/combobox.vala:612
+msgid "Cancel"
+msgstr "Utzi"
+
+#, fuzzy
+#~ msgid "Command"
+#~ msgstr "Iruzkina"
+
+#, fuzzy
+#~ msgid "<b>Window Manager</b>"
+#~ msgstr "Leiho-kudeatzailea:"
+
+#, fuzzy
+#~ msgid "Running applications"
+#~ msgstr "Aplikazioa"
+
+#~ msgid "LXSession is not running."
+#~ msgstr "LXSession ez dago martxan."
+
+#~ msgid "Logout"
+#~ msgstr "Amaitu saioa"

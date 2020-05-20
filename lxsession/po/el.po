@@ -1,0 +1,902 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: el\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-11 15:47+0300\n"
+"PO-Revision-Date: 2014-11-16 18:23+0000\n"
+"Last-Translator: armakolas <armakolas@gmail.com>\n"
+"Language-Team: Greek\n"
+"Language: templates\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1439775037.646574\n"
+
+#: ../lxsession-logout/lxsession-logout.c:48
+msgid "Custom message to show on the dialog"
+msgstr "Παραμετροποιημένο μήνυμα προς εμφάνιση στο διάλογο"
+
+#: ../lxsession-logout/lxsession-logout.c:48
+msgid "message"
+msgstr "μήνυμα"
+
+#: ../lxsession-logout/lxsession-logout.c:49
+msgid "Banner to show on the dialog"
+msgstr "Σήμα προς εμφάνιση στο παράθυρο διαλόγου"
+
+#: ../lxsession-logout/lxsession-logout.c:49
+msgid "image file"
+msgstr "αρχείο εικόνας"
+
+#: ../lxsession-logout/lxsession-logout.c:50
+msgid "Position of the banner"
+msgstr "Θέση του σήματος"
+
+#: ../lxsession-logout/lxsession-logout.c:460
+#, c-format
+msgid "Error: %s\n"
+msgstr "Σφάλμα: %s\n"
+
+#: ../lxsession-logout/lxsession-logout.c:694
+#, c-format
+msgid "<b><big>Logout %s %s session ?</big></b>"
+msgstr "<b><big>Αποσύνδεση συνεδρίας %s %s;</big></b>"
+
+#: ../lxsession-logout/lxsession-logout.c:702
+msgid "Sh_utdown"
+msgstr "Α_πενεργοποίηση"
+
+#: ../lxsession-logout/lxsession-logout.c:713
+msgid "_Reboot"
+msgstr "_Επανεκκίνηση"
+
+#: ../lxsession-logout/lxsession-logout.c:724
+msgid "_Suspend"
+msgstr "_Αναστολή"
+
+#: ../lxsession-logout/lxsession-logout.c:735
+msgid "_Hibernate"
+msgstr "_Αδρανοποίηση"
+
+#: ../lxsession-logout/lxsession-logout.c:746
+msgid "S_witch User"
+msgstr "Ε_ναλλαγή χρήστη"
+
+#: ../lxsession-logout/lxsession-logout.c:757
+msgid "L_ock Screen"
+msgstr "Κ_λείδωμα Οθόνης"
+
+#. Create the Logout button.
+#: ../lxsession-logout/lxsession-logout.c:766
+msgid "_Logout"
+msgstr "_Αποσύνδεση"
+
+#: ../lxsession-edit/lxsession-edit-common.c:385
+msgid "Enabled"
+msgstr "Ενεργοποίηση"
+
+#: ../lxsession-edit/lxsession-edit-common.c:390
+msgid "Application"
+msgstr "Εφαρμογή"
+
+#: ../lxpolkit/lxpolkit.c:43
+msgid "Error"
+msgstr "Σφάλμα"
+
+#: ../lxpolkit/lxpolkit.c:46
+msgid "Information"
+msgstr "Πληροφορία"
+
+#: ../lxpolkit/lxpolkit-listener.c:88
+msgid ""
+"Authentication failed!\n"
+"Wrong password?"
+msgstr ""
+"Απέτυχε η ταυτοποίηση!\n"
+"Λανθασμένο συνθηματικό;"
+
+#: ../lxpolkit/lxpolkit-listener.c:106
+msgid "Password: "
+msgstr "Συνθηματικό:"
+
+#: ../lxpolkit/lxpolkit-listener.c:251
+#, c-format
+msgid "Group: %s"
+msgstr "Ομάδα: %s"
+
+#: ../data/ui/lxsession-edit.ui.h:1 ../data/lxsession-edit.desktop.in.h:1
+msgid "Desktop Session Settings"
+msgstr "Ιδιότητες Περιόδου Επιφάνειας Εργασίας"
+
+#: ../data/ui/lxsession-edit.ui.h:2
+msgid "Applications automatically started after entering desktop:"
+msgstr ""
+"Εφαρμογές που θα εκκινούν αυτόματα με την είσοδο στην επιφάνεια εργασίας:"
+
+#: ../data/ui/lxsession-edit.ui.h:3
+msgid "Automatically Started Applications"
+msgstr "Εφαρμογές που εκκινούν αυτόματα"
+
+#: ../data/ui/lxsession-edit.ui.h:4
+msgid "Window Manager:"
+msgstr "Διαχειριστής παραθύρων:"
+
+#: ../data/ui/lxsession-edit.ui.h:5
+msgid ""
+"Command line used to launch window manager\n"
+"(The default window manager command for LXDE should be openbox-lxde)"
+msgstr ""
+"Εντολή τερματικού που χρησιμοποιείται για να εκκινεί το διαχειριστή "
+"παραθύρων\n"
+"(Η προκαθορισμένη εντολή του διαχειριστή παραθύρων του LXDE πρέπει να είναι "
+"openbox-lxde) "
+
+#: ../data/ui/lxsession-edit.ui.h:7
+msgid ""
+"<b>Warning:</b> Do <b>NOT</b> touch this unless you know exactly what you "
+"are doing.\n"
+"\n"
+"<b>NOTE:</b> This setting will take effect on next login."
+msgstr ""
+"<b>Προειδοποίηση:</b> Μην <b>NOT</b> τροποιήσετε αυτό εκτός αν ξέρετε "
+"ακριβώς τι κάνετε.\n"
+"\n"
+"<b>NOTE:</b> Αυτή η ρύθμιση θα ισχύσει στην επόμενη σύνδεση."
+
+#: ../data/ui/lxsession-edit.ui.h:10
+msgid "Advanced Options"
+msgstr "Προχωρημένες Επιλογές"
+
+#: ../data/ui/lxpolkit.ui.h:1
+msgid "Authentication"
+msgstr "Πιστοποίηση"
+
+#: ../data/ui/lxpolkit.ui.h:2
+msgid "Identity:"
+msgstr "Ταυτότητα:"
+
+#: ../data/ui/lxsession-default-apps.ui.h:1
+msgid "File Manager"
+msgstr "Διαχειριστής Αρχείων"
+
+#: ../data/ui/lxsession-default-apps.ui.h:2
+msgid "Reload"
+msgstr "Επαναφόρτωση"
+
+#: ../data/ui/lxsession-default-apps.ui.h:3
+msgid "More"
+msgstr "Περισσότερα"
+
+#: ../data/ui/lxsession-default-apps.ui.h:4
+msgid "Terminal manager"
+msgstr "Διαχειριστής τερματικού"
+
+#: ../data/ui/lxsession-default-apps.ui.h:5
+msgid "Webbrowser"
+msgstr "Περιηγητής ιστοσελίδων"
+
+#: ../data/ui/lxsession-default-apps.ui.h:6
+msgid "Email"
+msgstr "Διεύθυνση ηλεκτρονικής αλληλογραφίας"
+
+#: ../data/ui/lxsession-default-apps.ui.h:7
+msgid "Communication 1"
+msgstr "Επικοινωνία 1"
+
+#: ../data/ui/lxsession-default-apps.ui.h:8
+msgid "Communication 2"
+msgstr "Επικοινωνία 2"
+
+#: ../data/ui/lxsession-default-apps.ui.h:9
+msgid "Widget 1"
+msgstr "Εφαρμογίδιο 1"
+
+#: ../data/ui/lxsession-default-apps.ui.h:10
+msgid "Launcher manager"
+msgstr "Διαχειριστής εκκινητή"
+
+#: ../data/ui/lxsession-default-apps.ui.h:11
+msgid "Screenshot manager"
+msgstr "Διαχειριστής στιγμιότυπων οθόνης"
+
+#: ../data/ui/lxsession-default-apps.ui.h:12
+msgid "PDF Reader"
+msgstr "Αναγνώστης PDF"
+
+#: ../data/ui/lxsession-default-apps.ui.h:13
+msgid "Video player"
+msgstr "Αναπαραγωγός video"
+
+#: ../data/ui/lxsession-default-apps.ui.h:14
+msgid "Audio player"
+msgstr "Αναπαραγωγός ήχου"
+
+#: ../data/ui/lxsession-default-apps.ui.h:15
+msgid "Image viewer"
+msgstr "Προβολέας εικόνων"
+
+#: ../data/ui/lxsession-default-apps.ui.h:16
+msgid "Text editor"
+msgstr "Επεξεργαστής κειμένου"
+
+#: ../data/ui/lxsession-default-apps.ui.h:17
+msgid "Archive"
+msgstr "Αρχείο"
+
+#: ../data/ui/lxsession-default-apps.ui.h:18
+msgid "Charmap"
+msgstr "Πίνακας χαρακτήρων"
+
+#: ../data/ui/lxsession-default-apps.ui.h:19
+msgid "Calculator"
+msgstr "Αριθμομηχανή"
+
+#: ../data/ui/lxsession-default-apps.ui.h:20
+msgid "Spreadsheet"
+msgstr "Λογιστικό φύλλο"
+
+#: ../data/ui/lxsession-default-apps.ui.h:21
+msgid "Bittorent"
+msgstr "BitTorrent"
+
+#: ../data/ui/lxsession-default-apps.ui.h:22
+msgid "Document"
+msgstr "Έγγραφο"
+
+#: ../data/ui/lxsession-default-apps.ui.h:23
+msgid "Webcam"
+msgstr "Κάμερα ιστού"
+
+#: ../data/ui/lxsession-default-apps.ui.h:24
+msgid "Burning utility"
+msgstr "Εφαρμογή εγγραφής"
+
+#: ../data/ui/lxsession-default-apps.ui.h:25
+msgid "Notes utility"
+msgstr "Εφαρμογή σημειώσεων"
+
+#: ../data/ui/lxsession-default-apps.ui.h:26
+msgid "Disks utility"
+msgstr "Εφαρμογή δίσκων"
+
+#: ../data/ui/lxsession-default-apps.ui.h:27
+msgid "Tasks monitor"
+msgstr "Παρακολούθηση διεργασιών"
+
+#: ../data/ui/lxsession-default-apps.ui.h:28
+msgid "Launching applications"
+msgstr "Εφαρμογές εκκίνησης"
+
+#: ../data/ui/lxsession-default-apps.ui.h:29
+msgid "Windows Manager"
+msgstr "Διαχειριστής Παραθύρων"
+
+#: ../data/ui/lxsession-default-apps.ui.h:30
+msgid "Panel"
+msgstr "Γραμμή εργασιών"
+
+#: ../data/ui/lxsession-default-apps.ui.h:31
+msgid "Dock"
+msgstr "Γραμμή εργασιών "
+
+#: ../data/ui/lxsession-default-apps.ui.h:32
+msgid "Composite Manager"
+msgstr "Διαχειριστής πολυσύνθετης απεικόνισης"
+
+#: ../data/ui/lxsession-default-apps.ui.h:33
+msgid "Desktop Manager"
+msgstr "Διαχειριστής Επιφάνειας Εργασίας"
+
+#: ../data/ui/lxsession-default-apps.ui.h:34
+msgid "Screensaver"
+msgstr "Προστασία οθόνης"
+
+#: ../data/ui/lxsession-default-apps.ui.h:35
+msgid "Power Manager"
+msgstr "Διαχειριστής Ενέργειας"
+
+#: ../data/ui/lxsession-default-apps.ui.h:36
+msgid "Polkit agent"
+msgstr "Μεσολαβητής Polkit"
+
+#: ../data/ui/lxsession-default-apps.ui.h:37
+msgid "Network GUI"
+msgstr "Διαχείριση Δικτύου"
+
+#: ../data/ui/lxsession-default-apps.ui.h:38
+msgid "Lock screen manager"
+msgstr "Διαχειριστής κλειδώματος οθόνης"
+
+#: ../data/ui/lxsession-default-apps.ui.h:39
+msgid "Audio manager"
+msgstr "Διαχειριστής ήχου"
+
+#: ../data/ui/lxsession-default-apps.ui.h:40
+msgid "Workspace manager"
+msgstr "Διαχειριστής χώρου εργασίας"
+
+#: ../data/ui/lxsession-default-apps.ui.h:41
+msgid "Quit manager"
+msgstr "Διαχειριστής αποσύνδεσης"
+
+#: ../data/ui/lxsession-default-apps.ui.h:42
+msgid "Upgrade manager"
+msgstr "Διαχειριστής αναβάθμισης"
+
+#: ../data/ui/lxsession-default-apps.ui.h:43
+msgid "Clipboard manager"
+msgstr "Διαχειριστής προχείρου"
+
+#: ../data/ui/lxsession-default-apps.ui.h:44
+msgid "Security (keyring)"
+msgstr "Ασφάλεια (εφαρμογή πιστοποιητικών ασφαλείας)"
+
+#: ../data/ui/lxsession-default-apps.ui.h:45
+msgid "A11y"
+msgstr "A11y"
+
+#: ../data/ui/lxsession-default-apps.ui.h:46
+msgid "Proxy"
+msgstr "Διαμεσολαβητής"
+
+#: ../data/ui/lxsession-default-apps.ui.h:47
+msgid "Xrandr"
+msgstr "Xrandr"
+
+#: ../data/ui/lxsession-default-apps.ui.h:48
+msgid "Core applications"
+msgstr "Κύριες Εφαρμογές"
+
+#: ../data/ui/lxsession-default-apps.ui.h:49
+msgid "Disable autostarted applications ?"
+msgstr "Απενεργοποίηση εφαρμογών που εκκινούν αυτόματα ;"
+
+#: ../data/ui/lxsession-default-apps.ui.h:50
+msgid "<b>Settings</b>"
+msgstr "<b>Ρυθμίσεις</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:51
+msgid "<b>Manual autostarted applications</b>"
+msgstr "<b>Εφαρμογές που εκκινούν αυτόματα κατόπιν επιλογής</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:52
+msgid "<b>Known Applications </b>"
+msgstr "<b>Γνωστές Εφαρμογές</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:53
+msgid "Autostart"
+msgstr "Αυτόματη εκτέλεση"
+
+#: ../data/ui/lxsession-default-apps.ui.h:54
+msgid "Laptop mode"
+msgstr "Λειτουργία για φορητούς"
+
+#: ../data/ui/lxsession-default-apps.ui.h:55
+msgid "<b>General settings</b>"
+msgstr "<b>Γενικές ρυθμίσεις</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:56
+msgid "<b>Dbus</b>"
+msgstr "<b>Dbus</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:57
+msgid "Type"
+msgstr "Τύπος"
+
+#: ../data/ui/lxsession-default-apps.ui.h:58
+msgid "Menu prefix"
+msgstr "Πρόθεμα μενού"
+
+#: ../data/ui/lxsession-default-apps.ui.h:59
+#: ../lxsession-default-apps/combobox.vala:168
+#: ../lxsession-default-apps/combobox.vala:284
+msgid "Apply"
+msgstr "Εφαρμογή"
+
+#: ../data/ui/lxsession-default-apps.ui.h:60
+msgid "<b>Environment</b>"
+msgstr "<b>Περιβάλλον</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:61
+msgid "Mode"
+msgstr "Τρόπος"
+
+#: ../data/ui/lxsession-default-apps.ui.h:62
+msgid "Model"
+msgstr "Πρότυπο"
+
+#: ../data/ui/lxsession-default-apps.ui.h:63
+msgid "Layout"
+msgstr "Σχέδιο"
+
+#: ../data/ui/lxsession-default-apps.ui.h:64
+msgid "Variant"
+msgstr "Μεταβλητή"
+
+#: ../data/ui/lxsession-default-apps.ui.h:65
+msgid "Options"
+msgstr "Επιλογές"
+
+#: ../data/ui/lxsession-default-apps.ui.h:66
+msgid "<b>Keymap</b>"
+msgstr "<b>Πίνακας χαρακτήρων</b>"
+
+#: ../data/ui/lxsession-default-apps.ui.h:67
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: ../data/lxsession-edit.desktop.in.h:2
+msgid "Manage applications loaded in desktop session"
+msgstr "Διαχείριση εφαρμογών που τρέχουν σε περίοδο επιφάνειας εργασίας"
+
+#: ../data/lxsession-default-apps.desktop.in.h:1
+msgid "Default applications for LXSession"
+msgstr "Προκαθορισμένες εφαρμογές για LXSession"
+
+#: ../data/lxsession-default-apps.desktop.in.h:2
+msgid "Change the default applications on LXDE"
+msgstr "Αλλαγή των προκαθορισμένων εφαρμογών στο LXDE"
+
+#: ../data/lxpolkit.desktop.in.h:1
+msgid "LXPolKit"
+msgstr "LXPolKit"
+
+#: ../data/lxpolkit.desktop.in.h:2
+msgid "Policykit Authentication Agent"
+msgstr "Mεσολαβητής Πιστοποίησης Policykit"
+
+#: ../lxsession-default-apps/main.vala:29
+msgid "Update lxsession database"
+msgstr "Ενημέρωση βάσης δεδομένων lxsession"
+
+#. Widget content:
+#: ../lxsession-default-apps/main.vala:42
+msgid "The database is updating, please wait"
+msgstr "Η βάση δεδομένων ενημερώνεται, παρακαλώ περιμένετε"
+
+#: ../lxsession-default-apps/main.vala:91
+msgid "LXSession configuration"
+msgstr "Ρύθμιση LXSession"
+
+#. Common string
+#: ../lxsession-default-apps/main.vala:143
+msgid ""
+"Manual Settings: Manually sets the command (you need to restart lxsession-"
+"default-apps to see the change)\n"
+msgstr ""
+"Χειροκίνητες Ρυθμίσεις: Ρυθμίζει χειροκίνητα την εντολή (πρέπει να "
+"επανεκκινηθεί το lxsession-default-apps για να δείτε την αλλαγή)\n"
+
+#: ../lxsession-default-apps/main.vala:144
+msgid "Session : specify the session\n"
+msgstr "Συνεδρία : προσδιόρισε τη συνεδρία\n"
+
+#: ../lxsession-default-apps/main.vala:145
+msgid "Extra: Add an extra parameter to the launch option\n"
+msgstr "Επιπλέον: Προσθήκη μίας επιπλέον παραμέτρου στις επιλογές εκκίνησης\n"
+
+#: ../lxsession-default-apps/main.vala:146
+msgid ""
+"Mime association: Automatically associates mime types to this application ?\n"
+msgstr ""
+"Συσχέτιση πρωτοκόλλου μορφότυπων διαδικτύου. Αυτόματη συσχέτιση μορφότυπων "
+"διαδικτύου με αυτή την εφαρμογή;\n"
+
+#: ../lxsession-default-apps/main.vala:147
+msgid ""
+"Available applications : Applications of this type available on your "
+"repositories\n"
+msgstr ""
+"Διαθέσιμες εφαρμογές: Εφαρμογές αυτού του τύπου είναι διαθέσιμες στο "
+"αποθετήριο\n"
+
+#: ../lxsession-default-apps/main.vala:148
+msgid "Handle Desktop: Draw the desktop using the file manager ?\n"
+msgstr ""
+"Χειρισμός Επιφάνειας Εργασίας: Εμφάνισε την επιφάνεια εργασίας "
+"χρησιμοποιώνταςτο διαχειστή αρχείων\n"
+
+#: ../lxsession-default-apps/main.vala:149
+msgid "Autostart the application ?\n"
+msgstr "Αυτόματη εκκίνηση της εφαρμογής;\n"
+
+#: ../lxsession-default-apps/main.vala:150
+msgid ""
+"Set default program for Debian system (using update-alternatives, need root "
+"password)\n"
+msgstr ""
+"Ορισμός προεπιλεγμένου προγράμματος για σύστημα Debian (χρησιμοποιείται το "
+"update-alternatives, χρειάζεται συνθηματικό διαχειριστή)\n"
+
+#. New inits
+#: ../lxsession-default-apps/main.vala:153
+msgid ""
+"Windows manager draws and manage the windows. \n"
+"You can choose openbox, openbox-custom (for a custom openbox configuration, "
+"see \"More\"), kwin, compiz ..."
+msgstr ""
+"Ο διαχειριστής παραθύρων σχεδιάζει και διαχειρίζεται τα παράθυρα.\n"
+"Μπορείτε να επιλέξετε openbox-custom (για προσωποποιημένη διαμόρφωση του "
+"openbox, δείτε «Περισσότερα»), kwin, compiz ..."
+
+#: ../lxsession-default-apps/main.vala:158
+msgid ""
+"Panel is the component usually at the bottom of the screen which manages a "
+"list of opened windows, shortcuts, notification area ..."
+msgstr ""
+"H γραμμή εργασιών είναι το αντικείμενο, συνήθως στο κάτω της οθόνης, το "
+"οποίο διαχειρίζεται μία λίστα από ανοιγμένα παράθυρα, συντομεύσεις, χώρο "
+"ειδοποιήσεων ..."
+
+#: ../lxsession-default-apps/main.vala:163
+msgid ""
+"Dock is a second panel. It's used to launch a different program to handle a "
+"second type of panel."
+msgstr ""
+"Το Dock είναι μία δεύτερη γραμμή εργασιών. Χρησιμοποιείται για την εκκίνηση "
+"ενός διαφορετικού προγράμματος για τη διαχείριση ενός δευτέρου τύπου γραμμής "
+"εντολών."
+
+#: ../lxsession-default-apps/main.vala:168
+msgid ""
+"File manager is the component which open the files.\n"
+"See \"More\" to add options to handle the desktop, or opening files "
+msgstr ""
+"Ο διαχειριστής αρχείων είναι το εργαλείο που χειρίζεται τα αρχεία.\n"
+"Δείτε «Περισσότερα» για να προσθέσετε επιλογές χειρισμού της επιφάνειας "
+"εργασίας, ή ανοίγματος αρχείων"
+
+#: ../lxsession-default-apps/main.vala:173
+msgid ""
+"Composite manager enables graphics effects, like transpacency and shadows, "
+"if the windows manager doesn't handle it. \n"
+"Example: compton"
+msgstr ""
+"Ο Διαχειριστής πολυσύνθετης απεικόνισης ενεργοποιεί τα γραφικά στοιχεία "
+"εντυπωσιασμού, όπως τη διαφάνεια και τις σκιές, εάν δεν μπορεί να χειριστεί "
+"ο διαχειριστής παραθύρων.\n"
+"Παράδειγμα: λέξη"
+
+#: ../lxsession-default-apps/main.vala:178
+msgid ""
+"Desktop manager draws the desktop and manages the icons inside it.\n"
+"You can manage it with the file manager by setting \"filemanager\""
+msgstr ""
+"Ο διαχειριστής της επιφάνειας εργασίας σχεδιάζει την επιφάνεια εργασίας και "
+"διαχειρίζεται τα εικονίδιά της.\n"
+"Μπορείτε να τον διαχειριστείτε με το διαχειριστή αρχείων, ορίζοντας «"
+"διαχειριστή αρχείων»"
+
+#: ../lxsession-default-apps/main.vala:180
+msgid "Wallpaper: Set an image path to draw the wallpaper"
+msgstr ""
+"Παρασκήνιο επιφάνειας εργασίας: Ορίστε της διαδρομή μιας εικόνας για να "
+"σχεδιαστεί το παρασκήνιο επιφάνειας εργασίας"
+
+#: ../lxsession-default-apps/main.vala:183
+msgid ""
+"Screensaver is a program which displays animations when your computer is idle"
+msgstr ""
+"Η προστασία οθόνης είναι μία εφαρμογή που εμφανίζει σχέδια όταν ο "
+"υπολογιστής σου είναι αδρανής"
+
+#: ../lxsession-default-apps/main.vala:188
+msgid ""
+"Power Manager helps you to reduce the usage of batteries. You probably don't "
+"need one if you have a desktop computer.\n"
+"Auto option will set it automatically, depending of the laptop mode option."
+msgstr ""
+"Ο διαχειριστής ενέργειας βοηθά στη μείωση χρήσης των μπαταριών. Πιθανότατα "
+"δεν σας χρειάζεται εάν έχετε σταθερό υπολογιστή.\n"
+"Η επιλογή «αυτόματο» θα το ρυθμίσει αυτόματα, βασιζόμενο στην επιλογή "
+"κατάστασης του φορητού υπολογιστή."
+
+#: ../lxsession-default-apps/main.vala:193
+msgid ""
+"Polkit agent provides authorisations to use some actions, like suspend, "
+"hibernate, using Consolekit ... It's not advised to make it blank."
+msgstr ""
+"Ο μεσολαβητής Polkit παρέχει εξουσιοδοτήσεις για να χρησιμοποιηθούν κάποιες "
+"ενέργειες όπως αναστολή, αδρανοποίηση χρησιμοποιώντας το Consolekit ... Δεν "
+"συνίσταται να το αφήσετε κενό."
+
+#: ../lxsession-default-apps/main.vala:198
+msgid "Set an utility to manager connections, such as nm-applet"
+msgstr "Ορίστε μία εφαρμογή για τη διαχείριση συνδέσεων, όπως το nm-applet"
+
+#: ../lxsession-default-apps/main.vala:203
+msgid "Use a communication software (an IRC client, an IM client ...)"
+msgstr ""
+"Χρησιμοποιήστε λογισμικό επικοινωνίας (ένα πελάτη IRC, ένα πελάτη ΙΜ ...)"
+
+#: ../lxsession-default-apps/main.vala:208
+msgid "Use another communication software (an IRC client, an IM client ...)"
+msgstr ""
+"Χρησιμοποιήστε ένα άλλο λογισμικό επικοινωνίας (ένα πελάτη IRC, ένα πελάτη "
+"ΙΜ ...)"
+
+#: ../lxsession-default-apps/main.vala:213
+msgid "Terminal by default to launch command line."
+msgstr "Εξ ορισμού τερματικό για εκτέλεση γραμμής εντολών."
+
+#: ../lxsession-default-apps/main.vala:218
+msgid "Application to go to Internet, Google, Facebook, debian.org ..."
+msgstr "Εφαρμογή για να πάτε στο Διαδίκτυο, Google, Facebook, debian.org ..."
+
+#: ../lxsession-default-apps/main.vala:223
+msgid "Application to send mails"
+msgstr "Εφαρμογή αποστολής μηνυμάτων ηλεκτρονικής αλληλογραφίας"
+
+#: ../lxsession-default-apps/main.vala:228
+msgid "Utility to launch gadgets, like conky, screenlets ..."
+msgstr "Εφαρμογή εκκίνησης εφαρμογίδιων όπως το conky, τα screenlets ..."
+
+#: ../lxsession-default-apps/main.vala:233
+msgid ""
+"Utility to launch application, like synapse, kupfer ... \n"
+"For using lxpanel or lxde default utility, use \"lxpanelctl\" "
+msgstr ""
+"Εφαρμογή εκκίνησης προγραμμάτων όπως το synapse, το kupfer ... \n"
+"Για χρήση του lxpanel ή την προεπιλεγμένη εφαρμογή του lxde, χρησιμοποιήστε "
+"το «lxpanelctl» "
+
+#: ../lxsession-default-apps/main.vala:238
+msgid "Application for taking screeshot of your desktop, like scrot ..."
+msgstr ""
+"Εφαρμογή για λήψη στιγμιότυπων οθόνης της επιφάνειας εργασίας σας, όπως το "
+"scrot ..."
+
+#: ../lxsession-default-apps/main.vala:248
+msgid "Video application"
+msgstr "Εφαρμογή Βίντεο"
+
+#: ../lxsession-default-apps/main.vala:253
+msgid "Audio application"
+msgstr "Εφαρμογή ήχου"
+
+#: ../lxsession-default-apps/main.vala:258
+msgid "Application to display images"
+msgstr "Εφαρμογή προβολής εικόνων"
+
+#: ../lxsession-default-apps/main.vala:263
+msgid "Application to edit text"
+msgstr "Εφαρμογή για επεξεργασία κειμένου"
+
+#: ../lxsession-default-apps/main.vala:268
+msgid "Application to create archives, like file-roller"
+msgstr "Εφαρμογή για τη διμιουργία αρχείων, όπως το file-roller"
+
+#: ../lxsession-default-apps/main.vala:273
+msgid "Charmap application"
+msgstr "Εφαρμογή πίνακα χαρακτήρων"
+
+#: ../lxsession-default-apps/main.vala:278
+msgid "Calculator application"
+msgstr "Εφαρμογή αριθμομηχανής"
+
+#: ../lxsession-default-apps/main.vala:283
+msgid "Application to create spreedsheet, like gnumeric"
+msgstr "Εφαρμογή δημιουργίας λογιστικών φύλλων, όπως το gnumeric"
+
+#: ../lxsession-default-apps/main.vala:288
+msgid "Application to manage bittorent, like transmission"
+msgstr "Εφαρμογή διαχείρισης bittorrent, όπωςτο transmission"
+
+#: ../lxsession-default-apps/main.vala:293
+msgid "Application to manage office text, like abiword"
+msgstr "Εφαρμογή διαχείρισης κειμένου, όπως το abiword"
+
+#: ../lxsession-default-apps/main.vala:298
+msgid "Application to manage webcam"
+msgstr "Εφαρμογή διαχείρισης κάμερας ιστού"
+
+#: ../lxsession-default-apps/main.vala:303
+msgid "Application to manage burning CD/DVD utilty "
+msgstr "Εφαρμογή διαχείρισης προγράμματος εγγραφής CD/DVD "
+
+#: ../lxsession-default-apps/main.vala:308
+msgid "Application to manage notes utility"
+msgstr "Εφαρμογή διαχείρισης προγράμματος σημειώσεων"
+
+#: ../lxsession-default-apps/main.vala:313
+msgid "Application to manage disks"
+msgstr "Εφαρμογή διαχείρισης δίσκων"
+
+#: ../lxsession-default-apps/main.vala:318
+msgid "Application to monitor tasks running on your system"
+msgstr "Εφαρμογή παρακολούθησης διεργασιών που τρέχουν στο σύστημά σας"
+
+#: ../lxsession-default-apps/main.vala:323
+msgid "Application to lock your screen"
+msgstr "Εφαρμογή κλειδώματος της οθόνης σας"
+
+#: ../lxsession-default-apps/main.vala:328
+msgid "Managing your audio configuration"
+msgstr "Διαχείριση των ρυθμίσεων ήχου σας"
+
+#: ../lxsession-default-apps/main.vala:333
+msgid "Managing your workspace configuration"
+msgstr "Διαχείριση των ρυθμίσεων της επιφάνειας εργασίας σας"
+
+#: ../lxsession-default-apps/main.vala:338
+msgid "Managing the application to quit your session"
+msgstr "Διαχείριση της εφαρμογής κλεισίματος της συνεδρίας"
+
+#: ../lxsession-default-apps/main.vala:343
+msgid "Managing the application to update and upgrade your system"
+msgstr "Διαχείριση της εφαρμογής ενημέρωσης και αναβάθμισης του συστήματός σας"
+
+#: ../lxsession-default-apps/main.vala:348
+msgid "Managing clipboard support"
+msgstr "Διαχείριση της υποστήριξης προχείρου"
+
+#: ../lxsession-default-apps/main.vala:353
+msgid ""
+"Managing keyring support.\n"
+"Standard options available \"gnome\" for gnome-keyring support  or \"ssh-"
+"agent\" for ssh-agent support"
+msgstr ""
+"Διαχείριση υποστήριξης εφαρμογής πιστοποιητικών ασφαλείας.\n"
+"Τυπικές επιλογές διαθέσιμες «gnome» για υποστήριξη gnome-keyring ή «ssh-"
+"agent» για υποστήριξη ssh-agent."
+
+#: ../lxsession-default-apps/main.vala:358
+msgid ""
+"Managing support for accessibility.\n"
+"Stardart option are gnome, for stardart gnome support."
+msgstr ""
+"Διαχείριση υποστήριξης για βοηθητικές τεχνολογίες.\n"
+"Τυπική επιλογή είναι το gnome, για κανονική υποστήριξη του gnome."
+
+#: ../lxsession-default-apps/main.vala:363
+msgid "Managing proxy support"
+msgstr "Διαχείριση υποστήριξης διαμεσολαβητή"
+
+#: ../lxsession-default-apps/main.vala:368
+msgid "Managing XRandr parameters. Use a command like xrandr --something"
+msgstr ""
+"Διαχείριση παραμέτρων XRandr. Χρησιμοποιήστε την εντολή xrandr --παράμετρος"
+
+#: ../lxsession-default-apps/combobox.vala:145
+msgid "Manual setting"
+msgstr "Χειροκίνητη ρύθμιση"
+
+#: ../lxsession-default-apps/combobox.vala:165
+msgid "Mime Association"
+msgstr "Συσχέτιση Πρωτοκόλλου Μορφότυπων Διαδικτύου"
+
+#: ../lxsession-default-apps/combobox.vala:194
+msgid "Available applications"
+msgstr "Διαθέσιμες εφαρμογές"
+
+#: ../lxsession-default-apps/combobox.vala:240
+msgid "Autostart the application ?"
+msgstr "Αυτόματη εκκίνηση της εφαρμογής;"
+
+#: ../lxsession-default-apps/combobox.vala:261
+msgid "Handle the desktop with it ?"
+msgstr "Χειρισμός της επιφάνειας εργασίας με αυτό;"
+
+#: ../lxsession-default-apps/combobox.vala:281
+msgid "Set debian default programs"
+msgstr "Ορισμός προεπιλεγμένων προγραμμάτων του debian"
+
+#: ../lxsession-default-apps/combobox.vala:425
+msgid "Disable"
+msgstr "Απενεργοποίηση"
+
+#: ../lxsession-default-apps/combobox.vala:564
+msgid "Do you want to associate the following Mimetype ?\n"
+msgstr "Επιθυμείτε να συσχετίσετε τον ακόλουθο μορφότυπο διαδικτύου;\n"
+
+#: ../lxsession-default-apps/combobox.vala:612
+msgid "Cancel"
+msgstr "Ματαίωση"
+
+#~ msgid "Comment"
+#~ msgstr "Σχόλιο"
+
+#~ msgid "Command"
+#~ msgstr "Εντολή"
+
+#~ msgid "Session"
+#~ msgstr "Περίοδος"
+
+#~ msgid "<b>Panel</b>"
+#~ msgstr "<b>Επιφάνεια</b>"
+
+#~ msgid "Extras"
+#~ msgstr "Πρόσθετα"
+
+#~ msgid "<b>Window Manager</b>"
+#~ msgstr "<b>Διαχειριστής Παραθύρων</b>"
+
+#~ msgid "<b>File Manager</b>"
+#~ msgstr "<b>Διαχειριστής Αρχείων</b>"
+
+#~ msgid "<b>Screensaver</b>"
+#~ msgstr "<b>Προφύλαξη Οθόνης</b>"
+
+#~ msgid "<b>Dock</b>"
+#~ msgstr "<b>Γραμμή Εργασιών</b>"
+
+#~ msgid "Wallpaper"
+#~ msgstr "Ταπετσαρία οθόνης"
+
+#~ msgid "<b>Desktop</b>"
+#~ msgstr "<b>Επιφάνεια εργασίας</b>"
+
+#~ msgid "<b>Power Manager</b>"
+#~ msgstr "<b>Διαχειριστής Ενέργειας</b>"
+
+#~ msgid "<b>Network GUI</b>"
+#~ msgstr "<b>GUI Δικτύων</b>"
+
+#~ msgid "<b>Communication 1</b>"
+#~ msgstr "<b>Επικοινωνία 1</b>"
+
+#~ msgid "<b>Communication 2</b>"
+#~ msgstr "<b>Επικοινωνία 2</b>"
+
+#~ msgid "Running applications"
+#~ msgstr "Ενεργές εφαρμογές"
+
+#~ msgid "<b>Audio manager</b>"
+#~ msgstr "<b>Διαχειριστής ήχου</b>"
+
+#~ msgid "Image"
+#~ msgstr "Εικόνα"
+
+#~ msgid "<b>Quit Manager</b>"
+#~ msgstr "<b>Διαχειριστής τερματισμού</b>"
+
+#~ msgid "<b>Workspace manager</b>"
+#~ msgstr "<b>Διαχειριστής επιφάνειας εργασίας</b>"
+
+#~ msgid "<b>Launcher manager</b>"
+#~ msgstr "<b>Διαχειριστής εκκίνησης</b>"
+
+#~ msgid "<b>Terminal manager</b>"
+#~ msgstr "<b>Διαχειριστής Τερματικού</b>"
+
+#~ msgid "<b>Screenshot manager</b>"
+#~ msgstr "<b>Διαχειριστής στιγμιοτύπου οθόνης</b>"
+
+#~ msgid "<b>Upgrade manager</b>"
+#~ msgstr "<b>Διαχειριστής Αναβάθμισης</b>"
+
+#~ msgid "<b>Lock screen manager</b>"
+#~ msgstr "<b>Διαχειριστής κλειδώματος οθόνης</b>"
+
+#~ msgid "<b>Clipboard manager</b>"
+#~ msgstr "<b>Διαχειριστής Προχείρου</b>"
+
+#~ msgid "<b>XRandr</b>"
+#~ msgstr "<b>XRandr</b>"
+
+#~ msgid "<b>Security</b>"
+#~ msgstr "<b>Ασφάλεια</b>"
+
+#~ msgid "Activate updates"
+#~ msgstr "Ενεργοποίηση ενημερώσεων"
+
+#~ msgid "<b>Updates</b>"
+#~ msgstr "<b>Ενημερώσεις</b>"
+
+#~ msgid "Http"
+#~ msgstr "Http"
+
+#~ msgid "<b>Proxy</b>"
+#~ msgstr "<b>Πληρεξούσιος εξυπηρετητής proxy</b>"
+
+#~ msgid "LXSession is not running."
+#~ msgstr "Το LXSession δεν εκτελείται."
+
+#~ msgid "Logout"
+#~ msgstr "Αποσύνδεση"
